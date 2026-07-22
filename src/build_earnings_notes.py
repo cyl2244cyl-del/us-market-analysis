@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -274,12 +275,26 @@ def source_lines(item: dict[str, Any], results: dict[str, Any]) -> list[str]:
     return lines or ["- 아직 등록된 근거 자료가 없습니다."]
 
 
+def note_as_of(output_path: Path, results: dict[str, Any], freeze: datetime) -> str:
+    if results.get("updated_at"):
+        return scalar(results["updated_at"])
+    if output_path.exists():
+        match = re.search(
+            r"^- 문서 기준 시각: (.+)$",
+            output_path.read_text(encoding="utf-8"),
+            flags=re.MULTILINE,
+        )
+        if match:
+            return match.group(1)
+    return freeze.strftime("%Y-%m-%d %H:%M KST")
+
+
 def build_ticker_note(
     item: dict[str, Any],
     focus: dict[str, Any],
     ticker_focus: dict[str, Any],
     stage: str,
-    freeze: datetime,
+    as_of: str,
 ) -> str:
     results = item.get("results") or {}
     preview_seed = ticker_focus.get("preview_seed") or {}
@@ -317,7 +332,7 @@ def build_ticker_note(
         f"- 상태: **{STAGE_LABELS.get(stage, stage)}**",
         f"- 발표: {item.get('event_datetime_kst') or item.get('event_date_us')} KST",
         f"- 일정 상태: {SCHEDULE_LABELS.get(item.get('schedule_status'), item.get('schedule_status') or '미정')}",
-        f"- 문서 동결 시각: {freeze.strftime('%Y-%m-%d %H:%M KST')}",
+        f"- 문서 기준 시각: {as_of}",
         "",
         "## 30초 결론",
         "",
@@ -428,8 +443,15 @@ def main() -> int:
         output_path = season_dir / f"{ticker}.md"
         create = should_generate(ticker, stage, ticker_focus, output_path, forced)
         if create:
+            results = item.get("results") or {}
             output_path.write_text(
-                build_ticker_note(item, focus, ticker_focus, stage, freeze),
+                build_ticker_note(
+                    item,
+                    focus,
+                    ticker_focus,
+                    stage,
+                    note_as_of(output_path, results, freeze),
+                ),
                 encoding="utf-8",
             )
             generated.append(ticker)
