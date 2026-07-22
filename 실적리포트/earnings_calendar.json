@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-22",
+  "as_of": "2026-07-23",
   "season": "2026 여름 실적 시즌",
   "season_note": "대부분 2026년 2분기 실적이며, Apple·Microsoft·NVIDIA·Broadcom·Micron은 회사 회계연도 분기 표기가 다릅니다.",
   "tickers": [
@@ -15,8 +15,12 @@
       "schedule_note": "회사 IR 발표로 확정",
       "ir_url": "https://abc.xyz/investor/",
       "schedule_source_url": "https://alphabet2025ir.q4web.com/investor/news/news-details/2026/Alphabet-Announces-Date-of-Second-Quarter-2026-Financial-Results-Conference-Call-2026-2h_R0kzZHY/default.aspx",
+      "schedule_source_as_of": "2026-07-23 08:03 KST",
       "result_status": "waiting",
-      "results": {}
+      "results": {
+        "document_stage": "preview_ready",
+        "updated_at": "2026-07-23 08:03 KST"
+      }
     },
     {
       "ticker": "MSFT",
@@ -30,8 +34,12 @@
       "schedule_note": "회사 발표로 확정",
       "ir_url": "https://www.microsoft.com/en-us/Investor/",
       "schedule_source_url": "https://news.microsoft.com/source/2026/07/08/microsoft-announces-quarterly-earnings-release-date-68/",
+      "schedule_source_as_of": "2026-07-23 08:03 KST",
       "result_status": "waiting",
-      "results": {}
+      "results": {
+        "document_stage": "scheduled",
+        "updated_at": "2026-07-23 08:03 KST"
+      }
     },
     {
       "ticker": "META",
@@ -45,8 +53,12 @@
       "schedule_note": "회사 IR 발표로 확정",
       "ir_url": "https://investor.atmeta.com/",
       "schedule_source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Second-Quarter-2026-Results/default.aspx",
+      "schedule_source_as_of": "2026-07-23 08:03 KST",
       "result_status": "waiting",
-      "results": {}
+      "results": {
+        "document_stage": "scheduled",
+        "updated_at": "2026-07-23 08:03 KST"
+      }
     },
     {
       "ticker": "AAPL",
@@ -60,8 +72,12 @@
       "schedule_note": "시장 캘린더 예상일이며 회사 확정 공지 대기",
       "ir_url": "https://investor.apple.com/",
       "schedule_source_url": "https://investor.apple.com/investor-relations/default.aspx",
+      "schedule_source_as_of": "2026-07-23 08:03 KST",
       "result_status": "waiting",
-      "results": {}
+      "results": {
+        "document_stage": "scheduled",
+        "updated_at": "2026-07-23 08:03 KST"
+      }
     },
     {
       "ticker": "AMZN",
@@ -75,8 +91,12 @@
       "schedule_note": "회사 IR 발표로 확정",
       "ir_url": "https://ir.aboutamazon.com/",
       "schedule_source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-to-Webcast-Second-Quarter-2026-Financial-Results-Conference-Call/default.aspx",
+      "schedule_source_as_of": "2026-07-23 08:03 KST",
       "result_status": "waiting",
-      "results": {}
+      "results": {
+        "document_stage": "scheduled",
+        "updated_at": "2026-07-23 08:03 KST"
+      }
     },
     {
       "ticker": "SPCX",
@@ -90,8 +110,12 @@
       "schedule_note": "회사 IR 발표로 확정",
       "ir_url": "https://ir.spacex.com/",
       "schedule_source_url": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Second-Quarter-2026-Results-and-Host-Webcast-on-August-4-2026-2026-g8layJlbFm/default.aspx",
+      "schedule_source_as_of": "2026-07-23 08:03 KST",
       "result_status": "waiting",
-      "results": {}
+      "results": {
+        "document_stage": "scheduled",
+        "updated_at": "2026-07-23 08:03 KST"
+      }
     },
     {
       "ticker": "NVDA",
@@ -105,8 +129,12 @@
       "schedule_note": "회사 IR 이벤트로 확정",
       "ir_url": "https://investor.nvidia.com/",
       "schedule_source_url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-2nd-Quarter-FY27-Financial-Results/default.aspx",
+      "schedule_source_as_of": "2026-07-23 08:03 KST",
       "result_status": "waiting",
-      "results": {}
+      "results": {
+        "document_stage": "scheduled",
+        "updated_at": "2026-07-23 08:03 KST"
+      }
     },
     {
       "ticker": "AVGO",
@@ -120,8 +148,12 @@
       "schedule_note": "시장 캘린더 예상일이며 회사 확정 공지 대기",
       "ir_url": "https://investors.broadcom.com/",
       "schedule_source_url": "https://investors.broadcom.com/company-information/events-and-presentations",
+      "schedule_source_as_of": "2026-07-23 08:03 KST",
       "result_status": "waiting",
-      "results": {}
+      "results": {
+        "document_stage": "scheduled",
+        "updated_at": "2026-07-23 08:03 KST"
+      }
     },
     {
       "ticker": "MU",
@@ -135,8 +167,12 @@
       "schedule_note": "FY2026 Q3는 6월 24일 발표 완료. 다음 발표는 시장 캘린더 예상일이며 회사 공지 대기",
       "ir_url": "https://investors.micron.com/",
       "schedule_source_url": "https://investors.micron.com/events-and-presentations",
+      "schedule_source_as_of": "2026-07-23 08:03 KST",
       "result_status": "waiting",
-      "results": {}
+      "results": {
+        "document_stage": "scheduled",
+        "updated_at": "2026-07-23 08:03 KST"
+      }
     }
   ]
 }
