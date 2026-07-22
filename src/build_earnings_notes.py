@@ -14,12 +14,17 @@ FOCUS_PATH = ROOT / "config" / "earnings_focus.json"
 DEFAULT_REPORT_ROOT = ROOT / "reports" / "earnings"
 
 STAGE_LABELS = {
-    "scheduled": "일정 확정",
+    "scheduled": "발표 전 대기",
     "preview_ready": "프리뷰 완료",
     "release_captured": "발표 수치 반영",
     "call_reviewed": "콘퍼런스콜 분석 완료",
     "regular_close_recorded": "다음 정규장 반응 완료",
     "five_day_reviewed": "5거래일 회고 완료",
+}
+
+SCHEDULE_LABELS = {
+    "confirmed": "확정",
+    "estimated": "추정",
 }
 
 LEGACY_STAGE_MAP = {
@@ -118,7 +123,8 @@ def should_generate(
     forced: set[str],
 ) -> bool:
     return bool(
-        stage != "scheduled"
+        ticker_focus.get("focus_items")
+        or stage != "scheduled"
         or ticker_focus.get("force_generate")
         or ticker in forced
         or output_path.exists()
@@ -285,9 +291,23 @@ def build_ticker_note(
         results.get("stock_moving_factors")
         or results.get("highlights")
         or preview_seed.get("stock_moving_factors")
-        or []
+        or [
+            {
+                "title": focus_item.get("label"),
+                "detail": focus_item.get("question"),
+            }
+            for focus_item in ticker_focus.get("focus_items", [])
+        ]
     )
-    next_checks = results.get("next_checks") or preview_seed.get("next_checks") or []
+    next_checks = (
+        results.get("next_checks")
+        or preview_seed.get("next_checks")
+        or [
+            focus_item.get("question")
+            for focus_item in ticker_focus.get("focus_items", [])
+            if focus_item.get("question")
+        ]
+    )
     thesis = results.get("thesis_update") or {}
     preview_lines, call_lines = question_sections(ticker_focus, results)
 
@@ -296,6 +316,7 @@ def build_ticker_note(
         "",
         f"- 상태: **{STAGE_LABELS.get(stage, stage)}**",
         f"- 발표: {item.get('event_datetime_kst') or item.get('event_date_us')} KST",
+        f"- 일정 상태: {SCHEDULE_LABELS.get(item.get('schedule_status'), item.get('schedule_status') or '미정')}",
         f"- 문서 동결 시각: {freeze.strftime('%Y-%m-%d %H:%M KST')}",
         "",
         "## 30초 결론",
@@ -358,15 +379,15 @@ def build_season_index(
         calendar.get("season_note", ""),
         "",
         f"- 마지막 점검: {freeze.strftime('%Y-%m-%d %H:%M KST')}",
-        "- 상세 문서는 프리뷰가 준비되거나 공식 결과가 확인된 종목만 생성합니다.",
+        "- 9개 상세 문서에 종목별 발표 전 질문을 미리 세팅하고, 결과·콜·주가 반응을 같은 문서에 누적합니다.",
         "",
-        "| 종목 | 회사 | 발표(KST) | 단계 | 문서 |",
+        "| 종목 | 회사 | 발표(KST) | 일정 | 문서 단계 |",
         "| --- | --- | --- | --- | --- |",
     ]
     for row in rows:
         link = f"[{row['ticker']}]({row['ticker']}.md)" if row["generated"] else row["ticker"]
         lines.append(
-            f"| {link} | {scalar(row['company'])} | {scalar(row['event'])} | {STAGE_LABELS.get(row['stage'], row['stage'])} | {'열기' if row['generated'] else '준비 전'} |"
+            f"| {link} | {scalar(row['company'])} | {scalar(row['event'])} | {SCHEDULE_LABELS.get(row['schedule_status'], row['schedule_status'])} | {STAGE_LABELS.get(row['stage'], row['stage'])} |"
         )
     lines.extend(
         [
@@ -417,6 +438,7 @@ def main() -> int:
                 "ticker": ticker,
                 "company": item["company"],
                 "event": item.get("event_datetime_kst") or item.get("event_date_us"),
+                "schedule_status": item.get("schedule_status", "unknown"),
                 "stage": stage,
                 "generated": create,
             }
