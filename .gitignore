@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.pyc
+.runtime/
+nasdaq_prices.db
+nasdaq_prices.db.backup_*
+일일리포트/assets/
+히트맵/*.png
