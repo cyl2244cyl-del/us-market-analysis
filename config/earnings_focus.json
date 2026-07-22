@@ -1,0 +1,261 @@
+{
+  "season_slug": "2026-summer",
+  "timezone": "Asia/Seoul",
+  "preview_window_hours": 48,
+  "date_only_default_time_kst": "06:00",
+  "default_scorecard_metrics": [
+    {
+      "id": "revenue",
+      "label": "매출"
+    },
+    {
+      "id": "eps",
+      "label": "EPS"
+    }
+  ],
+  "tickers": {
+    "GOOGL": {
+      "force_generate": false,
+      "focus_items": [
+        {
+          "id": "search",
+          "label": "Search",
+          "question": "AI 검색 전환 속에서도 Google Search 성장과 광고 수익화가 유지되는가?"
+        },
+        {
+          "id": "cloud",
+          "label": "Cloud",
+          "question": "Google Cloud 성장률과 영업이익률이 함께 개선되는가?"
+        },
+        {
+          "id": "ai_monetization",
+          "label": "AI 수익화",
+          "question": "AI Overviews·Gemini가 사용량 증가를 넘어 실제 수익화로 이어진다는 근거가 나오는가?"
+        },
+        {
+          "id": "capex",
+          "label": "CapEx",
+          "question": "CapEx 증가 속도와 AI 투자 수익 회수 경로를 경영진이 어떻게 설명하는가?"
+        }
+      ],
+      "preview_seed": {
+        "verdict": "발표 전 프리뷰: 이번 실적의 핵심은 Search 성장의 지속성, Cloud의 성장과 수익성, AI 수익화의 구체적 근거, CapEx 증가의 회수 가능성이다. 공식 결과와 콘퍼런스콜 확인 전까지 투자 논리 판정은 보류한다.",
+        "stock_moving_factors": [
+          {
+            "title": "Search",
+            "detail": "AI 검색 확산이 사용량과 광고 수익화를 훼손하는지, 오히려 강화하는지가 첫 번째 판단 축이다."
+          },
+          {
+            "title": "Cloud",
+            "detail": "매출 성장률뿐 아니라 영업이익률과 수주·수요 코멘트까지 함께 봐야 한다."
+          },
+          {
+            "title": "AI 수익화",
+            "detail": "AI Overviews·Gemini의 사용 지표와 수익 기여에 대한 구체적 수치·사례가 필요하다."
+          },
+          {
+            "title": "CapEx",
+            "detail": "AI 인프라 투자 증가가 마진에 미치는 압력과 중장기 회수 논리를 같이 확인한다."
+          }
+        ],
+        "next_checks": [
+          "Search 매출 성장과 AI Overviews 수익화 설명을 공식 발표에서 확인",
+          "Google Cloud 성장률·영업이익률·수요 코멘트를 함께 비교",
+          "CapEx 실적과 향후 투자 규모, 투자 회수 근거를 콘퍼런스콜에서 확인",
+          "발표 후 30분·시간외 종료·다음 정규장·5거래일 반응을 QQQ 대비로 기록"
+        ]
+      }
+    },
+    "MSFT": {
+      "force_generate": false,
+      "focus_items": [
+        {
+          "id": "azure",
+          "label": "Azure",
+          "question": "Azure 성장률과 수요 흐름이 시장의 기대를 충족하는가?"
+        },
+        {
+          "id": "ai_contribution",
+          "label": "AI 서비스 기여도",
+          "question": "AI 서비스가 Azure와 전체 매출 성장에 기여하는 정도가 높아지는가?"
+        },
+        {
+          "id": "openai_costs",
+          "label": "OpenAI 관련 비용",
+          "question": "OpenAI 관련 투자·인프라 비용이 수익성과 현금흐름에 미치는 영향은 어떤가?"
+        },
+        {
+          "id": "backlog",
+          "label": "수주잔고",
+          "question": "수주잔고와 계약 전환 속도가 향후 성장 가시성을 높이는가?"
+        }
+      ]
+    },
+    "META": {
+      "force_generate": false,
+      "focus_items": [
+        {
+          "id": "ad_price_impressions",
+          "label": "광고 가격·노출",
+          "question": "광고 가격과 노출량의 조합이 광고 매출 성장을 지지하는가?"
+        },
+        {
+          "id": "ai_recommendations",
+          "label": "AI 추천",
+          "question": "AI 추천이 사용 시간·참여도·광고 효율을 실제로 개선하는가?"
+        },
+        {
+          "id": "capex",
+          "label": "CapEx",
+          "question": "AI 인프라 중심의 CapEx 증가가 수익 성장과 정당화될 수 있는가?"
+        },
+        {
+          "id": "reality_labs",
+          "label": "Reality Labs",
+          "question": "Reality Labs의 손실 규모와 제품 진척이 중장기 투자 논리와 부합하는가?"
+        }
+      ]
+    },
+    "AMZN": {
+      "force_generate": false,
+      "focus_items": [
+        {
+          "id": "aws",
+          "label": "AWS",
+          "question": "AWS 성장률과 AI 관련 수요가 가속하는가?"
+        },
+        {
+          "id": "north_america_margin",
+          "label": "북미 영업이익률",
+          "question": "북미 사업의 영업이익률 개선이 지속되는가?"
+        },
+        {
+          "id": "advertising",
+          "label": "광고",
+          "question": "광고 사업이 성장률과 수익성 측면에서 전체 실적에 더 크게 기여하는가?"
+        },
+        {
+          "id": "logistics_efficiency",
+          "label": "물류 효율",
+          "question": "배송 속도·비용·재고 회전 측면의 물류 효율 개선이 지속되는가?"
+        }
+      ]
+    },
+    "NVDA": {
+      "force_generate": false,
+      "focus_items": [
+        {
+          "id": "data_center",
+          "label": "데이터센터",
+          "question": "데이터센터 매출 성장과 하이퍼스케일러 수요가 지속되는가?"
+        },
+        {
+          "id": "supply",
+          "label": "공급",
+          "question": "핵심 제품과 패키징·메모리 공급 제약이 완화되는가?"
+        },
+        {
+          "id": "next_gen_transition",
+          "label": "차세대 제품 전환",
+          "question": "차세대 제품으로의 전환이 출하·비용·고객 도입 측면에서 순조로운가?"
+        },
+        {
+          "id": "china",
+          "label": "중국",
+          "question": "중국 수출 제한과 제품 정책이 매출 기회와 비용에 미치는 영향은 어떤가?"
+        },
+        {
+          "id": "margin",
+          "label": "마진",
+          "question": "제품 전환과 공급 비용을 반영한 마진 경로가 시장 기대에 부합하는가?"
+        }
+      ]
+    },
+    "AAPL": {
+      "force_generate": false,
+      "focus_items": [
+        {
+          "id": "iphone",
+          "label": "iPhone",
+          "question": "iPhone 매출과 제품 믹스가 업그레이드 수요를 보여주는가?"
+        },
+        {
+          "id": "services",
+          "label": "Services",
+          "question": "Services 성장과 마진 기여가 하드웨어 변동성을 완충하는가?"
+        },
+        {
+          "id": "china",
+          "label": "중국",
+          "question": "중국 매출과 시장점유율 흐름이 안정되는가?"
+        },
+        {
+          "id": "margin",
+          "label": "마진",
+          "question": "제품 믹스·부품 비용·관세 등을 반영한 마진 전망은 어떤가?"
+        },
+        {
+          "id": "ai_products",
+          "label": "AI 제품",
+          "question": "AI 제품이 사용자 경험과 기기 수요에 기여한다는 근거가 나오는가?"
+        }
+      ]
+    },
+    "AVGO": {
+      "force_generate": false,
+      "focus_items": [
+        {
+          "id": "ai_semis_networking",
+          "label": "AI 반도체·네트워킹",
+          "question": "AI 반도체와 네트워킹 수요가 매출 성장과 수주 가시성을 높이는가?"
+        },
+        {
+          "id": "vmware",
+          "label": "VMware",
+          "question": "VMware 통합, 재계약, 비용 효율화가 계획대로 진행되는가?"
+        },
+        {
+          "id": "margin",
+          "label": "마진",
+          "question": "AI 제품 믹스와 VMware 통합 효과가 마진을 개선하는가?"
+        }
+      ]
+    },
+    "MU": {
+      "force_generate": false,
+      "focus_items": [
+        {
+          "id": "dram_nand_pricing",
+          "label": "DRAM·NAND 가격",
+          "question": "DRAM·NAND 가격과 제품 믹스가 매출과 수익성 상승을 지지하는가?"
+        },
+        {
+          "id": "hbm",
+          "label": "HBM",
+          "question": "HBM 매출·점유율·제품 전환이 AI 수요를 충분히 흡수하는가?"
+        },
+        {
+          "id": "supply",
+          "label": "공급",
+          "question": "생산 및 실리콘 공급 계획이 업황과 재고 균형을 지지하는가?"
+        },
+        {
+          "id": "margin",
+          "label": "마진",
+          "question": "가격·믹스·공급 효과를 반영한 마진 개선 경로가 유지되는가?"
+        }
+      ]
+    },
+    "SPCX": {
+      "force_generate": false,
+      "focus_items": [
+        {
+          "id": "issuer_specific_kpis",
+          "label": "회사 고유 KPI",
+          "question": "회사 고유 KPI는 공식 공시·IR 구조를 확인한 뒤 별도로 정의한다.",
+          "definition_status": "pending"
+        }
+      ]
+    }
+  }
+}
