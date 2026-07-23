@@ -54,6 +54,15 @@ def parse_args() -> argparse.Namespace:
         default=[],
         help="Generate a ticker note even when it is outside the preview window.",
     )
+    parser.add_argument(
+        "--overwrite-existing",
+        action="store_true",
+        help=(
+            "Explicitly replace existing ticker notes and the season index. "
+            "By default, existing Markdown is durable user-authored state and "
+            "is never rewritten."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -431,6 +440,7 @@ def main() -> int:
 
     rows = []
     generated = []
+    preserved = []
     for item in sorted(
         calendar["tickers"], key=lambda value: value.get("event_datetime_kst") or "9999"
     ):
@@ -443,17 +453,20 @@ def main() -> int:
         output_path = season_dir / f"{ticker}.md"
         create = should_generate(ticker, stage, ticker_focus, output_path, forced)
         if create:
-            results = item.get("results") or {}
-            output_path.write_text(
-                build_ticker_note(
-                    item,
-                    focus,
-                    ticker_focus,
-                    stage,
-                    note_as_of(output_path, results, freeze),
-                ),
-                encoding="utf-8",
-            )
+            if output_path.exists() and not args.overwrite_existing:
+                preserved.append(ticker)
+            else:
+                results = item.get("results") or {}
+                output_path.write_text(
+                    build_ticker_note(
+                        item,
+                        focus,
+                        ticker_focus,
+                        stage,
+                        note_as_of(output_path, results, freeze),
+                    ),
+                    encoding="utf-8",
+                )
             generated.append(ticker)
         rows.append(
             {
@@ -466,11 +479,16 @@ def main() -> int:
             }
         )
 
-    (season_dir / "README.md").write_text(
-        build_season_index(calendar, rows, freeze), encoding="utf-8"
-    )
+    index_path = season_dir / "README.md"
+    index_preserved = index_path.exists() and not args.overwrite_existing
+    if not index_preserved:
+        index_path.write_text(build_season_index(calendar, rows, freeze), encoding="utf-8")
     print(f"season index: {season_dir / 'README.md'}")
     print(f"ticker notes: {', '.join(generated) if generated else 'none'}")
+    if preserved:
+        print(f"preserved existing notes: {', '.join(preserved)}")
+    if index_preserved:
+        print("preserved existing season index")
     return 0
 
 

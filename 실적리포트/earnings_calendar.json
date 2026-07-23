@@ -16,10 +16,215 @@
       "ir_url": "https://abc.xyz/investor/",
       "schedule_source_url": "https://alphabet2025ir.q4web.com/investor/news/news-details/2026/Alphabet-Announces-Date-of-Second-Quarter-2026-Financial-Results-Conference-Call-2026-2h_R0kzZHY/default.aspx",
       "schedule_source_as_of": "2026-07-23 08:03 KST",
-      "result_status": "waiting",
+      "result_status": "released",
       "results": {
-        "document_stage": "preview_ready",
-        "updated_at": "2026-07-23 08:03 KST"
+        "document_stage": "call_reviewed",
+        "updated_at": "2026-07-23 09:28 KST",
+        "verdict": "Cloud와 Search는 강했지만, 시간외 주가는 연간 CapEx 가이던스 상향과 현금흐름·마진 부담, Gemini 3.5 Pro 일정 부재를 더 크게 반영했다.",
+        "metrics": [
+          {
+            "id": "revenue",
+            "label": "매출",
+            "previous": null,
+            "consensus": "$116.9B (LSEG/Reuters)",
+            "actual": "$119.796B, +24% YoY",
+            "delta": "+$2.9B",
+            "assessment": "기대 상회",
+            "basis": "GAAP"
+          },
+          {
+            "id": "eps",
+            "label": "희석 EPS",
+            "previous": "$2.31 (2025 Q2)",
+            "consensus": "$2.89",
+            "actual": "$9.11 GAAP; 공시된 투자이익 효과 제외 단순 계산 $2.85",
+            "delta": "단순 계산 기준 -$0.04",
+            "assessment": "GAAP 비교 불가; 단순 계산치는 소폭 하회",
+            "basis": "$2.85는 회사 공시 비GAAP 수치가 아님"
+          },
+          {
+            "id": "search",
+            "label": "Search & other 광고",
+            "previous": "+19% YoY",
+            "consensus": "약 +17%",
+            "actual": "$63.271B, +17% YoY",
+            "delta": "기대 수준",
+            "assessment": "견조"
+          },
+          {
+            "id": "cloud",
+            "label": "Cloud 매출",
+            "previous": "+63% YoY",
+            "consensus": "약 +64% YoY",
+            "actual": "$24.768B, +82% YoY",
+            "delta": "+18%p",
+            "assessment": "큰 폭 상회"
+          },
+          {
+            "id": "cloud_backlog",
+            "label": "Cloud 수주잔고",
+            "previous": "$462B",
+            "consensus": "증가 여부",
+            "actual": "$514B",
+            "delta": "+$52B 이상 QoQ",
+            "assessment": "긍정"
+          },
+          {
+            "id": "cloud_margin",
+            "label": "Cloud 영업이익률",
+            "previous": "약 33%",
+            "consensus": "성장과 동반 개선",
+            "actual": "35.6%",
+            "delta": "개선",
+            "assessment": "긍정"
+          },
+          {
+            "id": "capex",
+            "label": "CapEx",
+            "previous": "Q1 $35.674B; FY $180~190B",
+            "consensus": "투자 회수 설명",
+            "actual": "Q2 $44.924B; FY $195~205B",
+            "delta": "+25.9% QoQ; 가이던스 중간값 +8.1%",
+            "assessment": "수요 근거는 확인, 현금흐름·마진 부담 확대"
+          },
+          {
+            "id": "ai_monetization",
+            "label": "Gemini 사용·수익화",
+            "previous": "API 16B tokens/min",
+            "consensus": "MAU 외 질적 지표",
+            "actual": "앱 MAU 950M; DAU 3배 YoY; API 22B tokens/min",
+            "delta": "+37.5% API 처리량",
+            "assessment": "사용량은 강함; 직접 매출·유료 전환은 제한적 공개"
+          }
+        ],
+        "stock_moving_factors": [
+          {
+            "title": "Cloud",
+            "detail": "매출 +82%, 수주잔고 $514B, 영업이익률 35.6%로 발표 전 기대를 크게 상회했다."
+          },
+          {
+            "title": "CapEx",
+            "detail": "2026년 가이던스를 $195~205B로 높이고 2027년에도 유의미한 증가를 예고해 시간외 주가의 핵심 하락 요인이 됐다."
+          },
+          {
+            "title": "Search",
+            "detail": "Search & other 광고가 17% 성장해 생성형 AI 전환에 따른 즉각적 훼손 우려를 낮췄다."
+          },
+          {
+            "title": "Gemini",
+            "detail": "사용량 지표는 강했지만 3.5 Pro 출시일과 직접 수익화 품질은 제시되지 않았다."
+          }
+        ],
+        "guidance": [
+          {
+            "label": "2026 CapEx",
+            "previous": "$180~190B",
+            "current": "$195~205B",
+            "assessment": "상향"
+          },
+          {
+            "label": "2027 CapEx",
+            "previous": "유의미한 증가 전망",
+            "current": "2026년보다 유의미하게 더 높을 전망",
+            "assessment": "고투자 기조 지속"
+          }
+        ],
+        "call_answers": [
+          {
+            "id": "cloud",
+            "answer": "Cloud 매출 +82%, 수주잔고 $514B. 절반을 조금 넘는 수주잔고가 24개월 내 매출화될 전망이며 첫 TPU 시스템 매출을 인식했다.",
+            "change": "성장률 +63%→+82%, 수주잔고 $462B→$514B, 마진 약 33%→35.6%.",
+            "assessment": "강한 긍정"
+          },
+          {
+            "id": "capex",
+            "answer": "수요가 공급을 웃돌고 용량 인도가 빨라져 2026년 CapEx를 $195~205B로 상향했다. 구성은 서버 60%, 데이터센터·네트워크 40%이며 2027년도 더 높을 전망이다.",
+            "change": "Q2 CapEx $44.924B로 Q1 대비 25.9% 증가; Q2 FCF -$5.855B.",
+            "assessment": "사업 수요 근거는 확인됐지만 주가에는 부정"
+          },
+          {
+            "id": "search",
+            "answer": "Search & other 광고 +17%. AI Mode MAU 1B, 추가 쿼리와 매주 수십억 건의 웹 클릭, 출시 후 최저 응답당 비용을 제시했다.",
+            "change": "성장률 +19%→+17%로 소폭 둔화했으나 높은 성장세 유지.",
+            "assessment": "긍정; 광고 단가·독립 수익화는 미공개"
+          },
+          {
+            "id": "ai_monetization",
+            "answer": "Gemini 앱 MAU 950M, DAU 3배 YoY, 개발자 9M+, API 22B tokens/min, Fortune 100 약 90% 사용. 3.5 Pro는 테스트 중이며 출시일은 미제시.",
+            "change": "API 16B→22B tokens/min; 배포는 확대됐지만 출시 일정·유료 전환율은 불명확.",
+            "assessment": "사용량은 긍정, 수익화 질과 경영진 신뢰는 미해결"
+          }
+        ],
+        "market_reaction": {
+          "summary": "실적 직후 상승했지만 CapEx 상향 설명 뒤 급격히 음전했다. 시간외 종료 기준 GOOGL -3.31%, QQQ -0.08%로 초과수익은 -3.23%p였다.",
+          "checkpoints": [
+            {
+              "window": "release_initial",
+              "change_pct": 2.34,
+              "qqq_relative_pct": null,
+              "observed_at": "2026-07-22 16:14 ET",
+              "note": "매출·Cloud 상회 직후"
+            },
+            {
+              "window": "capex_comment",
+              "change_pct": -4.2,
+              "qqq_relative_pct": null,
+              "observed_at": "2026-07-22 16:59 ET",
+              "note": "CapEx 가이던스 상향 설명 직후"
+            },
+            {
+              "window": "after_hours_close",
+              "change_pct": -3.31,
+              "benchmark_change_pct": -0.08,
+              "qqq_relative_pct": -3.23,
+              "observed_at": "2026-07-22 19:59 ET",
+              "note": "미국 시간외 종료"
+            }
+          ]
+        },
+        "thesis_update": {
+          "overall": "장기 사업 논리는 강화, 단기 주가 논리는 약화",
+          "strengthened": "Cloud 성장·수주잔고·마진과 Search 광고의 회복력",
+          "weakened": "CapEx·FCF 부담, 2027년 추가 투자, 3.5 Pro 일정 부재",
+          "next_falsifier": "Cloud 성장·수주·마진이 둔화하는데 CapEx가 더 늘거나 Gemini 출시·유료 수익화 근거가 다음 분기에도 나오지 않는 경우"
+        },
+        "next_checks": [
+          "2026-07-23 미국 정규장 종가와 QQQ 대비 초과수익",
+          "5거래일 뒤 시간외 충격의 지속 여부",
+          "공식 전체 콜 문답록 게시 후 3.5 Pro·Cloud 공급·2027 CapEx 답변 원문 재검증",
+          "Cloud 수주잔고의 24개월 매출 전환과 마진 지속성",
+          "Gemini 유료 전환율·기업 좌석·제품별 AI 매출과 3.5 Pro 출시 일정"
+        ],
+        "sources": [
+          {
+            "label": "Alphabet Q2 2026 실적 발표 PDF",
+            "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf"
+          },
+          {
+            "label": "Alphabet Q2 2026 실적 슬라이드",
+            "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-slides.pdf"
+          },
+          {
+            "label": "SEC 8-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/0001652044-26-000066-index.html"
+          },
+          {
+            "label": "Alphabet CEO 발표 준비 발언",
+            "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q2-2026/"
+          },
+          {
+            "label": "공식 실적 콜 웹캐스트",
+            "url": "https://www.youtube.com/watch?v=LzExSq9DU9w"
+          },
+          {
+            "label": "Reuters 실적·시장 반응",
+            "url": "https://www.streetinsider.com/General+News/Google+increases+capex+forecast+again+after+cloud-driven+quarterly+beat/26801654.html"
+          },
+          {
+            "label": "Public 시간외 시세",
+            "url": "https://public.com/stocks/googl/after-hours"
+          }
+        ]
       }
     },
     {
