@@ -14,6 +14,8 @@ DEFAULT_OUTPUT_DIR = ROOT / ".runtime" / "github" / "reports" / "daily"
 REPORT_PATTERN = re.compile(r"^(\d{4})-(\d{2})-(\d{2})\.md$")
 IMAGE_LINK_PATTERN = re.compile(r"!\[[^]]*\]\((assets/[^)]+\.png)\)")
 PNG_PREFIX = "data:image/png;base64,"
+MARKET_SUMMARY_START_DATE = "2026-07-23"
+MARKET_SUMMARY_PLACEHOLDER = "자동화가 주요 지수와 당일 시장 재료를 확인한 뒤 채울 자리."
 
 CHART_SPECS = {
     "전 거래일 대비 종목별 등락률 막대그래프": (
@@ -206,6 +208,19 @@ def validate_staged_markdown(path: Path, report_date: str) -> None:
         image_path = path.parent / relative_path
         if not image_path.exists() or image_path.stat().st_size < 1024:
             raise ValueError(f"{path}: missing or invalid chart asset: {relative_path}")
+    if report_date >= MARKET_SUMMARY_START_DATE:
+        if markdown_text.count("<!-- MARKET_SUMMARY:START -->") != 1:
+            raise ValueError(f"{path}: expected one MARKET_SUMMARY start marker")
+        if markdown_text.count("<!-- MARKET_SUMMARY:END -->") != 1:
+            raise ValueError(f"{path}: expected one MARKET_SUMMARY end marker")
+        if MARKET_SUMMARY_PLACEHOLDER in markdown_text:
+            raise ValueError(f"{path}: unresolved market-summary placeholder")
+        summary_heading = markdown_text.find("## 전반적인 장 분위기")
+        changes_heading = markdown_text.find("## 전체 종목 변화율")
+        if summary_heading < 0 or changes_heading < 0 or summary_heading > changes_heading:
+            raise ValueError(
+                f"{path}: market summary must precede all-ticker daily changes"
+            )
 
 
 def build_index(reports: list[tuple[str, str, str, Path]]) -> str:
