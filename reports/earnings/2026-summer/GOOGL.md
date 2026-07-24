@@ -142,12 +142,12 @@
 | 실적 발표 직후 | **+2.34%** | — | — | 매출과 Cloud의 큰 폭 상회 | 2026-07-22 16:14 ET |
 | CapEx 설명 직후 | **-4.20%** | — | — | 연간 CapEx 상향, 2027년 추가 증가와 단기 마진 압력 | 2026-07-22 16:59 ET |
 | 시간외 종료 | **-3.31%** | **-0.08%** | **-3.23%p** | Cloud 호조보다 투자·현금흐름 부담과 Gemini 일정 부재를 더 크게 반영 | 2026-07-22 19:59 ET |
-| 다음 정규장 종가 | **-7.13%** | **-1.90%** | **-5.23%p** | CapEx 상향과 첫 음(-)의 잉여현금흐름 우려가 Cloud 호조를 압도 | 2026-07-23 16:00 ET |
+| 다음 정규장 종가 | **-7.13%** | **-1.90%** | **-5.23%p** | 시간외 약세가 첫 정규장에서도 확대 | 2026-07-23 16:00 ET |
 | 5거래일 후 | 확인 대기 | 확인 대기 | 확인 대기 | 관측 구간 미완료 | — |
 
 첫 반응은 긍정이었지만 콘퍼런스콜의 CapEx 상향 설명 뒤 급격히 음전했다. **숫자 자체는 긍정, 자본집약도와 투자 회수 불확실성은 부정**이라는 시장의 분리가 뚜렷했다.
 
-7월 22일 정규장 마감 이후 시간외 거래에서도 약세가 이어졌다. 시장이 Cloud 호조보다 CapEx 확대와 투자 회수 불확실성을 계속 더 무겁게 보고 있다는 뜻이며, 다음 정규장에서 이 반응이 유지되는지가 단기 판단 포인트다.
+7월 22일 정규장 마감 이후 시간외 거래에서 약세가 이어졌고, 7월 23일 첫 정규장 종가는 전일 종가 대비 -7.13%로 마감했다. QQQ -1.90% 대비 초과 하락은 -5.23%p였다. 시장이 Cloud 호조보다 CapEx 확대와 투자 회수 불확실성을 더 무겁게 보고 있다는 해석을 지지한다.
 
 ## 7. 발표 후 판정
 
@@ -160,7 +160,6 @@
 
 ## 8. 다음에 확인할 것
 
-- 2026-07-23 미국 정규장 종가와 QQQ 대비 초과수익
 - 5거래일 뒤 반응을 기록해 시간외 충격이 지속되는지 확인
 - 공식 전체 콜 문답록 게시 후 3.5 Pro·Cloud 공급·2027 CapEx 답변 원문 재검증
 - 수주잔고 $514B의 24개월 매출 전환 속도와 Cloud 마진 지속성
@@ -176,6 +175,8 @@
 - [공식 실적 콜 웹캐스트](https://www.youtube.com/watch?v=LzExSq9DU9w)
 - [Reuters 실적·시장 반응 보도](https://www.streetinsider.com/General+News/Google+increases+capex+forecast+again+after+cloud-driven+quarterly+beat/26801654.html)
 - [Public 시간외 시세](https://public.com/stocks/googl/after-hours)
+- [Nasdaq GOOGL 일별 시세](https://api.nasdaq.com/api/quote/GOOGL/historical?assetclass=stocks&fromdate=2026-07-22&todate=2026-07-24&limit=10)
+- [Nasdaq QQQ 일별 시세](https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-07-22&todate=2026-07-24&limit=10)
 - [S&P Global Q2 2026 프리뷰](https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/07/alphabet-earnings-preview-q2-2026)
 - [Reuters: Gemini 3.5 Pro 지연 보도](https://www.investing.com/news/stock-market-news/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals-bloomberg-news-reports-4796622)
 <!-- AUTO:POST_RELEASE:END -->
