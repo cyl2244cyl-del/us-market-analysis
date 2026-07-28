@@ -95,26 +95,67 @@
       "force_generate": false,
       "focus_items": [
         {
-          "id": "ad_price_impressions",
-          "label": "광고 가격·노출",
-          "question": "광고 가격과 노출량의 조합이 광고 매출 성장을 지지하는가?"
+          "id": "advertising",
+          "label": "광고 수익",
+          "question": "광고 노출과 광고 단가가 함께 성장하고, 다음 분기 매출 가이던스도 핵심 광고 사업의 강세를 뒷받침하는가?"
         },
         {
-          "id": "ai_recommendations",
-          "label": "AI 추천",
-          "question": "AI 추천이 사용 시간·참여도·광고 효율을 실제로 개선하는가?"
+          "id": "ai_capex_fcf",
+          "label": "AI CapEx·FCF",
+          "question": "2026년 CapEx와 2027년 투자 규모가 얼마나 늘어나며, 광고·AI 매출과 현금흐름으로 이를 정당화할 수 있는가?"
         },
         {
-          "id": "capex",
-          "label": "CapEx",
-          "question": "AI 인프라 중심의 CapEx 증가가 수익 성장과 정당화될 수 있는가?"
+          "id": "engagement_recommendation",
+          "label": "참여도·추천 알고리즘",
+          "question": "사용자 기반이 다시 전분기 대비 성장하고, AI 추천 개선이 체류시간과 광고 효율 상승으로 이어지는가?"
+        },
+        {
+          "id": "direct_ai_monetization",
+          "label": "직접 AI 수익화·Meta Compute",
+          "question": "Muse Spark API, Business AI와 외부 컴퓨팅 판매가 막대한 AI 투자를 회수할 신규 매출원으로 구체화되는가?"
         },
         {
           "id": "reality_labs",
           "label": "Reality Labs",
-          "question": "Reality Labs의 손실 규모와 제품 진척이 중장기 투자 논리와 부합하는가?"
+          "question": "Reality Labs 손실이 예상 범위에서 관리되고, AI 안경 성장이 손실 확대를 일부 정당화하는가?"
         }
-      ]
+      ],
+      "preview_seed": {
+        "verdict": "발표 전 프리뷰: 핵심 광고 사업은 강할 가능성이 높지만, 발표 직후 주가에는 2026년 CapEx·2027년 투자 전망·FCF가 광고 실적보다 더 큰 영향을 줄 수 있다. 직접 AI 수익화와 Meta Compute는 투자 회수 논리를 보완할 타이브레이커다.",
+        "stock_moving_factors": [
+          {
+            "title": "AI CapEx·2027 투자 전망·FCF",
+            "detail": "가장 큰 주가 변수다. 좋은 광고 실적도 CapEx 추가 상향과 FCF 악화가 나오면 상쇄될 수 있다."
+          },
+          {
+            "title": "광고 실적·다음 분기 가이던스",
+            "detail": "CapEx 전망이 유지되거나 완화될 경우 광고 노출·단가와 다음 분기 매출 가이던스가 주가 방향을 결정한다."
+          },
+          {
+            "title": "영업마진·감가상각",
+            "detail": "인프라 투자 이후의 감가상각과 데이터센터 운영비가 영업마진과 현금흐름을 얼마나 압박하는지 확인한다."
+          },
+          {
+            "title": "참여도·추천 알고리즘",
+            "detail": "DAP와 체류시간 개선은 광고 성장의 내구성을 보여주지만, 예상 범위라면 CapEx나 광고 가이던스를 압도하기 어렵다."
+          },
+          {
+            "title": "직접 AI 수익화·Meta Compute",
+            "detail": "구체적인 외부 컴퓨팅 계약과 Muse Spark API 사용·매출 지표는 과잉투자 우려를 완화할 수 있다."
+          },
+          {
+            "title": "Reality Labs",
+            "detail": "손실이 예상 범위라면 영향은 제한적이며, 손실 전망이 추가 확대될 때만 주요 악재로 본다."
+          }
+        ],
+        "next_checks": [
+          "광고 매출·노출·단가와 Q3 매출 가이던스를 함께 확인",
+          "Q2 CapEx·FCF와 2026년 가이던스, 2027년 투자 방향을 최우선으로 확인",
+          "DAP·Reels·Facebook 체류시간과 추천 모델의 광고 효율 효과를 비교",
+          "Muse Spark API·Business AI·Meta Compute의 유료 사용량, 계약 및 매출 인식 근거를 확인",
+          "발표 후 30분·시간외 종료·다음 정규장·5거래일 반응을 QQQ 대비로 기록"
+        ]
+      }
     },
     "AMZN": {
       "force_generate": false,
