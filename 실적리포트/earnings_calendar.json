@@ -259,9 +259,9 @@
       "schedule_source_as_of": "2026-07-23 08:03 KST",
       "result_status": "released",
       "results": {
-        "document_stage": "release_captured",
-        "updated_at": "2026-07-30 08:42 KST",
-        "verdict": "공식 발표 기준 Azure 성장과 FY27 Q1 가이던스, Copilot 유료 좌석은 강했다. 동시에 FY27 CapEx 증가와 FCF 부담은 지속되지만, OpenAI 제외 RPO 성장과 빠른 신규 용량 매출화가 투자 회수 논리를 보강했다. 전체 Q&A 게시 전까지 최종 판정은 보류한다.",
+        "document_stage": "call_reviewed",
+        "updated_at": "2026-07-30 10:19 KST",
+        "verdict": "공식 전체 콜 문답록 기준 Azure 성장과 FY27 Q1 가이던스, Copilot 유료 좌석·사용량·ARPU, OpenAI 제외 RPO가 강했다. FY27 CapEx 증가는 부담이지만 신규 용량의 빠른 매출화와 CPU·GPU 투입 조절 가능성이 확인돼 사업 논리는 강화되고 투자 부담은 관리 가능한 범위로 판단한다.",
         "metrics": [
           {
             "id": "revenue",
@@ -301,7 +301,7 @@
             "actual": "유료 좌석 30M+; 순증 좌석 QoQ 2배 이상; M365 Commercial cloud 조정 성장 +16%",
             "delta": "유료 좌석 최소 +10M QoQ",
             "assessment": "좌석·사용량·ARPU 근거 강화",
-            "basis": "회사 공식 준비 발언"
+            "basis": "회사 공식 전체 콜 문답록"
           },
           {
             "id": "openai_rpo",
@@ -311,7 +311,7 @@
             "actual": "$678B, +84% YoY; OpenAI 제외 +25%; 12개월 내 인식 30%",
             "delta": "+$51B QoQ; 단기 인식 비중 +5%p",
             "assessment": "분기 순증은 frontier model company 외 고객이 전부 기여",
-            "basis": "회사 공식 준비 발언"
+            "basis": "회사 공식 전체 콜 문답록"
           },
           {
             "id": "ai_capex_fcf",
@@ -401,27 +401,27 @@
         "call_answers": [
           {
             "id": "azure",
-            "answer": "공식 준비 발언에서 Q4 Azure는 +43% CC였고, 새로 투입된 용량은 분기 내 빠르게 매출화됐다. FY27 Q1은 약 +45% CC, 상반기 추가 가속을 예상했다.",
+            "answer": "공식 전체 콜 문답록에서 Q4 Azure는 +43% CC였고, 효율 개선과 설치 리드타임 단축으로 새로 투입된 용량은 분기 내 빠르게 매출화됐다. FY27 Q1은 약 +45% CC, 상반기 추가 가속을 예상했다.",
             "change": "Q3 +39% CC에서 Q4 +43% CC로 4%p 가속.",
-            "assessment": "강한 긍정; 전체 Q&A 확인은 남음"
+            "assessment": "강한 긍정; 수요 초과와 즉시 매출화가 전체 Q&A에서 재확인"
           },
           {
             "id": "ai_capex_fcf",
-            "answer": "Q4 CapEx $41B, FCF $19.6B. FY27 CapEx는 증가하고 Q1은 $50B를 웃돌며, 회사는 FY27 FCF 흑자와 영업마진 하락 1%p 미만을 제시했다. 데이터센터 내용연수를 15년에서 25년으로 바꿔 일부 리스를 운영리스로 재분류한다.",
+            "answer": "Q4 CapEx $41B, FCF $19.6B. FY27 CapEx는 증가하고 Q1은 $50B를 웃돌며, 회사는 FY27 FCF 흑자와 영업마진 하락 1%p 미만을 제시했다. 전체 Q&A에서 수요 변화 시 가장 큰 비용인 CPU·GPU 투입 속도를 늦추고 데이터센터 건설 시기도 조절할 수 있다고 설명했다. 데이터센터 내용연수를 15년에서 25년으로 바꿔 일부 리스를 운영리스로 재분류한다.",
             "change": "CapEx $31.9B→$41.0B, FCF $15.8B→$19.6B. 2026년 달력 CapEx 표시는 $190B→약 $175B지만 투자 축소가 아니라 회계상 리스 분류 변화다.",
-            "assessment": "투자 부담 지속; FCF와 매출화 속도는 방어 근거"
+            "assessment": "투자 부담 지속; FCF·매출화 속도와 단기 자산 투입 조절 가능성은 방어 근거"
           },
           {
             "id": "copilot_m365",
-            "answer": "M365 Copilot 유료 좌석 30M+, 순증 좌석 QoQ 2배 이상, 사용자당 대화 YoY 약 2배, 평균 주간 참여도는 Outlook·Teams 수준이다. Copilot·E5·E7이 ARPU 성장을 이끌었고 좌석+사용량 과금으로 확장 중이다.",
-            "change": "유료 좌석 20M+→30M+; 대규모 고객과 사용 강도 모두 확대.",
+            "answer": "M365 Copilot 유료 좌석 30M+, 순증 좌석 QoQ 2배 이상, 사용자당 대화 YoY 약 2배, 평균 주간 참여도는 Outlook·Teams 수준이다. 전체 Q&A에서 라이선스 구매부터 월간 활성 사용률 80% 이상까지 걸리는 시간이 수개월에서 수일로 단축됐고 E7과 좌석+사용량 과금이 ARPU를 높인다고 설명했다.",
+            "change": "유료 좌석 20M+→30M+; 대규모 고객, 사용 강도, E7과 사용량 과금 모두 확대.",
             "assessment": "수익화 근거 강화"
           },
           {
             "id": "openai_rpo",
             "answer": "RPO $678B, OpenAI 제외 +25%. 분기 순증은 frontier model company 외 고객에서 전부 발생했고 30%가 12개월 내 매출로 인식될 전망이다. 회사는 OpenAI·Anthropic·Mistral·xAI·자체 MAI 모델을 함께 제공한다고 설명했다.",
             "change": "RPO $627B→$678B; 12개월 내 인식 25%→30%; 가중 평균 기간 약 2.5년→2.3년.",
-            "assessment": "OpenAI 집중 우려 완화; 계약별 품질은 전체 Q&A에서 추가 확인"
+            "assessment": "OpenAI 집중 우려 완화; 전체 Q&A에서 단일 모델 의존을 피하는 대체 가능성도 확인"
           },
           {
             "id": "windows",
@@ -433,23 +433,33 @@
             "id": "xbox",
             "answer": "Xbox 콘텐츠 및 서비스는 -10%였고 손상차손이 발생했다. 회사는 콘텐츠·플랫폼·운영을 재설정해 FY27 성장 복귀를 예상하며 Q1은 mid-single digits 감소를 전망했다.",
             "change": "Xbox 콘텐츠 및 서비스 -5%→-10%.",
-            "assessment": "부정적이나 예상 범위 여부는 전체 Q&A에서 추가 확인"
+            "assessment": "부정적이나 후순위; 전체 Q&A의 추가 정량 답변은 없었음"
           }
         ],
         "market_reaction": {
-          "summary": "2026-07-30 08:42 KST 현재 미국 시간외 세션이 끝나지 않아 확정 체크포인트를 기록하지 않았다.",
-          "checkpoints": []
+          "summary": "Axios는 2026-07-29 17:23 ET에 Microsoft 주가가 시간외 2.4% 상승했다고 보도했다. 같은 시각 QQQ 수익률과 정확한 20:00 ET 시간외 종가는 확보하지 못했다.",
+          "checkpoints": [
+            {
+              "window": "release_initial",
+              "change_pct": 2.4,
+              "benchmark_change_pct": null,
+              "qqq_relative_pct": null,
+              "observed_at": "2026-07-29 17:23 ET",
+              "note": "Axios 보도 시점의 시간외 반응; 같은 시각 QQQ 수익률은 미확보",
+              "source_url": "https://www.axios.com/newsletters/axios-closer-ddc12d61-6e9d-403f-be3c-6e138d44ec88"
+            }
+          ]
         },
         "thesis_update": {
-          "overall": "자동화 판단: 사업 논리는 강화됐지만 투자 부담 판정은 보류",
-          "strengthened": "Azure 성장·FY27 Q1 가이던스, Copilot 유료 좌석·사용량, OpenAI 제외 RPO와 단기 전환 비중",
+          "overall": "자동화 판단: 사업 논리는 강화, 투자 부담은 관리 가능한 범위",
+          "strengthened": "Azure 성장·FY27 Q1 가이던스, Copilot 유료 좌석·사용량·ARPU, OpenAI 제외 RPO와 단기 자산 투입 조절 가능성",
           "weakened": "FY27 CapEx 증가, FY27 Q1 $50B 초과 CapEx, Windows·Xbox 둔화",
           "next_falsifier": "Azure가 FY27 상반기 가속 가이던스를 지키지 못하거나 Copilot 사용·ARPU가 둔화하는데 CapEx와 감가상각 부담이 계속 커지는 경우"
         },
         "next_checks": [
-          "공식 전체 Q&A 문답록 게시 후 용량의 revenue-ready 시점과 FY27 CapEx·감가상각·FCF 답변 재검증",
           "OpenAI 제외 RPO의 계약 품질과 12개월 내 매출 전환을 추적",
           "Copilot 30M+ 좌석의 사용량·ARPU·사용량 과금 매출을 다음 분기 비교",
+          "FY27 Q1 CapEx $50B 초과 투자와 Azure 약 45% 성장 가이던스의 동시 달성 여부",
           "시간외 종료, 첫 정규장 종가와 5거래일 반응을 QQQ 대비로 기록"
         ],
         "sources": [
@@ -458,7 +468,7 @@
             "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast"
           },
           {
-            "label": "Microsoft FY2026 Q4 공식 준비 발언",
+            "label": "Microsoft FY2026 Q4 공식 전체 콜 문답록",
             "url": "https://aka.ms/transcriptfy26q4"
           },
           {
@@ -472,6 +482,10 @@
           {
             "label": "SEC FY2026 10-K",
             "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.html"
+          },
+          {
+            "label": "Axios 발표 초기 시장 반응",
+            "url": "https://www.axios.com/newsletters/axios-closer-ddc12d61-6e9d-403f-be3c-6e138d44ec88"
           }
         ]
       }
@@ -492,8 +506,8 @@
       "result_status": "released",
       "results": {
         "document_stage": "release_captured",
-        "updated_at": "2026-07-30 08:42 KST",
-        "verdict": "공식 발표 기준 광고 매출과 DAP는 성장했지만, Q2 CapEx 급증으로 FCF가 $0.784B까지 축소됐고 영업마진도 일회성 법률·퇴직 비용을 포함해 31%로 낮아졌다. 2026년 CapEx 상단은 유지됐으며 2027년 투자 방향과 직접 AI 수익화는 공식 콜 문답록 게시 전까지 판단을 보류한다.",
+        "updated_at": "2026-07-30 10:19 KST",
+        "verdict": "공식 발표와 준비 발언 기준 광고 매출·DAP·추천 알고리즘 효과는 견조했고 Business Agents와 Muse Spark API의 초기 사용 신호도 확인됐다. 그러나 Q2 CapEx 급증으로 FCF가 $0.784B까지 축소되고 영업마진은 31%로 낮아져 투자 회수 논리는 약화됐다. 2027년 투자 규모와 직접 AI 매출·마진은 전체 Q&A 게시 전까지 남은 공백이다.",
         "metrics": [
           {
             "id": "revenue",
@@ -591,11 +605,11 @@
           },
           {
             "title": "참여도",
-            "detail": "DAP는 3.60B로 전분기보다 40M 증가했지만 추천 알고리즘의 체류시간·광고 효율 효과는 발표 자료에 없었다."
+            "detail": "DAP는 3.60B로 전분기보다 40M 증가했다. 준비 발언은 Instagram 사용 시간 두 자릿수 성장, Facebook 영상 시간 글로벌 9% 성장과 광고 클릭 8.3%·전환 15.7% 개선을 제시했다."
           },
           {
             "title": "직접 AI 수익화",
-            "detail": "공식 발표는 새로운 기업 기회를 언급했지만 Muse Spark API, Business AI, Meta Compute의 계약·사용량·매출 KPI는 제시하지 않았다."
+            "detail": "Meta Business Agents는 매주 1M개 이상 기업이 사용하고 Muse Spark API도 초기 배포를 시작했다. Meta Compute는 외부 프리미엄 수요를 언급했지만 매출·계약·마진 KPI는 제시하지 않았다."
           },
           {
             "title": "Reality Labs",
@@ -643,37 +657,47 @@
           },
           {
             "id": "engagement_recommendation",
-            "answer": "DAP는 3.60B로 3% 성장했다. Reels·Facebook 체류시간, 추천 콘텐츠 비중, 광고 전환율 개선 효과는 공식 발표 자료에 제시되지 않았다.",
-            "change": "DAP 3.56B→3.60B로 회복.",
-            "assessment": "사용자 기반은 긍정; 추천 효과는 판단 보류"
+            "answer": "DAP는 3.60B로 3% 성장했다. 공식 준비 발언에서 Instagram 사용 시간은 두 자릿수 증가했고 Facebook 영상 시간은 글로벌 9%, 미국·캐나다 10% 이상 늘었다. 새 Reels 랭킹은 Instagram 세션을 15bp 높였고 광고 추천 모델은 Facebook 광고 클릭을 8.3%, 전환을 15.7% 높였다고 회사가 밝혔다.",
+            "change": "DAP 3.56B→3.60B로 회복했고 추천 개선 효과가 세션·광고 전환 지표로 구체화됐다.",
+            "assessment": "긍정; 사용자 기반과 추천 효과가 함께 확인"
           },
           {
             "id": "direct_ai_monetization",
-            "answer": "공식 발표는 AI가 새로운 기업 기회를 연다고 설명했지만 Muse Spark API, Business AI, Meta Compute의 유료 고객·사용량·계약·매출 인식 시점은 공개하지 않았다.",
-            "change": "직접 수익화 KPI는 여전히 미공개.",
-            "assessment": "판단 보류"
+            "answer": "공식 준비 발언에서 Meta Business Agents는 매주 1M개 이상 기업이 사용하며 구독·사용량·성과 기반 과금을 발전시킬 계획이라고 밝혔다. Muse Spark API는 OpenRouter를 통한 미국 배포를 시작했고, Meta Compute는 원가보다 상당한 프리미엄의 외부 수요를 언급했지만 매출·계약·마진은 공개하지 않았다.",
+            "change": "직접 수익화 논리가 개념 단계에서 주간 사용 기업 수, 과금 방식과 외부 수요 신호로 구체화됐다.",
+            "assessment": "초기 긍정; 재무 검증은 보류"
           },
           {
             "id": "reality_labs",
-            "answer": "공식 발표 기준 Reality Labs 매출은 $0.431B, 영업손실은 $4.619B다. AI 안경 사용·Quest·연간 손실에 대한 경영진 설명은 공식 콜 문답록 확인이 필요하다.",
+            "answer": "공식 발표 기준 Reality Labs 매출은 $0.431B, 영업손실은 $4.619B다. 준비 발언은 AI 안경의 강한 성장이 매출 증가를 이끌었고 Quest 판매 감소가 일부 상쇄했으며 신형 Meta Glasses 초기 판매는 회사 기대를 웃돌았다고 설명했다. 연간 손실 전망은 제시하지 않았다.",
             "change": "매출 $0.402B→$0.431B, 영업손실 $4.028B→$4.619B.",
-            "assessment": "손실 확대 부정적; 사업 진척 판단은 보류"
+            "assessment": "제품 진척은 긍정; 손실 확대는 부정적"
           }
         ],
         "market_reaction": {
-          "summary": "2026-07-30 08:42 KST 현재 미국 시간외 세션이 끝나지 않아 확정 체크포인트를 기록하지 않았다.",
-          "checkpoints": []
+          "summary": "Axios는 2026-07-29 17:23 ET에 Meta 주가가 시간외 6.2% 하락했다고 보도했다. 같은 시각 QQQ 수익률과 정확한 20:00 ET 시간외 종가는 확보하지 못했다.",
+          "checkpoints": [
+            {
+              "window": "release_initial",
+              "change_pct": -6.2,
+              "benchmark_change_pct": null,
+              "qqq_relative_pct": null,
+              "observed_at": "2026-07-29 17:23 ET",
+              "note": "Axios 보도 시점의 시간외 반응; 같은 시각 QQQ 수익률은 미확보",
+              "source_url": "https://www.axios.com/newsletters/axios-closer-ddc12d61-6e9d-403f-be3c-6e138d44ec88"
+            }
+          ]
         },
         "thesis_update": {
-          "overall": "자동화 판단: 광고 사업은 견조하지만 투자 회수 논리는 약화",
-          "strengthened": "광고 매출 절대액, DAP 회복, Q3 매출 가이던스",
+          "overall": "자동화 판단: 광고·추천 사업은 강화됐지만 투자 회수 논리는 약화",
+          "strengthened": "광고 매출 절대액, DAP 회복, 추천 알고리즘의 세션·전환 효과, Business Agents 사용량, Q3 매출 가이던스",
           "weakened": "CapEx 급증, FCF 급감, 영업마진 하락, Reality Labs 손실 확대, 직접 AI 수익화 KPI 부재",
           "next_falsifier": "광고와 DAP가 둔화하는데 2027년 투자가 더 커지고 FCF·마진 회복 경로와 직접 AI 매출 근거가 제시되지 않는 경우"
         },
         "next_checks": [
-          "공식 콜·후속 콜 문답록 게시 후 2027 투자 방향과 감가상각·FCF 설명 확인",
-          "Muse Spark API·Business AI·Meta Compute의 계약·사용량·매출 KPI 확인",
-          "추천 알고리즘의 체류시간·광고 전환율·추천 콘텐츠 효과 확인",
+          "공식 전체 Q&A 문답록 게시 후 2027 투자 방향과 감가상각·FCF 설명 확인",
+          "Muse Spark API·Business Agents·Meta Compute의 매출·계약·마진 KPI 확인",
+          "추천 알고리즘 개선의 다음 분기 세션·전환 효과 지속 여부",
           "시간외 종료, 첫 정규장 종가와 5거래일 반응을 QQQ 대비로 기록"
         ],
         "sources": [
@@ -694,8 +718,16 @@
             "url": "https://investor.atmeta.com/investor-events/event-details/2026/Q2-2026-Earnings-Call/default.aspx"
           },
           {
+            "label": "Meta Q2 2026 공식 준비 발언",
+            "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Prepared-Remarks.pdf"
+          },
+          {
             "label": "Meta Q1 2026 공식 실적 발표",
             "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx"
+          },
+          {
+            "label": "Axios 발표 초기 시장 반응",
+            "url": "https://www.axios.com/newsletters/axios-closer-ddc12d61-6e9d-403f-be3c-6e138d44ec88"
           }
         ]
       }
