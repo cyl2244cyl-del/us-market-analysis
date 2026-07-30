@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-28",
+  "as_of": "2026-07-30",
   "season": "2026 여름 실적 시즌",
   "season_note": "대부분 2026년 2분기 실적이며, Apple·Microsoft·NVIDIA·Broadcom·Micron은 회사 회계연도 분기 표기가 다릅니다.",
   "tickers": [
@@ -257,10 +257,223 @@
       "ir_url": "https://www.microsoft.com/en-us/Investor/",
       "schedule_source_url": "https://news.microsoft.com/source/2026/07/08/microsoft-announces-quarterly-earnings-release-date-68/",
       "schedule_source_as_of": "2026-07-23 08:03 KST",
-      "result_status": "waiting",
+      "result_status": "released",
       "results": {
-        "document_stage": "preview_ready",
-        "updated_at": "2026-07-28 20:47 KST"
+        "document_stage": "release_captured",
+        "updated_at": "2026-07-30 08:42 KST",
+        "verdict": "공식 발표 기준 Azure 성장과 FY27 Q1 가이던스, Copilot 유료 좌석은 강했다. 동시에 FY27 CapEx 증가와 FCF 부담은 지속되지만, OpenAI 제외 RPO 성장과 빠른 신규 용량 매출화가 투자 회수 논리를 보강했다. 전체 Q&A 게시 전까지 최종 판정은 보류한다.",
+        "metrics": [
+          {
+            "id": "revenue",
+            "label": "매출",
+            "previous": "FY2026 Q3 $82.886B",
+            "consensus": null,
+            "actual": "$90.007B, +18% YoY",
+            "delta": "+$7.121B QoQ",
+            "assessment": "공식 결과 확인; 시장 기대 비교는 미사용",
+            "basis": "GAAP"
+          },
+          {
+            "id": "eps",
+            "label": "희석 EPS",
+            "previous": "FY2026 Q3 $4.27 GAAP",
+            "consensus": null,
+            "actual": "$4.81 GAAP; $4.74 비GAAP",
+            "delta": "+$0.54 GAAP QoQ",
+            "assessment": "비GAAP은 OpenAI 투자 영향 제외",
+            "basis": "GAAP 및 회사 정의 비GAAP"
+          },
+          {
+            "id": "azure",
+            "label": "Azure 및 기타 클라우드 성장",
+            "previous": "+40% YoY; +39% CC",
+            "consensus": null,
+            "actual": "+43% YoY; +43% CC",
+            "delta": "+4%p CC QoQ",
+            "assessment": "회사 Q4 가이던스 39~40% CC 상회",
+            "basis": "회사 공시 성장률"
+          },
+          {
+            "id": "copilot_m365",
+            "label": "Microsoft 365 Copilot",
+            "previous": "유료 좌석 20M+",
+            "consensus": null,
+            "actual": "유료 좌석 30M+; 순증 좌석 QoQ 2배 이상; M365 Commercial cloud 조정 성장 +16%",
+            "delta": "유료 좌석 최소 +10M QoQ",
+            "assessment": "좌석·사용량·ARPU 근거 강화",
+            "basis": "회사 공식 준비 발언"
+          },
+          {
+            "id": "openai_rpo",
+            "label": "상업 RPO",
+            "previous": "$627B; 12개월 내 인식 25%",
+            "consensus": null,
+            "actual": "$678B, +84% YoY; OpenAI 제외 +25%; 12개월 내 인식 30%",
+            "delta": "+$51B QoQ; 단기 인식 비중 +5%p",
+            "assessment": "분기 순증은 frontier model company 외 고객이 전부 기여",
+            "basis": "회사 공식 준비 발언"
+          },
+          {
+            "id": "ai_capex_fcf",
+            "label": "CapEx·FCF",
+            "previous": "CapEx $31.9B; FCF $15.8B",
+            "consensus": null,
+            "actual": "CapEx $41.0B; FCF $19.6B",
+            "delta": "CapEx +$9.1B QoQ; FCF +$3.8B QoQ",
+            "assessment": "투자 급증 속에서도 분기 FCF는 증가",
+            "basis": "CapEx 회사 정의; FCF 회사 정의 비GAAP"
+          },
+          {
+            "id": "windows",
+            "label": "Windows OEM 및 Devices",
+            "previous": "-2% YoY",
+            "consensus": null,
+            "actual": "-7% YoY; Windows OEM -5%",
+            "delta": "-5%p QoQ",
+            "assessment": "둔화",
+            "basis": "회사 공시 성장률"
+          },
+          {
+            "id": "xbox",
+            "label": "Xbox 콘텐츠 및 서비스",
+            "previous": "-5% YoY",
+            "consensus": null,
+            "actual": "-10% YoY",
+            "delta": "-5%p QoQ",
+            "assessment": "둔화 및 손상차손 발생",
+            "basis": "회사 공시 성장률"
+          }
+        ],
+        "stock_moving_factors": [
+          {
+            "title": "Azure 성장·가이던스",
+            "detail": "Q4 Azure는 환율 제외 43% 성장했고 회사는 FY27 Q1 약 45%와 상반기 추가 가속을 제시했다."
+          },
+          {
+            "title": "FY27 CapEx·FCF",
+            "detail": "FY27 CapEx는 전년 대비 증가하고 Q1은 $50B를 웃돌 전망이다. 다만 FY27 FCF 흑자와 연간 영업마진 하락 1%p 미만을 제시했다."
+          },
+          {
+            "title": "RPO·OpenAI 의존도",
+            "detail": "상업 RPO는 $678B, OpenAI 제외 성장률은 25%였고 분기 순증은 frontier model company 외 고객에서 나왔다."
+          },
+          {
+            "title": "Copilot 수익화",
+            "detail": "M365 Copilot 유료 좌석이 30M을 넘고 순증 좌석이 전분기 대비 2배 이상 늘었으며 ARPU와 사용 강도도 개선됐다."
+          },
+          {
+            "title": "Windows·Xbox",
+            "detail": "Windows OEM과 Xbox는 둔화했으며 Xbox 손상차손이 발생했다. 회사는 Xbox가 FY27에 성장으로 복귀할 것으로 전망했다."
+          }
+        ],
+        "guidance": [
+          {
+            "label": "FY2027 Q1 Azure 성장",
+            "previous": "FY2026 Q4 가이던스 +39~40% CC",
+            "current": "약 +45% CC",
+            "assessment": "가속 전망"
+          },
+          {
+            "label": "FY2027 Q1 매출",
+            "previous": null,
+            "current": "$89.85~90.95B, +16~17%",
+            "assessment": "회사 가이던스"
+          },
+          {
+            "label": "FY2027 CapEx·FCF",
+            "previous": "2026년 달력 기준 CapEx 약 $190B",
+            "current": "FY27 CapEx YoY 증가; FY27 FCF 흑자; FY27 Q1 CapEx $50B 초과",
+            "assessment": "투자 확대 지속"
+          },
+          {
+            "label": "2026년 달력 기준 CapEx",
+            "previous": "약 $190B",
+            "current": "약 $175B",
+            "assessment": "데이터센터 내용연수 15→25년 변경에 따른 리스 분류 변화이며 기초 투자 기대는 불변"
+          },
+          {
+            "label": "FY2027 영업마진",
+            "previous": null,
+            "current": "전년 대비 하락 1%p 미만",
+            "assessment": "투자 부담을 제한적으로 흡수할 계획"
+          }
+        ],
+        "call_answers": [
+          {
+            "id": "azure",
+            "answer": "공식 준비 발언에서 Q4 Azure는 +43% CC였고, 새로 투입된 용량은 분기 내 빠르게 매출화됐다. FY27 Q1은 약 +45% CC, 상반기 추가 가속을 예상했다.",
+            "change": "Q3 +39% CC에서 Q4 +43% CC로 4%p 가속.",
+            "assessment": "강한 긍정; 전체 Q&A 확인은 남음"
+          },
+          {
+            "id": "ai_capex_fcf",
+            "answer": "Q4 CapEx $41B, FCF $19.6B. FY27 CapEx는 증가하고 Q1은 $50B를 웃돌며, 회사는 FY27 FCF 흑자와 영업마진 하락 1%p 미만을 제시했다. 데이터센터 내용연수를 15년에서 25년으로 바꿔 일부 리스를 운영리스로 재분류한다.",
+            "change": "CapEx $31.9B→$41.0B, FCF $15.8B→$19.6B. 2026년 달력 CapEx 표시는 $190B→약 $175B지만 투자 축소가 아니라 회계상 리스 분류 변화다.",
+            "assessment": "투자 부담 지속; FCF와 매출화 속도는 방어 근거"
+          },
+          {
+            "id": "copilot_m365",
+            "answer": "M365 Copilot 유료 좌석 30M+, 순증 좌석 QoQ 2배 이상, 사용자당 대화 YoY 약 2배, 평균 주간 참여도는 Outlook·Teams 수준이다. Copilot·E5·E7이 ARPU 성장을 이끌었고 좌석+사용량 과금으로 확장 중이다.",
+            "change": "유료 좌석 20M+→30M+; 대규모 고객과 사용 강도 모두 확대.",
+            "assessment": "수익화 근거 강화"
+          },
+          {
+            "id": "openai_rpo",
+            "answer": "RPO $678B, OpenAI 제외 +25%. 분기 순증은 frontier model company 외 고객에서 전부 발생했고 30%가 12개월 내 매출로 인식될 전망이다. 회사는 OpenAI·Anthropic·Mistral·xAI·자체 MAI 모델을 함께 제공한다고 설명했다.",
+            "change": "RPO $627B→$678B; 12개월 내 인식 25%→30%; 가중 평균 기간 약 2.5년→2.3년.",
+            "assessment": "OpenAI 집중 우려 완화; 계약별 품질은 전체 Q&A에서 추가 확인"
+          },
+          {
+            "id": "windows",
+            "answer": "Windows OEM 및 Devices는 -7%, Windows OEM은 -5%였다. FY27에는 높은 부품 가격, Windows 10 지원 종료 비교기저, 높은 재고 때문에 연간 high-teens 감소를 예상한다.",
+            "change": "Windows OEM 및 Devices -2%→-7%.",
+            "assessment": "부정적이나 핵심 주가 변수보다 후순위"
+          },
+          {
+            "id": "xbox",
+            "answer": "Xbox 콘텐츠 및 서비스는 -10%였고 손상차손이 발생했다. 회사는 콘텐츠·플랫폼·운영을 재설정해 FY27 성장 복귀를 예상하며 Q1은 mid-single digits 감소를 전망했다.",
+            "change": "Xbox 콘텐츠 및 서비스 -5%→-10%.",
+            "assessment": "부정적이나 예상 범위 여부는 전체 Q&A에서 추가 확인"
+          }
+        ],
+        "market_reaction": {
+          "summary": "2026-07-30 08:42 KST 현재 미국 시간외 세션이 끝나지 않아 확정 체크포인트를 기록하지 않았다.",
+          "checkpoints": []
+        },
+        "thesis_update": {
+          "overall": "자동화 판단: 사업 논리는 강화됐지만 투자 부담 판정은 보류",
+          "strengthened": "Azure 성장·FY27 Q1 가이던스, Copilot 유료 좌석·사용량, OpenAI 제외 RPO와 단기 전환 비중",
+          "weakened": "FY27 CapEx 증가, FY27 Q1 $50B 초과 CapEx, Windows·Xbox 둔화",
+          "next_falsifier": "Azure가 FY27 상반기 가속 가이던스를 지키지 못하거나 Copilot 사용·ARPU가 둔화하는데 CapEx와 감가상각 부담이 계속 커지는 경우"
+        },
+        "next_checks": [
+          "공식 전체 Q&A 문답록 게시 후 용량의 revenue-ready 시점과 FY27 CapEx·감가상각·FCF 답변 재검증",
+          "OpenAI 제외 RPO의 계약 품질과 12개월 내 매출 전환을 추적",
+          "Copilot 30M+ 좌석의 사용량·ARPU·사용량 과금 매출을 다음 분기 비교",
+          "시간외 종료, 첫 정규장 종가와 5거래일 반응을 QQQ 대비로 기록"
+        ],
+        "sources": [
+          {
+            "label": "Microsoft FY2026 Q4 공식 실적 발표",
+            "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast"
+          },
+          {
+            "label": "Microsoft FY2026 Q4 공식 준비 발언",
+            "url": "https://aka.ms/transcriptfy26q4"
+          },
+          {
+            "label": "Microsoft FY2026 Q4 공식 슬라이드",
+            "url": "https://aka.ms/slidesfy26q4"
+          },
+          {
+            "label": "SEC 8-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/0001193125-26-323632-index.html"
+          },
+          {
+            "label": "SEC FY2026 10-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.html"
+          }
+        ]
       }
     },
     {
@@ -276,10 +489,215 @@
       "ir_url": "https://investor.atmeta.com/",
       "schedule_source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Second-Quarter-2026-Results/default.aspx",
       "schedule_source_as_of": "2026-07-23 08:03 KST",
-      "result_status": "waiting",
+      "result_status": "released",
       "results": {
-        "document_stage": "scheduled",
-        "updated_at": "2026-07-23 08:03 KST"
+        "document_stage": "release_captured",
+        "updated_at": "2026-07-30 08:42 KST",
+        "verdict": "공식 발표 기준 광고 매출과 DAP는 성장했지만, Q2 CapEx 급증으로 FCF가 $0.784B까지 축소됐고 영업마진도 일회성 법률·퇴직 비용을 포함해 31%로 낮아졌다. 2026년 CapEx 상단은 유지됐으며 2027년 투자 방향과 직접 AI 수익화는 공식 콜 문답록 게시 전까지 판단을 보류한다.",
+        "metrics": [
+          {
+            "id": "revenue",
+            "label": "매출",
+            "previous": "Q1 $56.311B",
+            "consensus": null,
+            "actual": "$60.801B, +28% YoY; +27% CC",
+            "delta": "+$4.490B QoQ",
+            "assessment": "공식 결과 확인; 시장 기대 비교는 미사용",
+            "basis": "GAAP"
+          },
+          {
+            "id": "eps",
+            "label": "희석 EPS",
+            "previous": "Q1 $10.44 GAAP; 일회성 세금효과 제외 $7.31",
+            "consensus": null,
+            "actual": "$6.18, -13% YoY",
+            "delta": "Q1 GAAP 대비 -$4.26",
+            "assessment": "분기 간 일회성 세금효과 차이 유의",
+            "basis": "GAAP"
+          },
+          {
+            "id": "advertising",
+            "label": "광고 매출",
+            "previous": "$55.019B, +33% YoY",
+            "consensus": null,
+            "actual": "$59.363B, +27% YoY; +26% CC",
+            "delta": "+$4.344B QoQ; 성장률 -6%p",
+            "assessment": "절대액 성장, 성장률 둔화",
+            "basis": "GAAP"
+          },
+          {
+            "id": "ad_delivery",
+            "label": "광고 노출·단가",
+            "previous": "노출 +19%; 평균 단가 +12%",
+            "consensus": null,
+            "actual": "노출 +14%; 평균 단가 +12%",
+            "delta": "노출 -5%p; 단가 동일",
+            "assessment": "노출 성장 둔화, 단가 유지",
+            "basis": "회사 운영 지표"
+          },
+          {
+            "id": "engagement_recommendation",
+            "label": "Family DAP",
+            "previous": "3.56B",
+            "consensus": null,
+            "actual": "3.60B, +3% YoY",
+            "delta": "+0.04B QoQ",
+            "assessment": "사용자 기반 회복",
+            "basis": "회사 운영 지표"
+          },
+          {
+            "id": "ai_capex_fcf",
+            "label": "CapEx·FCF",
+            "previous": "CapEx $19.84B; FCF $12.39B",
+            "consensus": null,
+            "actual": "CapEx $31.078B; 영업현금흐름 $31.862B; FCF $0.784B",
+            "delta": "CapEx +$11.238B QoQ; FCF -$11.606B QoQ",
+            "assessment": "현금흐름 부담 급증",
+            "basis": "CapEx 회사 정의; FCF 회사 정의 비GAAP"
+          },
+          {
+            "id": "operating_margin",
+            "label": "영업이익률",
+            "previous": "41%",
+            "consensus": null,
+            "actual": "31%",
+            "delta": "-10%p QoQ",
+            "assessment": "$2.40B 법률 비용과 $1.18B 퇴직 비용 포함",
+            "basis": "GAAP"
+          },
+          {
+            "id": "reality_labs",
+            "label": "Reality Labs",
+            "previous": "매출 $0.402B; 영업손실 $4.028B",
+            "consensus": null,
+            "actual": "매출 $0.431B; 영업손실 $4.619B",
+            "delta": "매출 +$0.029B; 손실 +$0.591B QoQ",
+            "assessment": "매출 증가보다 손실 확대가 큼",
+            "basis": "GAAP"
+          }
+        ],
+        "stock_moving_factors": [
+          {
+            "title": "CapEx·FCF",
+            "detail": "Q2 CapEx는 $31.078B로 급증하고 FCF는 $0.784B로 축소됐다. 2026년 CapEx 가이던스는 $130~145B로 하단이 상향됐다."
+          },
+          {
+            "title": "광고·Q3 가이던스",
+            "detail": "광고 매출은 $59.363B로 27% 성장했고 Q3 총매출 가이던스는 $61~64B다."
+          },
+          {
+            "title": "영업마진",
+            "detail": "영업마진은 31%로 하락했으며 $2.40B 법률 비용과 $1.18B 퇴직 비용이 포함됐다."
+          },
+          {
+            "title": "참여도",
+            "detail": "DAP는 3.60B로 전분기보다 40M 증가했지만 추천 알고리즘의 체류시간·광고 효율 효과는 발표 자료에 없었다."
+          },
+          {
+            "title": "직접 AI 수익화",
+            "detail": "공식 발표는 새로운 기업 기회를 언급했지만 Muse Spark API, Business AI, Meta Compute의 계약·사용량·매출 KPI는 제시하지 않았다."
+          },
+          {
+            "title": "Reality Labs",
+            "detail": "매출은 $0.431B로 늘었지만 영업손실도 $4.619B로 확대됐다."
+          }
+        ],
+        "guidance": [
+          {
+            "label": "2026 Q3 매출",
+            "previous": "Q2 가이던스 $58~61B",
+            "current": "$61~64B; 환율 약 -1%p",
+            "assessment": "회사 가이던스"
+          },
+          {
+            "label": "2026 총비용",
+            "previous": "$162~169B",
+            "current": "$165~169B",
+            "assessment": "법률 비용 반영으로 하단 상향"
+          },
+          {
+            "label": "2026 CapEx",
+            "previous": "$125~145B",
+            "current": "$130~145B",
+            "assessment": "하단 상향, 상단 유지"
+          },
+          {
+            "label": "2027 투자 방향",
+            "previous": null,
+            "current": "공식 실적 발표 자료에서 미제시",
+            "assessment": "공식 콜 문답록 확인 필요"
+          }
+        ],
+        "call_answers": [
+          {
+            "id": "advertising",
+            "answer": "공식 발표 기준 광고 매출은 $59.363B로 27% 성장했고 광고 노출은 14%, 평균 단가는 12% 증가했다. Q3 총매출 가이던스는 $61~64B다.",
+            "change": "광고 성장률 +33%→+27%, 노출 +19%→+14%, 단가 +12%→+12%.",
+            "assessment": "광고 절대액은 강하지만 성장률은 둔화; 전체 Q&A 확인은 남음"
+          },
+          {
+            "id": "ai_capex_fcf",
+            "answer": "CFO 발표 자료는 Q2 CapEx $31.078B, FCF $0.784B를 제시하고 2026년 CapEx 가이던스를 $130~145B로 좁혔다. 2027년 투자 방향은 발표 자료에 없었다.",
+            "change": "CapEx $19.84B→$31.078B, FCF $12.39B→$0.784B, 연간 가이던스 $125~145B→$130~145B.",
+            "assessment": "이번 발표의 가장 큰 부담; 2027 방향은 미해결"
+          },
+          {
+            "id": "engagement_recommendation",
+            "answer": "DAP는 3.60B로 3% 성장했다. Reels·Facebook 체류시간, 추천 콘텐츠 비중, 광고 전환율 개선 효과는 공식 발표 자료에 제시되지 않았다.",
+            "change": "DAP 3.56B→3.60B로 회복.",
+            "assessment": "사용자 기반은 긍정; 추천 효과는 판단 보류"
+          },
+          {
+            "id": "direct_ai_monetization",
+            "answer": "공식 발표는 AI가 새로운 기업 기회를 연다고 설명했지만 Muse Spark API, Business AI, Meta Compute의 유료 고객·사용량·계약·매출 인식 시점은 공개하지 않았다.",
+            "change": "직접 수익화 KPI는 여전히 미공개.",
+            "assessment": "판단 보류"
+          },
+          {
+            "id": "reality_labs",
+            "answer": "공식 발표 기준 Reality Labs 매출은 $0.431B, 영업손실은 $4.619B다. AI 안경 사용·Quest·연간 손실에 대한 경영진 설명은 공식 콜 문답록 확인이 필요하다.",
+            "change": "매출 $0.402B→$0.431B, 영업손실 $4.028B→$4.619B.",
+            "assessment": "손실 확대 부정적; 사업 진척 판단은 보류"
+          }
+        ],
+        "market_reaction": {
+          "summary": "2026-07-30 08:42 KST 현재 미국 시간외 세션이 끝나지 않아 확정 체크포인트를 기록하지 않았다.",
+          "checkpoints": []
+        },
+        "thesis_update": {
+          "overall": "자동화 판단: 광고 사업은 견조하지만 투자 회수 논리는 약화",
+          "strengthened": "광고 매출 절대액, DAP 회복, Q3 매출 가이던스",
+          "weakened": "CapEx 급증, FCF 급감, 영업마진 하락, Reality Labs 손실 확대, 직접 AI 수익화 KPI 부재",
+          "next_falsifier": "광고와 DAP가 둔화하는데 2027년 투자가 더 커지고 FCF·마진 회복 경로와 직접 AI 매출 근거가 제시되지 않는 경우"
+        },
+        "next_checks": [
+          "공식 콜·후속 콜 문답록 게시 후 2027 투자 방향과 감가상각·FCF 설명 확인",
+          "Muse Spark API·Business AI·Meta Compute의 계약·사용량·매출 KPI 확인",
+          "추천 알고리즘의 체류시간·광고 전환율·추천 콘텐츠 효과 확인",
+          "시간외 종료, 첫 정규장 종가와 5거래일 반응을 QQQ 대비로 기록"
+        ],
+        "sources": [
+          {
+            "label": "SEC 8-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/0001628280-26-050596-index.html"
+          },
+          {
+            "label": "Meta Q2 2026 공식 실적 발표(SEC Exhibit 99.1)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm"
+          },
+          {
+            "label": "Meta Q2 2026 공식 실적 발표 슬라이드",
+            "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Earnings-Presentation-Q2-2026.pdf"
+          },
+          {
+            "label": "Meta Q2 2026 공식 콜·리플레이 페이지",
+            "url": "https://investor.atmeta.com/investor-events/event-details/2026/Q2-2026-Earnings-Call/default.aspx"
+          },
+          {
+            "label": "Meta Q1 2026 공식 실적 발표",
+            "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx"
+          }
+        ]
       }
     },
     {
