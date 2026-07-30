@@ -137,99 +137,86 @@ CapEx가 높아도 Azure가 41% 이상 성장하고 FY27 가속 전망이 강화
 <!-- USER:PRE_EARNINGS:END -->
 
 <!-- AUTO:POST_RELEASE:START -->
-## 4. 실제 실적 점수판
 
-| 판정축 | 이전 분기·사전 기준 | 시장 기대 | 실제 | 판정 |
-| --- | --- | --- | --- | --- |
-| 매출 | — | — | — | — |
-| EPS | — | — | — | — |
-| Azure 성장률 | 환율 제외 39% | 회사 가이던스 39~40% | — | — |
-| Azure 다음 분기 가이던스 | FY27 상반기 가속 전망 | — | — | — |
-| CapEx·FCF | Q3 CapEx $31.9B / Q4 $40B+ 안내 | — | — | — |
-| M365 Copilot | 유료 좌석 20M+ | 순증 5M 초과 여부 | — | — |
-| RPO·OpenAI | 전체 $627B / OpenAI 제외 +26% | — | — | — |
-| Microsoft Cloud 마진 | 66% | — | — | — |
-| Windows·Xbox | 감소 가이던스 | — | — | — |
+## 자동화 사후 업데이트 — 2026-07-30 08:42 KST
 
-## 5. 항목별 경영진 답변과 이전 분기 대비 변화
+- 문서 단계: **release_captured**
+- 근거 구분: 수치와 가이던스는 회사 실적 발표·SEC 8-K/10-K·공식 준비 발언입니다. 시장 기대 비교는 사용하지 않았습니다. 현재 공식 문서는 준비 발언까지만 담고 있어 전체 Q&A 확인 전 최종 판정은 보류합니다.
 
-### Azure
+### 공식 결과 요약
 
-- **확인할 답변:** 성장률·가이던스·마진과 신규 용량의 매출 전환
-- **경영진 답변:** 아직 확인되지 않았습니다.
-- **이전 분기 대비 변화:** —
-- **판단:** —
+| 지표 | 공식 결과 | 이전 분기 대비 |
+| --- | --- | --- |
+| 매출 | $90.007B, +18% YoY (GAAP) | $82.886B → $90.007B |
+| 희석 EPS | $4.81 GAAP; $4.74 비GAAP(회사 정의, OpenAI 투자 영향 제외) | GAAP $4.27 → $4.81 |
+| Azure | +43% YoY·CC | +39% CC → +43% CC |
+| 상업 RPO | $678B, +84%; OpenAI 제외 +25%; 12개월 내 인식 30% | $627B → $678B; 단기 인식 25% → 30% |
+| CapEx·FCF | CapEx $41.0B; FCF $19.6B(회사 정의 비GAAP) | $31.9B → $41.0B; $15.8B → $19.6B |
+| Windows·Xbox | Windows OEM 및 Devices -7%; Xbox 콘텐츠 및 서비스 -10% | 각각 -2% → -7%, -5% → -10% |
 
-### AI CapEx·FCF
+### Azure (`azure`)
 
-- **확인할 답변:** FY27 투자 규모, 감가상각·FCF와 revenue-ready 시점
-- **경영진 답변:** 아직 확인되지 않았습니다.
-- **이전 분기 대비 변화:** —
-- **판단:** —
+- 확인할 답변: Azure 성장률과 다음 분기 가이던스가 대규모 AI 투자에 맞는 가속을 보여주는가?
+- 경영진 답변: Q4 Azure는 환율 제외 43% 성장했다. 효율 개선과 신규 용량의 조기 인도로 추가된 용량이 분기 내 빠르게 매출화됐으며, FY27 Q1 약 45% 성장과 상반기 추가 가속을 예상했다.
+- 이전 분기 대비 변화: 환율 제외 성장률은 39%에서 43%로 4%p 높아졌다.
+- 판단: **강한 긍정.** 대규모 투자에 대응하는 성장과 단기 매출화 근거가 확인됐지만 전체 Q&A 재검증은 남아 있다.
 
-### Copilot·Microsoft 365
+### AI CapEx·FCF (`ai_capex_fcf`)
 
-- **확인할 답변:** 유료 좌석 순증, 실제 사용량·ARPU와 M365 수익화
-- **경영진 답변:** 아직 확인되지 않았습니다.
-- **이전 분기 대비 변화:** —
-- **판단:** —
+- 확인할 답변: FY27 CapEx·감가상각·FCF 전망과 추가 용량의 매출 전환 시점이 투자 부담을 정당화하는가?
+- 경영진 답변: Q4 CapEx는 $41B, FCF는 $19.6B였다. FY27 CapEx는 전년 대비 증가하고 Q1은 $50B를 웃돌 전망이며, FY27 FCF 흑자와 연간 영업마진 하락 1%p 미만을 제시했다. 데이터센터 내용연수는 15년에서 25년으로 늘려 일부 리스를 운영리스로 재분류한다.
+- 이전 분기 대비 변화: CapEx $31.9B → $41.0B, FCF $15.8B → $19.6B. 2026년 달력 기준 CapEx 표시는 $190B에서 약 $175B로 낮아졌지만 기초 투자 축소가 아니라 회계상 리스 분류 변화다.
+- 판단: **혼재.** 투자 부담은 커지지만 FCF 증가, 제한적인 마진 하락 전망과 빠른 용량 매출화가 방어 근거다.
 
-### RPO·OpenAI 의존도
+### Copilot·Microsoft 365 (`copilot_m365`)
 
-- **확인할 답변:** OpenAI 제외 성장, 단기 매출 전환과 멀티모델 전략의 경제성
-- **경영진 답변:** 아직 확인되지 않았습니다.
-- **이전 분기 대비 변화:** —
-- **판단:** —
+- 확인할 답변: Copilot 유료 좌석·사용량·ARPU가 가속하고 M365의 AI 수익화를 입증하는가?
+- 경영진 답변: M365 Copilot 유료 좌석은 30M을 넘었고 순증 좌석은 전분기 대비 2배 이상 늘었다. 사용자당 대화는 전년 대비 약 2배, 평균 주간 참여도는 Outlook·Teams 수준이며 Copilot·E5·E7이 ARPU 성장을 이끌었다.
+- 이전 분기 대비 변화: 유료 좌석 20M+에서 30M+로 늘었고 대규모 고객·사용 강도·좌석+사용량 과금이 함께 확대됐다.
+- 판단: **긍정.** 유료 좌석뿐 아니라 실제 사용량과 ARPU 근거가 강화됐다.
 
-### Windows
+### RPO·OpenAI 의존도 (`openai_rpo`)
 
-- **확인할 답변:** Windows 둔화와 M365 프랜차이즈의 AI 방어
-- **경영진 답변:** 아직 확인되지 않았습니다.
-- **이전 분기 대비 변화:** —
-- **판단:** —
+- 확인할 답변: OpenAI를 제외한 RPO와 단기 매출 전환이 견조하고 멀티모델 전략이 의존도 완화로 이어지는가?
+- 경영진 답변: 상업 RPO는 $678B, OpenAI 제외 성장률은 25%였다. 분기 순증은 frontier model company 외 고객에서 전부 발생했고 30%가 12개월 내 매출로 인식될 전망이다. 회사는 OpenAI·Anthropic·Mistral·xAI·자체 MAI 모델을 함께 제공한다고 설명했다.
+- 이전 분기 대비 변화: RPO $627B → $678B, 12개월 내 인식 25% → 30%, 가중 평균 기간 약 2.5년 → 2.3년.
+- 판단: **긍정.** OpenAI 집중 우려가 완화됐지만 계약별 품질과 실제 전환은 전체 Q&A와 다음 분기에서 확인해야 한다.
 
-### Xbox
+### Windows (`windows`)
 
-- **확인할 답변:** Gaming 부진과 비용 관리
-- **경영진 답변:** 아직 확인되지 않았습니다.
-- **이전 분기 대비 변화:** —
-- **판단:** —
+- 확인할 답변: Windows 둔화가 예상 범위에 머물고 AI 전환이 핵심 M365 프랜차이즈를 훼손하지 않는가?
+- 경영진 답변: Windows OEM 및 Devices는 7%, Windows OEM은 5% 감소했다. FY27에는 높은 부품 가격, Windows 10 지원 종료 비교기저와 높은 재고 때문에 연간 high-teens 감소를 예상한다.
+- 이전 분기 대비 변화: Windows OEM 및 Devices 성장률은 -2%에서 -7%로 낮아졌다.
+- 판단: **부정적이나 후순위.** M365 Commercial cloud 조정 성장률 16%와 Copilot 지표는 프랜차이즈 훼손 우려를 완화했다.
 
-## 6. 시장 반응
+### Xbox (`xbox`)
 
-| 시점 | MSFT 반응 | QQQ 반응 | 초과수익 | 시장이 반응한 이유 | 관측 시각 |
-| --- | ---: | ---: | ---: | --- | --- |
-| 실적 발표 30분 후 | — | — | — | — | — |
-| 시간외 종료 | — | — | — | — | — |
-| 다음 정규장 종가 | — | — | — | — | — |
-| 5거래일 후 | — | — | — | — | — |
+- 확인할 답변: Xbox 부진과 비용이 예상 범위에서 관리되는가?
+- 경영진 답변: Xbox 콘텐츠 및 서비스는 10% 감소했고 손상차손이 발생했다. 회사는 콘텐츠·플랫폼·운영을 재설정해 FY27 성장 복귀를 예상하며 FY27 Q1에는 mid-single digits 감소를 전망했다.
+- 이전 분기 대비 변화: Xbox 콘텐츠 및 서비스 성장률은 -5%에서 -10%로 낮아졌다.
+- 판단: **부정적이나 후순위.** 추가 비용의 범위는 전체 Q&A에서 확인해야 한다.
 
-시장 반응은 각 관측 구간이 끝난 뒤 확정하며 시간외·프리마켓·정규장을 섞지 않는다.
+### 시장·주가 반응
 
-## 7. 발표 후 판정
+2026-07-30 08:42 KST 현재 미국 시간외 세션이 끝나지 않았습니다. 시간외 종료·첫 정규장 종가·5거래일 체크포인트와 QQQ 대비 반응은 각 관측 구간 종료 뒤 기록합니다.
 
-- **가장 가까운 사전 시나리오:** —
-- **사업 실적 판정:** —
-- **AI 투자 회수 판정:** —
-- **전체 투자 논리:** —
-- **발표 전 판단 회고:** —
-- **다음 반증 조건:** —
+### 발표 후 판정
 
-## 8. 다음에 확인할 것
+**자동화 판단: 사업 논리는 강화됐지만 투자 부담 판정은 보류합니다.** Azure 성장·가이던스, Copilot 좌석·사용량, OpenAI 제외 RPO는 강화됐습니다. 반면 FY27 CapEx 증가와 Q1 $50B 초과 CapEx, Windows·Xbox 둔화는 부담입니다.
 
-- Azure 성장률·FY27 가이던스와 신규 용량의 매출 전환
-- FY27 CapEx·감가상각·FCF와 Microsoft Cloud 마진
-- Copilot 유료 좌석·사용량·ARPU
-- OpenAI 제외 RPO와 단기 매출 인식
-- 다음 정규장과 5거래일 후 QQQ 대비 반응
+### 다음 확인 사항
 
-## 근거 자료
+- 공식 전체 Q&A 문답록의 FY27 CapEx·감가상각·FCF와 revenue-ready timing 답변
+- OpenAI 제외 RPO의 계약 품질과 12개월 내 실제 매출 전환
+- Copilot 30M+ 좌석의 사용량·ARPU·사용량 과금 매출
+- 시간외 종료, 첫 정규장 종가와 5거래일 반응의 QQQ 대비 수익률
 
-- [실적 일정 근거](https://news.microsoft.com/source/2026/07/08/microsoft-announces-quarterly-earnings-release-date-68/)
-- [Microsoft FY2026 Q2 실적 콜](https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q2)
-- [Microsoft FY2026 Q3 실적 콜](https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3)
-- [Reuters: 2026년 1월 실적·주가 반응](https://www.investing.com/news/stock-market-news/microsoft-edges-past-cloud-growth-expectations-4471218)
-- [Reuters: 2026년 4월 실적·주가 반응](https://www.investing.com/news/stock-market-news/microsofts-cloud-revenue-growth-disappoints-investors-shares-drop-2-4647241)
-- [S&P Global 2026년 7월 실적 프리뷰](https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/07/microsoft-and-meta-earnings-previews)
-- [회사 IR](https://www.microsoft.com/en-us/Investor/)
+### 직접 근거
+
+- [Microsoft FY2026 Q4 공식 실적 발표](https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast)
+- [Microsoft FY2026 Q4 공식 준비 발언](https://aka.ms/transcriptfy26q4)
+- [Microsoft FY2026 Q4 공식 슬라이드](https://aka.ms/slidesfy26q4)
+- [SEC 8-K](https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/0001193125-26-323632-index.html)
+- [SEC FY2026 10-K](https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.html)
+
 <!-- AUTO:POST_RELEASE:END -->
