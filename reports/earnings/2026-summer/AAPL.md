@@ -1,13 +1,13 @@
 # AAPL FY2026 Q3 실적
 
-- 상태: **발표 자료 반영**
+- 상태: **다음 정규장 반응 완료**
 - 발표: 2026-07-31 KST
 - 일정 상태: 확정
-- 문서 기준 시각: 2026-07-31 09:04 KST
+- 문서 기준 시각: 2026-08-01 08:57 KST
 
 ## 30초 결론
 
-매출·EPS·iPhone·Services는 6월 분기 기록을 경신했습니다. 다만 총마진 50.1%에는 관세 환급 약 2%p가 포함됐고 시간외 종료 주가는 6.33% 하락해, 공식 콜 문답 근거 확보 전까지 수요 지속성과 AI 수익화 판단은 보류합니다.
+매출·EPS·iPhone·Services는 6월 분기 기록을 경신했고 Services 총마진율은 75.6%였습니다. 다만 총마진 50.1%에는 관세 환급 약 2%p가 포함됐고 첫 정규장 주가는 7.35% 하락해, 수요 지속성과 AI 수익화 판단은 보류합니다.
 
 ## 1. 발표 전 중요했던 질문
 
@@ -61,15 +61,15 @@
 
 ## 4. 실제 실적 점수판
 
-- 문서 단계: **release_captured**
-- 근거 구분: 수치와 설명은 Apple 공식 발표·재무제표·SEC 8-K입니다. 시장 기대 비교는 사용하지 않았고, 공식 콜 문답 근거는 아직 확보하지 못했습니다.
+- 문서 단계: **regular_close_recorded**
+- 근거 구분: 수치와 설명은 Apple 공식 발표·재무제표·SEC 8-K·10-Q입니다. 시장 기대 비교는 사용하지 않았고, 공식 콜 문답 근거는 아직 확보하지 못했습니다.
 
 | 지표 | 공식 결과 | 이전 분기 대비 |
 | --- | --- | --- |
 | 매출 | $109.417B, +16% YoY (GAAP) | $111.184B → $109.417B |
 | 희석 EPS | $2.02, +29% YoY (GAAP); 관세 환급 효과 $0.11 포함 | $2.01 → $2.02 |
 | iPhone | $54.252B; 6월 분기 기록 | $56.994B → $54.252B |
-| Services | $30.739B; 6월 분기 기록 | $30.976B → $30.739B |
+| Services | $30.739B; 총마진 $23.245B, 75.6%; 6월 분기 매출 기록 | 매출 $30.976B → $30.739B; 총마진율 76.7% → 75.6% |
 | Greater China | $18.816B; +22.4% YoY(공식 수치 기반 계산) | $20.497B → $18.816B |
 | 총마진 | 50.1%; 관세 환급 약 2%p 포함 | 49.3% → 50.1% |
 
@@ -85,14 +85,14 @@
 ### Services (`services`)
 
 - **확인할 답변:** Services 성장과 마진 기여가 하드웨어 변동성을 완충하는가?
-- **경영진 답변:** Services 매출은 $30.739B로 6월 분기 기록을 세웠습니다. Services 총마진과 개별 성장 동력은 공식 발표에서 분리 공시되지 않았습니다.
-- 이전 분기 대비 변화: $30.976B → $30.739B. 전년 동기 $27.423B 대비 증가했습니다.
-- 판단: **방어력은 긍정, 마진 기여 검증은 보류.**
+- **경영진 답변:** 공식 10-Q 기준 Services 매출은 $30.739B, 총마진은 $23.245B, 총마진율은 75.6%였습니다. 증가는 주로 광고와 클라우드 서비스가 이끌었습니다.
+- 이전 분기 대비 변화: 매출 $30.976B → $30.739B, 총마진 $23.752B → $23.245B, 총마진율 76.7% → 75.6%였습니다. 전년 동기 총마진율과는 동일했습니다.
+- 판단: **높은 마진 완충력은 유지했지만 전분기 대비 마진율은 하락했습니다.**
 
 ### 중국 (`china`)
 
 - **확인할 답변:** 중국 매출과 시장점유율 흐름이 안정되는가?
-- **경영진 답변:** Greater China 매출은 $18.816B로 전년 동기 대비 22.4% 증가했습니다. 시장점유율은 공식 발표에서 공개되지 않았습니다.
+- **경영진 답변:** 공식 10-Q 기준 Greater China 매출은 $18.816B로 전년 동기 대비 22.4% 증가했고, 회사는 주로 iPhone 증가가 이끌었으며 위안화 강세도 우호적으로 작용했다고 설명했습니다. 시장점유율은 공개되지 않았습니다.
 - 이전 분기 대비 변화: $20.497B → $18.816B. 전년 동기 $15.369B 대비 증가했습니다.
 - 판단: **매출 회복은 긍정, 점유율 판단은 불가.**
 
@@ -114,19 +114,20 @@
 
 - **시간외 종료:** 2026-07-30 20:00 ET 마지막 관측 기준 AAPL은 정규장 종가 $333.43에서 $312.3315로 6.33% 하락했습니다.
 - 같은 구간 QQQ는 $683.55에서 $688.25로 0.69% 상승해 AAPL의 QQQ 대비 수익률은 **-7.02%p**였습니다.
-- 원인은 공식 자료만으로 단정하지 않습니다. 첫 정규장과 5거래일 반응은 각 구간 종료 뒤 기록합니다.
+- **첫 정규장 종가:** 2026-07-31 AAPL은 $308.91로 발표 전 정규장 종가 대비 **7.35% 하락**했습니다. QQQ는 0.65% 상승해 상대 수익률은 **-8.00%p**였습니다.
+- 원인은 공식 자료만으로 단정하지 않습니다. 5거래일 반응은 해당 구간 종료 뒤 기록합니다.
 
 ## 7. 발표 후 판정
 
-**자동화 판단: 본업 실적은 강화됐지만 주가 확인과 AI 수익화 판단은 보류합니다.** iPhone·Services·전체 매출의 6월 분기 기록과 Greater China 매출 회복은 강화 요인입니다. 관세 환급에 영향을 받은 총마진, AI 수익화 KPI 부재와 시간외 약세는 추가 검증 요인입니다.
+**자동화 판단: 본업 실적은 강화됐지만 첫 정규장 약세와 AI 수익화 판단은 부담입니다.** iPhone·Services·전체 매출의 6월 분기 기록, Services의 높은 총마진율과 Greater China 매출 회복은 강화 요인입니다. 관세 환급에 영향을 받은 총마진, Services 총마진율의 전분기 대비 하락, AI 수익화 KPI 부재와 첫 정규장 약세는 추가 검증 요인입니다.
 
 ## 8. 다음에 확인할 것
 
 - 공식 콜 재생 또는 회사 제공 문답 근거의 FY2026 Q4 매출·마진 전망
 - iPhone 업그레이드 수요와 제품 믹스, Greater China 점유율
-- Services 성장 동력과 총마진 기여
+- Services 광고·클라우드 성장 지속성과 75.6% 총마진율
 - Siri AI의 출시 일정·사용량·기기 수요·매출 기여 KPI
-- 첫 정규장 종가와 5거래일 반응의 QQQ 대비 수익률
+- 5거래일 반응의 QQQ 대비 수익률
 
 ## 근거 자료
 
@@ -134,9 +135,12 @@
 - [Apple FY2026 Q3 공식 재무제표](https://www.apple.com/newsroom/pdfs/fy2026q3/FY26_Q3_Consolidated_Financial_Statements.pdf)
 - [SEC 8-K](https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/0000320193-26-000018-index.html)
 - [SEC Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/a8-kex991q3202606272026.htm)
+- [Apple FY2026 Q3 SEC 10-Q](https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm)
 - [Apple 공식 실적 콜 재생](https://www.apple.com/investor/earnings-call/)
 - [Apple FY2026 Q2 공식 재무제표](https://www.apple.com/newsroom/pdfs/fy2026q2/FY26_Q2_Consolidated_Financial_Statements.pdf)
 - [Yahoo Finance AAPL 시간외 시세](https://query2.finance.yahoo.com/v8/finance/chart/AAPL?period1=1785373200&period2=1785459600&interval=1m&includePrePost=true&events=history)
 - [Yahoo Finance QQQ 시간외 시세](https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785459600&interval=1m&includePrePost=true&events=history)
+- [Yahoo Finance AAPL 일별 시세](https://query2.finance.yahoo.com/v8/finance/chart/AAPL?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history)
+- [Yahoo Finance QQQ 일별 시세](https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history)
 
 <!-- AUTO:POST_RELEASE:END -->

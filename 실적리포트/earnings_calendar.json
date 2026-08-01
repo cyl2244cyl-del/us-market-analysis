@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-31",
+  "as_of": "2026-08-01",
   "season": "2026 여름 실적 시즌",
   "season_note": "대부분 2026년 2분기 실적이며, Apple·Microsoft·NVIDIA·Broadcom·Micron은 회사 회계연도 분기 표기가 다릅니다.",
   "tickers": [
@@ -793,11 +793,11 @@
       "ir_url": "https://investor.apple.com/",
       "schedule_source_url": "https://investor.apple.com/investor-relations/default.aspx",
       "schedule_source_as_of": "2026-07-28 07:32 KST",
-      "result_status": "released",
+      "result_status": "complete",
       "results": {
-        "document_stage": "release_captured",
-        "updated_at": "2026-07-31 09:04 KST",
-        "verdict": "공식 발표 기준 매출·EPS·iPhone·Services는 6월 분기 기록을 경신했다. 다만 총마진 50.1%에는 약 2%p의 관세 환급 효과가 포함됐고 시간외 종료 주가는 6.33% 하락해, 공식 콜 문답록 확보 전까지 수요 지속성과 AI 수익화 판단은 보류한다.",
+        "document_stage": "regular_close_recorded",
+        "updated_at": "2026-08-01 08:57 KST",
+        "verdict": "공식 10-Q 기준 Services 총마진은 75.6%로 전년과 같았고 Greater China 회복은 주로 iPhone이 이끌었다. 총마진 50.1%에는 약 2%p의 관세 환급 효과가 포함됐으며 첫 정규장 주가는 7.35% 하락해, 수요 지속성과 AI 수익화 판단은 보류한다.",
         "metrics": [
           {
             "id": "revenue",
@@ -834,10 +834,10 @@
             "label": "Services 매출",
             "previous": "$30.976B",
             "consensus": null,
-            "actual": "$30.739B",
-            "delta": "-$0.237B QoQ; +12.1% YoY(공식 수치 기반 계산)",
-            "assessment": "6월 분기 사상 최대",
-            "basis": "GAAP"
+            "actual": "$30.739B; 총마진 $23.245B, 75.6%",
+            "delta": "매출 -$0.237B QoQ; +12.1% YoY(공식 수치 기반 계산); 총마진율 -1.1%p QoQ",
+            "assessment": "6월 분기 매출 기록; 총마진율은 전년 동기와 동일",
+            "basis": "GAAP 및 공식 10-Q"
           },
           {
             "id": "china",
@@ -846,7 +846,7 @@
             "consensus": null,
             "actual": "$18.816B",
             "delta": "-$1.681B QoQ; +22.4% YoY(공식 수치 기반 계산)",
-            "assessment": "매출 회복, 시장점유율은 미공개",
+            "assessment": "주로 iPhone이 회복을 견인했고 환율도 우호적; 시장점유율은 미공개",
             "basis": "GAAP 지역 매출"
           },
           {
@@ -863,7 +863,7 @@
         "stock_moving_factors": [
           {
             "title": "iPhone·Services",
-            "detail": "iPhone $54.252B와 Services $30.739B가 각각 6월 분기 기록을 세웠다."
+            "detail": "iPhone $54.252B와 Services $30.739B가 각각 6월 분기 기록을 세웠고 Services 총마진율은 75.6%였다."
           },
           {
             "title": "Greater China",
@@ -895,13 +895,13 @@
           },
           {
             "id": "services",
-            "answer": "Services 매출은 $30.739B로 6월 분기 기록을 세웠다. Services 총마진과 개별 성장 동력은 공식 발표에서 분리 공시되지 않았다.",
-            "change": "$30.976B→$30.739B QoQ; 전년 동기 $27.423B 대비 증가.",
-            "assessment": "방어력은 긍정; 마진 기여 검증은 보류"
+            "answer": "공식 10-Q 기준 Services 매출은 $30.739B, 총마진은 $23.245B, 총마진율은 75.6%였다. 증가는 주로 광고와 클라우드 서비스가 이끌었다.",
+            "change": "매출 $30.976B→$30.739B, 총마진 $23.752B→$23.245B, 총마진율 76.7%→75.6% QoQ. 전년 동기 총마진율과는 동일했다.",
+            "assessment": "높은 마진 완충력은 유지했지만 전분기 대비 마진율은 하락"
           },
           {
             "id": "china",
-            "answer": "Greater China 매출은 $18.816B로 전년 동기 대비 22.4% 증가했다. 시장점유율은 공식 발표에서 공개되지 않았다.",
+            "answer": "공식 10-Q 기준 Greater China 매출은 $18.816B로 전년 동기 대비 22.4% 증가했고, 회사는 주로 iPhone 증가가 이끌었으며 위안화 강세도 우호적으로 작용했다고 설명했다. 시장점유율은 공개되지 않았다.",
             "change": "$20.497B→$18.816B QoQ; 전년 동기 $15.369B 대비 증가.",
             "assessment": "매출 회복은 긍정; 점유율 판단은 불가"
           },
@@ -919,7 +919,7 @@
           }
         ],
         "market_reaction": {
-          "summary": "2026-07-30 시간외 종료 기준 AAPL은 정규장 종가 대비 6.33% 하락했고 QQQ 대비 수익률은 -7.02%p였다. 이 반응의 원인은 공식 자료만으로 단정하지 않는다.",
+          "summary": "2026-07-30 시간외 종료 기준 AAPL은 6.33% 하락했고, 7월 31일 첫 정규장에서는 7.35% 하락해 QQQ 대비 -8.00%p였다. 이 반응의 원인은 공식 자료만으로 단정하지 않는다.",
           "checkpoints": [
             {
               "window": "after_hours_close",
@@ -930,21 +930,31 @@
               "note": "AAPL 정규장 종가 $333.43, 시간외 마지막 관측 $312.3315; QQQ $683.55→$688.25",
               "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?period1=1785373200&period2=1785459600&interval=1m&includePrePost=true&events=history",
               "benchmark_source_url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785459600&interval=1m&includePrePost=true&events=history"
+            },
+            {
+              "window": "next_regular_close",
+              "change_pct": -7.35,
+              "benchmark_change_pct": 0.65,
+              "qqq_relative_pct": -8.00,
+              "observed_at": "2026-07-31 16:00 ET",
+              "note": "AAPL $333.43→$308.91; QQQ $683.55→$687.99, 7월 30일 정규장 종가 대비",
+              "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history",
+              "benchmark_source_url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history"
             }
           ]
         },
         "thesis_update": {
-          "overall": "자동화 판단: 본업 실적은 강화됐지만 주가 확인과 AI 수익화 판단은 보류",
-          "strengthened": "iPhone·Services·전체 매출의 6월 분기 기록과 Greater China 매출 회복",
-          "weakened": "총마진의 관세 환급 의존, AI 수익화 KPI 부재, 시간외 약세",
+          "overall": "자동화 판단: 본업 실적은 강화됐지만 첫 정규장 약세와 AI 수익화 판단은 부담",
+          "strengthened": "iPhone·Services·전체 매출의 6월 분기 기록, Services의 높은 총마진율과 Greater China 매출 회복",
+          "weakened": "총마진의 관세 환급 의존, Services 총마진율의 전분기 대비 하락, AI 수익화 KPI 부재와 첫 정규장 약세",
           "next_falsifier": "iPhone·Services 성장과 중국 회복이 다음 분기에 둔화하고 관세 환급 제외 마진과 AI 기여 근거가 약한 경우"
         },
         "next_checks": [
           "공식 콜 재생 또는 회사 제공 문답 근거에서 FY2026 Q4 매출·마진 전망 확인",
           "iPhone 업그레이드 수요와 제품 믹스, Greater China 점유율 근거 확인",
-          "Services 성장 동력과 총마진 기여 확인",
+          "Services 광고·클라우드 성장 지속성과 75.6% 총마진율 확인",
           "Siri AI의 출시 일정·사용량·기기 수요·매출 기여 KPI 확인",
-          "첫 정규장 종가와 5거래일 반응을 QQQ 대비로 기록"
+          "5거래일 반응을 QQQ 대비로 기록"
         ],
         "sources": [
           {
@@ -964,6 +974,10 @@
             "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/a8-kex991q3202606272026.htm"
           },
           {
+            "label": "Apple FY2026 Q3 SEC 10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm"
+          },
+          {
             "label": "Apple 공식 실적 콜 재생",
             "url": "https://www.apple.com/investor/earnings-call/"
           },
@@ -978,6 +992,14 @@
           {
             "label": "Yahoo Finance QQQ 시간외 시세",
             "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785459600&interval=1m&includePrePost=true&events=history"
+          },
+          {
+            "label": "Yahoo Finance AAPL 일별 시세",
+            "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history"
+          },
+          {
+            "label": "Yahoo Finance QQQ 일별 시세",
+            "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history"
           }
         ]
       }
@@ -995,11 +1017,11 @@
       "ir_url": "https://ir.aboutamazon.com/",
       "schedule_source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-to-Webcast-Second-Quarter-2026-Financial-Results-Conference-Call/default.aspx",
       "schedule_source_as_of": "2026-07-23 08:03 KST",
-      "result_status": "released",
+      "result_status": "complete",
       "results": {
-        "document_stage": "release_captured",
-        "updated_at": "2026-07-31 09:04 KST",
-        "verdict": "공식 발표 기준 AWS 성장률은 37%로 9%p 가속했고 광고도 26% 성장했으며 북미 영업이익률은 7.9%로 유지됐다. 반면 AI 투자로 TTM FCF는 -$7.6B였고, 시간외 종료 주가는 9.53% 상승했다. 공식 콜 문답록이 없어 수요 지속성과 투자 회수 판단은 추가 확인이 필요하다.",
+        "document_stage": "regular_close_recorded",
+        "updated_at": "2026-08-01 08:57 KST",
+        "verdict": "AWS 성장률은 37%로 가속했고 10-Q에서 OpenAI·Anthropic 장기 약정이 확인됐으며 첫 정규장 주가는 15.32% 상승했다. 다만 북미 영업이익률 7.9%에는 주로 북미 부문에 반영된 약 $640M 관세 환급이 포함됐고 TTM FCF는 -$7.6B여서 투자 회수 검증은 남아 있다.",
         "metrics": [
           {
             "id": "revenue",
@@ -1036,10 +1058,10 @@
             "label": "북미 영업이익률",
             "previous": "7.9%",
             "consensus": null,
-            "actual": "7.9%",
+            "actual": "7.9%; 약 $640M 관세 환급이 주로 북미 부문에 반영",
             "delta": "대체로 동일",
-            "assessment": "매출 증가와 함께 유지",
-            "basis": "공식 세그먼트 수치 기반 계산"
+            "assessment": "보고 마진은 유지됐지만 환급 효과를 분리해 봐야 함",
+            "basis": "공식 세그먼트 수치 기반 계산 및 10-Q"
           },
           {
             "id": "advertising",
@@ -1075,11 +1097,11 @@
         "stock_moving_factors": [
           {
             "title": "AWS",
-            "detail": "AWS 매출은 $42.232B로 37% 성장했고 영업이익은 $16.621B, 영업이익률은 39.4%였다."
+            "detail": "AWS 매출은 $42.232B로 37% 성장했고 영업이익률은 39.4%였다. 10-Q는 OpenAI 약정 $100B 확대와 Anthropic 약정 $100B 초과 확대를 확인했다."
           },
           {
             "title": "북미 영업이익률",
-            "detail": "북미 매출은 $116.177B, 영업이익은 $9.123B로 영업이익률 7.9%를 유지했다."
+            "detail": "북미 매출은 $116.177B, 영업이익은 $9.123B로 영업이익률 7.9%를 유지했지만 약 $640M 관세 환급이 주로 북미 부문에 반영됐다."
           },
           {
             "title": "광고",
@@ -1111,15 +1133,15 @@
         "call_answers": [
           {
             "id": "aws",
-            "answer": "AWS 매출은 $42.232B로 37% 성장했다. 회사는 AI 사업과 칩 사업이 각각 $25B 초과 연환산 매출 run rate에 도달했고 Bedrock 고객 지출이 Q2에 이전 모든 분기 합계를 넘었다고 밝혔다.",
+            "answer": "AWS 매출은 $42.232B로 37% 성장했다. 회사는 AI 사업과 칩 사업이 각각 $25B 초과 연환산 매출 run rate에 도달했다고 밝혔다. 공식 10-Q는 OpenAI 기존 $38B 약정을 8년간 $100B 확대하고 Anthropic 약정을 10년간 $100B 초과 확대했으며 두 약정 모두 AWS 칩 성능 관련 의무를 포함한다고 확인했다.",
             "change": "매출 $37.587B→$42.232B, 성장률 +28%→+37%, 영업이익률 37.7%→39.4%.",
             "assessment": "강한 긍정; 공식 Q&A 기반의 지속성 검증은 남음"
           },
           {
             "id": "north_america_margin",
-            "answer": "북미 매출은 $116.177B, 영업이익은 $9.123B로 영업이익률은 7.9%였다.",
-            "change": "매출 $104.143B→$116.177B, 영업이익 $8.267B→$9.123B, 마진 7.9%→7.9%.",
-            "assessment": "매출 성장과 함께 마진 유지"
+            "answer": "북미 매출은 $116.177B, 영업이익은 $9.123B로 영업이익률은 7.9%였다. 공식 10-Q는 약 $640M 관세 환급이 주로 북미 부문에 반영됐고 예상 환급의 상당 부분이라고 밝혔다.",
+            "change": "매출 $104.143B→$116.177B, 영업이익 $8.267B→$9.123B, 보고 마진 7.9%→7.9%. Q1에는 같은 기준의 환급 효과가 제시되지 않았다.",
+            "assessment": "보고 마진은 유지됐지만 일회성 환급을 분리한 수익성 검증 필요"
           },
           {
             "id": "advertising",
@@ -1135,7 +1157,7 @@
           }
         ],
         "market_reaction": {
-          "summary": "2026-07-30 시간외 종료 기준 AMZN은 정규장 종가 대비 9.53% 상승했고 QQQ 대비 수익률은 +8.85%p였다. 이 반응의 원인은 공식 자료만으로 단정하지 않는다.",
+          "summary": "2026-07-30 시간외 종료 기준 AMZN은 9.53% 상승했고, 7월 31일 첫 정규장에서는 15.32% 상승해 QQQ 대비 +14.67%p였다. 이 반응의 원인은 공식 자료만으로 단정하지 않는다.",
           "checkpoints": [
             {
               "window": "after_hours_close",
@@ -1146,13 +1168,23 @@
               "note": "AMZN 정규장 종가 $235.50, 시간외 마지막 관측 $257.95; QQQ $683.55→$688.25",
               "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/AMZN?period1=1785373200&period2=1785459600&interval=1m&includePrePost=true&events=history",
               "benchmark_source_url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785459600&interval=1m&includePrePost=true&events=history"
+            },
+            {
+              "window": "next_regular_close",
+              "change_pct": 15.32,
+              "benchmark_change_pct": 0.65,
+              "qqq_relative_pct": 14.67,
+              "observed_at": "2026-07-31 16:00 ET",
+              "note": "AMZN $235.50→$271.58; QQQ $683.55→$687.99, 7월 30일 정규장 종가 대비",
+              "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/AMZN?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history",
+              "benchmark_source_url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history"
             }
           ]
         },
         "thesis_update": {
-          "overall": "자동화 판단: AWS·광고·배송 속도는 강화, AI 투자 회수는 계속 검증 필요",
-          "strengthened": "AWS 성장 가속과 마진, 광고 성장 가속, 북미 마진 유지, 배송 속도",
-          "weakened": "TTM FCF 적자와 AI 설비투자 부담, 물류 단위 비용 미공개",
+          "overall": "자동화 판단: AWS·광고와 주가 반응은 강화, AI 투자 회수와 북미 기초 마진은 계속 검증 필요",
+          "strengthened": "AWS 성장 가속과 마진, OpenAI·Anthropic 장기 약정, 광고 성장 가속, 배송 속도와 첫 정규장 강세",
+          "weakened": "TTM FCF 적자와 AI 설비투자 부담, 북미 마진의 관세 환급 효과, 물류 단위 비용 미공개",
           "next_falsifier": "AWS 성장과 마진이 둔화하는데 AI 설비투자와 FCF 적자가 계속 확대되는 경우"
         },
         "next_checks": [
@@ -1160,7 +1192,7 @@
           "AI·칩 사업 $25B+ run rate의 매출 구성과 마진 확인",
           "북미 단위당 물류 비용·재고 회전·배송 속도 지속성 확인",
           "TTM FCF와 AI 설비투자의 회복 경로 확인",
-          "첫 정규장 종가와 5거래일 반응을 QQQ 대비로 기록"
+          "5거래일 반응을 QQQ 대비로 기록"
         ],
         "sources": [
           {
@@ -1184,6 +1216,10 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm"
           },
           {
+            "label": "Amazon Q2 2026 SEC 10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm"
+          },
+          {
             "label": "Amazon Q1 2026 공식 실적 발표",
             "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/"
           },
@@ -1194,6 +1230,14 @@
           {
             "label": "Yahoo Finance QQQ 시간외 시세",
             "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785459600&interval=1m&includePrePost=true&events=history"
+          },
+          {
+            "label": "Yahoo Finance AMZN 일별 시세",
+            "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMZN?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history"
+          },
+          {
+            "label": "Yahoo Finance QQQ 일별 시세",
+            "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history"
           }
         ]
       }
