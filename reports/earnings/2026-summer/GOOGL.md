@@ -1,9 +1,9 @@
 # GOOGL 2026 Q2 실적
 
-- 상태: **콘퍼런스콜 분석 완료**
+- 상태: **5거래일 반응까지 검토 완료**
 - 발표: 2026-07-23 05:30 KST
 - 일정 상태: 확정
-- 문서 기준 시각: 2026-07-23 09:39 KST
+- 문서 기준 시각: 2026-08-04 09:04 KST
 
 <!-- USER:PRE_EARNINGS:START -->
 ## 30초 결론
@@ -143,24 +143,23 @@
 | CapEx 설명 직후 | **-4.20%** | — | — | 연간 CapEx 상향, 2027년 추가 증가와 단기 마진 압력 | 2026-07-22 16:59 ET |
 | 시간외 종료 | **-3.31%** | **-0.08%** | **-3.23%p** | Cloud 호조보다 투자·현금흐름 부담과 Gemini 일정 부재를 더 크게 반영 | 2026-07-22 19:59 ET |
 | 다음 정규장 종가 | **-7.13%** | **-1.90%** | **-5.23%p** | 시간외 약세가 첫 정규장에서도 확대 | 2026-07-23 16:00 ET |
-| 5거래일 후 | 확인 대기 | 확인 대기 | 확인 대기 | 관측 구간 미완료 | — |
+| 5거래일 후 | **-1.57%** | **-6.18%** | **+4.61%p** | 첫 정규장 충격은 상당 부분 축소됐지만 원인은 단정하지 않음 | 2026-07-29 16:00 ET |
 
 첫 반응은 긍정이었지만 콘퍼런스콜의 CapEx 상향 설명 뒤 급격히 음전했다. **숫자 자체는 긍정, 자본집약도와 투자 회수 불확실성은 부정**이라는 시장의 분리가 뚜렷했다.
 
-7월 22일 정규장 마감 이후 시간외 거래에서 약세가 이어졌고, 7월 23일 첫 정규장 종가는 전일 종가 대비 -7.13%로 마감했다. QQQ -1.90% 대비 초과 하락은 -5.23%p였다. 시장이 Cloud 호조보다 CapEx 확대와 투자 회수 불확실성을 더 무겁게 보고 있다는 해석을 지지한다.
+7월 22일 정규장 마감 이후 시간외 거래에서 약세가 이어졌고, 7월 23일 첫 정규장 종가는 전일 종가 대비 -7.13%로 마감했다. QQQ -1.90% 대비 초과 하락은 -5.23%p였다. 7월 29일 다섯 번째 완료 정규장 종가는 발표 전 종가 대비 -1.57%로 낙폭을 줄였고, 같은 구간 QQQ -6.18%보다 4.61%p 높았다. 이는 첫날 충격의 지속성이 낮아졌다는 관측이지만, 회복 원인을 특정 요인에 귀속하지 않는다.
 
 ## 7. 발표 후 판정
 
 - **가장 가까운 사전 시나리오:** 기본과 위험의 혼합. Cloud는 긍정 시나리오를 크게 웃돌았지만 CapEx 추가 상향과 3.5 Pro 일정 회피가 위험 시나리오의 일부를 충족했다.
 - **사업 실적 판정:** **강한 긍정.** Cloud +82%, 수주잔고 $514B, Search +17%, 전사 영업이익률 34.0%가 핵심 근거다.
 - **AI 실행·경영진 신뢰 판정:** **혼합·미해결.** 사용량과 인프라 수익화는 강했지만 자체 프런티어 모델 일정과 직접적인 AI 수익화 품질은 충분히 답하지 못했다.
-- **전체 투자 논리:** **장기 사업 논리는 강화, 단기 주가 논리는 약화.** Cloud가 투자 수요를 증명했지만, CapEx·잉여현금흐름·희석 가능성을 정당화하려면 앞으로 더 높은 매출 전환과 수익성이 필요하다.
+- **전체 투자 논리:** **장기 사업 논리는 강화됐고 첫 정규장 충격은 5거래일 내 상당 부분 축소됐다.** Cloud가 투자 수요를 증명했지만, CapEx·잉여현금흐름·희석 가능성을 정당화하려면 앞으로 더 높은 매출 전환과 수익성이 필요하다.
 - **발표 전 판단 회고:** `Cloud가 대부분의 문제를 덮을 수 있다`는 사업 판단은 맞았지만 주가 판단에는 부족했다. 이번에는 Cloud가 기대를 크게 웃돌아도 **CapEx 가이던스 상향 폭**이 독립적인 주가 결정 변수였다.
 - **다음 반증 조건:** Cloud 성장·수주잔고·마진이 둔화하는데 2027년 CapEx가 다시 크게 늘거나, Gemini 3.5 Pro의 출시·성능·유료 수익화 근거가 다음 분기에도 제시되지 않는 경우.
 
 ## 8. 다음에 확인할 것
 
-- 5거래일 뒤 반응을 기록해 시간외 충격이 지속되는지 확인
 - 공식 전체 콜 문답록 게시 후 3.5 Pro·Cloud 공급·2027 CapEx 답변 원문 재검증
 - 수주잔고 $514B의 24개월 매출 전환 속도와 Cloud 마진 지속성
 - Q3 제3자 용량 사용과 감가상각이 전사·Cloud 마진에 주는 실제 영향
@@ -177,6 +176,8 @@
 - [Public 시간외 시세](https://public.com/stocks/googl/after-hours)
 - [Nasdaq GOOGL 일별 시세](https://api.nasdaq.com/api/quote/GOOGL/historical?assetclass=stocks&fromdate=2026-07-22&todate=2026-07-24&limit=10)
 - [Nasdaq QQQ 일별 시세](https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-07-22&todate=2026-07-24&limit=10)
+- [Nasdaq GOOGL 5거래일 시세](https://api.nasdaq.com/api/quote/GOOGL/historical?assetclass=stocks&fromdate=2026-07-22&todate=2026-07-30&limit=20)
+- [Nasdaq QQQ 5거래일 시세](https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-07-22&todate=2026-07-30&limit=20)
 - [S&P Global Q2 2026 프리뷰](https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/07/alphabet-earnings-preview-q2-2026)
 - [Reuters: Gemini 3.5 Pro 지연 보도](https://www.investing.com/news/stock-market-news/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals-bloomberg-news-reports-4796622)
 <!-- AUTO:POST_RELEASE:END -->

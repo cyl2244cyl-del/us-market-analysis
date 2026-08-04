@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-01",
+  "as_of": "2026-08-04",
   "season": "2026 여름 실적 시즌",
   "season_note": "대부분 2026년 2분기 실적이며, Apple·Microsoft·NVIDIA·Broadcom·Micron은 회사 회계연도 분기 표기가 다릅니다.",
   "tickers": [
@@ -18,9 +18,9 @@
       "schedule_source_as_of": "2026-07-23 08:03 KST",
       "result_status": "complete",
       "results": {
-        "document_stage": "regular_close_recorded",
-        "updated_at": "2026-07-24 13:16 KST",
-        "verdict": "Cloud와 Search는 강했지만, 시간외 주가는 연간 CapEx 가이던스 상향과 현금흐름·마진 부담, Gemini 3.5 Pro 일정 부재를 더 크게 반영했다.",
+        "document_stage": "five_day_reviewed",
+        "updated_at": "2026-08-04 09:04 KST",
+        "verdict": "Cloud와 Search는 강했고 첫 정규장 충격은 5거래일 기준 -1.57%까지 축소돼 QQQ를 4.61%p 웃돌았다. 다만 CapEx·현금흐름 부담과 Gemini 3.5 Pro 일정 부재는 계속 검증해야 한다.",
         "metrics": [
           {
             "id": "revenue",
@@ -156,7 +156,7 @@
           }
         ],
         "market_reaction": {
-          "summary": "실적 직후 상승했지만 CapEx 상향 설명 뒤 급격히 음전했고 첫 정규장에서도 약세가 확대됐다. 시간외 종료 GOOGL -3.31%, 첫 정규장 GOOGL -7.13%로 QQQ 대비 각각 -3.23%p, -5.23%p였다.",
+          "summary": "실적 직후 상승했지만 CapEx 상향 설명 뒤 급격히 음전했고 첫 정규장 약세가 확대됐다. 다만 발표 전 종가 대비 5거래일 수익률은 GOOGL -1.57%, QQQ -6.18%로 상대수익이 +4.61%p였고 첫날 충격은 상당 부분 축소됐다.",
           "checkpoints": [
             {
               "window": "release_initial",
@@ -189,17 +189,26 @@
             "note": "첫 정규장 종가; 7월 22일 정규장 종가 대비",
             "source_url": "https://api.nasdaq.com/api/quote/GOOGL/historical?assetclass=stocks&fromdate=2026-07-22&todate=2026-07-24&limit=10",
             "benchmark_source_url": "https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-07-22&todate=2026-07-24&limit=10"
+          },
+          {
+            "window": "five_day",
+            "change_pct": -1.57,
+            "benchmark_change_pct": -6.18,
+            "qqq_relative_pct": 4.61,
+            "observed_at": "2026-07-29 16:00 ET",
+            "note": "발표 전 7월 22일 정규장 종가 대비 다섯 번째 완료 정규장 종가",
+            "source_url": "https://api.nasdaq.com/api/quote/GOOGL/historical?assetclass=stocks&fromdate=2026-07-22&todate=2026-07-30&limit=20",
+            "benchmark_source_url": "https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-07-22&todate=2026-07-30&limit=20"
           }
           ]
         },
         "thesis_update": {
-          "overall": "장기 사업 논리는 강화, 단기 주가 논리는 약화",
+          "overall": "장기 사업 논리는 강화됐고 첫 정규장 충격은 5거래일 내 상당 부분 축소됐지만 투자 회수 검증은 남아 있음",
           "strengthened": "Cloud 성장·수주잔고·마진과 Search 광고의 회복력",
           "weakened": "CapEx·FCF 부담, 2027년 추가 투자, 3.5 Pro 일정 부재",
           "next_falsifier": "Cloud 성장·수주·마진이 둔화하는데 CapEx가 더 늘거나 Gemini 출시·유료 수익화 근거가 다음 분기에도 나오지 않는 경우"
         },
         "next_checks": [
-          "5거래일 뒤 시간외 충격의 지속 여부",
           "공식 전체 콜 문답록 게시 후 3.5 Pro·Cloud 공급·2027 CapEx 답변 원문 재검증",
           "Cloud 수주잔고의 24개월 매출 전환과 마진 지속성",
           "Gemini 유료 전환율·기업 좌석·제품별 AI 매출과 3.5 Pro 출시 일정"
@@ -240,6 +249,14 @@
           {
             "label": "Nasdaq QQQ 일별 시세",
             "url": "https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-07-22&todate=2026-07-24&limit=10"
+          },
+          {
+            "label": "Nasdaq GOOGL 5거래일 시세",
+            "url": "https://api.nasdaq.com/api/quote/GOOGL/historical?assetclass=stocks&fromdate=2026-07-22&todate=2026-07-30&limit=20"
+          },
+          {
+            "label": "Nasdaq QQQ 5거래일 시세",
+            "url": "https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-07-22&todate=2026-07-30&limit=20"
           }
         ]
       }
