@@ -1272,10 +1272,156 @@
       "ir_url": "https://ir.spacex.com/",
       "schedule_source_url": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Second-Quarter-2026-Results-and-Host-Webcast-on-August-4-2026-2026-g8layJlbFm/default.aspx",
       "schedule_source_as_of": "2026-07-23 08:03 KST",
-      "result_status": "waiting",
+      "result_status": "released",
       "results": {
-        "document_stage": "scheduled",
-        "updated_at": "2026-07-23 08:03 KST"
+        "document_stage": "release_captured",
+        "updated_at": "2026-08-05 07:50 KST",
+        "verdict": "공식 8-K·10-Q와 실적 발표에서 매출 성장 가속, Connectivity 수익성 확대, AI 조정 EBITDA 흑자 전환이 확인됐다. 다만 GAAP 순손실과 AI CapEx 급증이 남아 있고 공식 콜 문답록과 종료된 시장 반응은 아직 확인 전이다.",
+        "metrics": [
+          {
+            "id": "revenue",
+            "label": "매출",
+            "previous": "$4.694B (2026 Q1)",
+            "consensus": null,
+            "actual": "$7.814B, +92% YoY",
+            "delta": "+$3.120B QoQ",
+            "assessment": "성장 가속",
+            "basis": "GAAP"
+          },
+          {
+            "id": "net_loss",
+            "label": "순손실",
+            "previous": "$1.008B 순손실 (2025 Q2)",
+            "consensus": null,
+            "actual": "$541M 순손실; 희석 EPS -$0.09",
+            "delta": "순손실 $467M 축소 YoY",
+            "assessment": "개선됐으나 GAAP 적자 지속",
+            "basis": "GAAP"
+          },
+          {
+            "id": "adjusted_ebitda",
+            "label": "조정 EBITDA",
+            "previous": "$1.127B (2026 Q1)",
+            "consensus": null,
+            "actual": "$3.538B, +191% YoY",
+            "delta": "+$2.411B QoQ",
+            "assessment": "큰 폭 개선",
+            "basis": "회사 정의 비GAAP"
+          },
+          {
+            "id": "connectivity",
+            "label": "Connectivity",
+            "previous": "매출 $3.257B; 가입자 10.3M; ARPU $66 (2026 Q1)",
+            "consensus": null,
+            "actual": "매출 $4.291B, +66% YoY; 가입자 12.0M; ARPU $66; 영업이익 $1.656B",
+            "delta": "가입자 +1.7M QoQ; ARPU 동일; 영업이익 +$468M QoQ",
+            "assessment": "규모와 수익성 동반 개선",
+            "basis": "회사 운영·GAAP 세그먼트 지표"
+          },
+          {
+            "id": "ai",
+            "label": "AI",
+            "previous": "매출 $818M; 조정 EBITDA -$609M; nameplate compute 1.0GW (2026 Q1)",
+            "consensus": null,
+            "actual": "매출 $2.561B, +247% YoY; 조정 EBITDA $1.146B; nameplate compute 1.4GW",
+            "delta": "매출 +$1.743B QoQ; 조정 EBITDA +$1.755B QoQ",
+            "assessment": "비GAAP 흑자 전환; GAAP 영업손실 $1.257B",
+            "basis": "GAAP 세그먼트 매출·영업손실 및 회사 정의 비GAAP"
+          },
+          {
+            "id": "capex",
+            "label": "총 CapEx",
+            "previous": "$10.107B (2026 Q1)",
+            "consensus": null,
+            "actual": "$18.369B; 이 중 AI $15.828B",
+            "delta": "+$8.262B QoQ",
+            "assessment": "투자 부담 급증",
+            "basis": "회사 공시 CapEx"
+          },
+          {
+            "id": "space",
+            "label": "Space",
+            "previous": "매출 $619M; 40회 발사; 조정 EBITDA -$351M (2026 Q1)",
+            "consensus": null,
+            "actual": "매출 $962M, +29% YoY; 38회 발사; 조정 EBITDA -$205M",
+            "delta": "매출 +$343M QoQ; 발사 -2회; 조정 EBITDA 손실 $146M 축소",
+            "assessment": "매출·손실 개선, 적자 지속",
+            "basis": "회사 운영 지표 및 회사 정의 비GAAP"
+          }
+        ],
+        "stock_moving_factors": [
+          {
+            "title": "Connectivity 규모·수익성",
+            "detail": "Starlink 가입자는 12.0M으로 전분기보다 1.7M 늘었고 Connectivity 영업이익은 $1.656B로 전년 대비 79% 증가했다."
+          },
+          {
+            "title": "AI 성장·수익성 전환",
+            "detail": "AI 매출은 $2.561B로 전분기 대비 213% 늘고 조정 EBITDA는 -$609M에서 $1.146B로 전환했지만 GAAP 영업손실은 $1.257B였다."
+          },
+          {
+            "title": "AI CapEx",
+            "detail": "총 CapEx $18.369B 가운데 AI가 $15.828B를 차지해 투자 회수 속도가 핵심 검증 항목이 됐다."
+          },
+          {
+            "title": "현금·수주 기반",
+            "detail": "현금·현금성자산·시장성증권은 약 $100.0B, 수주잔고는 $47.5B로 공시됐다."
+          },
+          {
+            "title": "Space 투자",
+            "detail": "Space 매출은 $962M으로 증가했지만 조정 EBITDA는 -$205M이며 Starship 연구개발 투자가 계속됐다."
+          }
+        ],
+        "guidance": [
+          {
+            "label": "정량 재무 가이던스",
+            "previous": null,
+            "current": "공식 실적 발표에 매출·이익·CapEx 정량 가이던스 미제시",
+            "assessment": "공식 콜 문답록 게시 후 재확인 필요"
+          }
+        ],
+        "call_answers": [
+          {
+            "id": "issuer_specific_kpis",
+            "answer": "공식 발표에서 회사 고유 KPI가 Space의 고객·내부 발사와 질량, Connectivity의 Starlink 가입자·ARPU·기업·정부 매출, AI의 nameplate compute·계약매출·세그먼트 수익성으로 구체화됐다. 공식 콜 문답록은 아직 게시 전이다.",
+            "change": "Connectivity 가입자 10.3M→12.0M, ARPU $66→$66, AI nameplate compute 1.0GW→1.4GW, AI 조정 EBITDA -$609M→$1.146B, Space 발사 40회→38회 QoQ.",
+            "assessment": "공식 KPI 정의와 분기 비교 기반은 확보; 경영진 Q&A와 지속 가능성 평가는 보류"
+          }
+        ],
+        "market_reaction": {
+          "summary": "2026-08-05 07:50 KST 현재 미국 시간외 세션이 끝나지 않았고 동일 시각 기준 release_initial 또는 release_30m 원천을 확보하지 못해 체크포인트를 기록하지 않았다.",
+          "checkpoints": []
+        },
+        "thesis_update": {
+          "overall": "자동화 판단: 성장과 비GAAP 영업 레버리지는 강화됐지만 GAAP 적자와 AI 투자 회수는 미검증",
+          "strengthened": "Connectivity 가입자·영업이익, AI 매출·조정 EBITDA, 현금·수주 기반",
+          "weakened": "AI CapEx 급증, AI·Space의 GAAP 또는 조정 영업손실, 정량 가이던스와 공식 Q&A 부재",
+          "next_falsifier": "Connectivity ARPU·이익이 둔화하거나 AI 계약매출이 실제 매출·현금흐름으로 전환되지 않는 가운데 CapEx가 계속 급증하는 경우"
+        },
+        "next_checks": [
+          "공식 콜 문답록에서 2026년 매출·CapEx·현금흐름 전망과 AI 계약매출 전환 일정 확인",
+          "Starlink 가입자 성장과 $66 ARPU, Enterprise & Government 성장의 지속성 확인",
+          "$14.1B AI contracted sales의 인식 일정과 AI GAAP 영업손실·CapEx 회수 경로 확인",
+          "Starship V3 시험·발사 비용과 Space 조정 EBITDA 손실 축소 지속성 확인",
+          "시간외 종료와 다음 정규장 반응을 QQQ 대비로 기록"
+        ],
+        "sources": [
+          {
+            "label": "SpaceX Q2 2026 SEC 8-K",
+            "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052515/0001628280-26-052515-index.html"
+          },
+          {
+            "label": "SpaceX Q2 2026 공식 실적 발표(SEC Exhibit 99.1)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052515/earningsreleaseq22608042.htm"
+          },
+          {
+            "label": "SpaceX Q2 2026 SEC 10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/0001628280-26-052535-index.html"
+          },
+          {
+            "label": "SpaceX 공식 실적 콜·리플레이 페이지",
+            "url": "https://ir.spacex.com/"
+          }
+        ]
       }
     },
     {
