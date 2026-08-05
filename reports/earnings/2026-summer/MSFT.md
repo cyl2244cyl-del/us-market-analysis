@@ -1,13 +1,13 @@
 # MSFT FY2026 Q4 실적
 
-- 상태: **실적·콜·첫 정규장 반응 반영**
+- 상태: **실적·콜·5거래일 반응 반영**
 - 발표: 2026-07-30 06:30 KST
 - 일정 상태: 확정
-- 문서 기준 시각: 2026-07-31 09:04 KST
+- 문서 기준 시각: 2026-08-06 07:39 KST
 
 ## 30초 결론
 
-Azure 성장과 FY27 1분기 가이던스, Copilot 좌석·사용량·ARPU, OpenAI 제외 RPO가 모두 강화됐습니다. FY27 CapEx 증가는 부담이지만 첫 정규장 주가는 15.51% 상승해 QQQ를 12.21%p 웃돌았고, 현재는 **사업 논리 강화·투자 부담 관리 가능**으로 판단합니다.
+Azure 성장과 FY27 1분기 가이던스, Copilot 좌석·사용량·ARPU, OpenAI 제외 RPO가 모두 강화됐습니다. FY27 CapEx 증가는 부담이지만 발표 전 종가 대비 5거래일 수익률은 +24.82%로 QQQ를 16.42%p 웃돌았고, 현재는 **사업 논리 강화·투자 부담 관리 가능**으로 판단합니다.
 
 <!-- USER:PRE_EARNINGS:START -->
 ## 30초 결론
@@ -144,7 +144,7 @@ CapEx가 높아도 Azure가 41% 이상 성장하고 FY27 가속 전망이 강화
 
 ## 4. 실제 실적 점수판
 
-- 문서 단계: **regular_close_recorded**
+- 문서 단계: **five_day_reviewed**
 - 근거 구분: 수치와 가이던스는 회사 실적 발표·SEC 8-K/10-K·공식 전체 콜 문답록입니다. 시장 기대 비교는 사용하지 않았습니다.
 
 | 지표 | 공식 결과 | 이전 분기 대비 |
@@ -205,18 +205,17 @@ CapEx가 높아도 Azure가 41% 이상 성장하고 FY27 가속 전망이 강화
 - **발표 초기:** Axios가 2026-07-29 17:23 ET에 Microsoft 주가가 시간외 2.4% 상승했다고 보도했습니다.
 - **시간외 종료:** 정확한 20:00 ET 종가와 같은 시각 QQQ 수익률을 신뢰할 수 있는 시계열로 확보하지 못해 기록하지 않았습니다.
 - **첫 정규장 종가:** 2026-07-30 MSFT는 $390.54에서 $451.10으로 15.51% 상승했습니다. 같은 구간 QQQ는 $661.73에서 $683.55로 3.30% 올라 MSFT의 QQQ 대비 수익률은 **+12.21%p**였습니다.
-- 5거래일 체크포인트는 관측 구간 종료 뒤 기록합니다.
+- **5거래일:** 2026-08-05 MSFT는 발표 전 7월 29일 종가 $390.54 대비 $487.46으로 24.82% 상승했습니다. 같은 구간 QQQ는 $661.73에서 $717.30으로 8.40% 올라 MSFT의 QQQ 대비 수익률은 **+16.42%p**였습니다.
 
 ## 7. 발표 후 판정
 
-**자동화 판단: 사업 논리는 강화됐고 투자 부담은 관리 가능한 범위로 판정합니다.** Azure 성장·가이던스, Copilot 좌석·사용량·ARPU, OpenAI 제외 RPO와 단기 자산 투입 조절 가능성은 강화됐습니다. 반면 FY27 CapEx 증가와 Q1 $50B 초과 CapEx, Windows·Xbox 둔화는 계속 부담입니다.
+**자동화 판단: 사업 논리는 강화됐고 투자 부담은 관리 가능한 범위로 판정합니다.** Azure 성장·가이던스, Copilot 좌석·사용량·ARPU, OpenAI 제외 RPO와 단기 자산 투입 조절 가능성은 강화됐고 5거래일 상대수익도 이를 지지했습니다. 반면 FY27 CapEx 증가와 Q1 $50B 초과 CapEx, Windows·Xbox 둔화는 계속 부담입니다.
 
 ## 8. 다음에 확인할 것
 
 - OpenAI 제외 RPO의 계약 품질과 12개월 내 실제 매출 전환
 - Copilot 30M+ 좌석의 사용량·ARPU·사용량 과금 매출
 - FY27 Q1 CapEx $50B 초과 투자와 Azure 약 45% 성장 가이던스의 동시 달성
-- 5거래일 반응의 QQQ 대비 수익률
 
 ## 근거 자료
 
@@ -228,5 +227,9 @@ CapEx가 높아도 Azure가 41% 이상 성장하고 FY27 가속 전망이 강화
 - [Axios 발표 초기 시장 반응](https://www.axios.com/newsletters/axios-closer-ddc12d61-6e9d-403f-be3c-6e138d44ec88)
 - [Yahoo Finance MSFT 일별 시세](https://query2.finance.yahoo.com/v8/finance/chart/MSFT?period1=1785283200&period2=1785542400&interval=1d&events=history)
 - [Yahoo Finance QQQ 일별 시세](https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785283200&period2=1785542400&interval=1d&events=history)
+- [Nasdaq MSFT 발표 전 기준 시세](https://api.nasdaq.com/api/quote/MSFT/historical?assetclass=stocks&fromdate=2026-07-29&todate=2026-08-06&limit=20)
+- [Nasdaq MSFT 2026-08-05 종가](https://api.nasdaq.com/api/quote/MSFT/info?assetclass=stocks)
+- [Nasdaq QQQ 발표 전 기준 시세](https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-07-29&todate=2026-08-06&limit=20)
+- [Nasdaq QQQ 2026-08-05 종가](https://api.nasdaq.com/api/quote/QQQ/info?assetclass=etf)
 
 <!-- AUTO:POST_RELEASE:END -->

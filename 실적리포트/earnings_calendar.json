@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-04",
+  "as_of": "2026-08-06",
   "season": "2026 여름 실적 시즌",
   "season_note": "대부분 2026년 2분기 실적이며, Apple·Microsoft·NVIDIA·Broadcom·Micron은 회사 회계연도 분기 표기가 다릅니다.",
   "tickers": [
@@ -276,9 +276,9 @@
       "schedule_source_as_of": "2026-07-23 08:03 KST",
       "result_status": "complete",
       "results": {
-        "document_stage": "regular_close_recorded",
-        "updated_at": "2026-07-31 09:04 KST",
-        "verdict": "공식 전체 콜 문답록 기준 Azure 성장과 FY27 Q1 가이던스, Copilot 유료 좌석·사용량·ARPU, OpenAI 제외 RPO가 강했다. FY27 CapEx 증가는 부담이지만 신규 용량의 빠른 매출화와 CPU·GPU 투입 조절 가능성이 확인돼 사업 논리는 강화되고 투자 부담은 관리 가능한 범위로 판단한다.",
+      "document_stage": "five_day_reviewed",
+      "updated_at": "2026-08-06 07:39 KST",
+      "verdict": "공식 전체 콜 문답록 기준 Azure 성장과 FY27 Q1 가이던스, Copilot 유료 좌석·사용량·ARPU, OpenAI 제외 RPO가 강했다. 발표 전 종가 대비 5거래일 수익률도 +24.82%로 QQQ를 16.42%p 웃돌아, FY27 CapEx 부담에도 사업 논리는 강화되고 투자 부담은 관리 가능한 범위로 판단한다.",
         "metrics": [
           {
             "id": "revenue",
@@ -454,7 +454,7 @@
           }
         ],
         "market_reaction": {
-          "summary": "발표 초기 시간외에는 2.4% 상승했고, 첫 정규장에서는 15.51% 올라 QQQ를 12.21%p 웃돌았다. 정확한 20:00 ET 시간외 종가는 확보하지 못했다.",
+      "summary": "발표 초기 시간외에는 2.4% 상승했고, 첫 정규장에서는 15.51% 올랐다. 발표 전 종가 대비 5거래일 수익률은 +24.82%, QQQ는 +8.40%로 상대수익은 +16.42%p였다. 정확한 20:00 ET 시간외 종가는 확보하지 못했다.",
           "checkpoints": [
             {
               "window": "release_initial",
@@ -465,16 +465,28 @@
               "note": "Axios 보도 시점의 시간외 반응; 같은 시각 QQQ 수익률은 미확보",
               "source_url": "https://www.axios.com/newsletters/axios-closer-ddc12d61-6e9d-403f-be3c-6e138d44ec88"
             },
-            {
-              "window": "next_regular_close",
+        {
+          "window": "next_regular_close",
               "change_pct": 15.51,
               "benchmark_change_pct": 3.3,
               "qqq_relative_pct": 12.21,
               "observed_at": "2026-07-30 16:00 ET",
               "note": "첫 정규장 종가 $451.10; 7월 29일 종가 $390.54 대비. QQQ는 $661.73에서 $683.55로 상승",
-              "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/MSFT?period1=1785283200&period2=1785542400&interval=1d&events=history",
-              "benchmark_source_url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785283200&period2=1785542400&interval=1d&events=history"
-            }
+          "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/MSFT?period1=1785283200&period2=1785542400&interval=1d&events=history",
+          "benchmark_source_url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785283200&period2=1785542400&interval=1d&events=history"
+        },
+        {
+          "window": "five_day",
+          "change_pct": 24.82,
+          "benchmark_change_pct": 8.4,
+          "qqq_relative_pct": 16.42,
+          "observed_at": "2026-08-05 16:00 ET",
+          "note": "발표 전 7월 29일 정규장 종가 대비 다섯 번째 완료 정규장 종가",
+          "source_url": "https://api.nasdaq.com/api/quote/MSFT/info?assetclass=stocks",
+          "baseline_source_url": "https://api.nasdaq.com/api/quote/MSFT/historical?assetclass=stocks&fromdate=2026-07-29&todate=2026-08-06&limit=20",
+          "benchmark_source_url": "https://api.nasdaq.com/api/quote/QQQ/info?assetclass=etf",
+          "benchmark_baseline_source_url": "https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-07-29&todate=2026-08-06&limit=20"
+        }
           ]
         },
         "thesis_update": {
@@ -486,8 +498,7 @@
         "next_checks": [
           "OpenAI 제외 RPO의 계약 품질과 12개월 내 매출 전환을 추적",
           "Copilot 30M+ 좌석의 사용량·ARPU·사용량 과금 매출을 다음 분기 비교",
-          "FY27 Q1 CapEx $50B 초과 투자와 Azure 약 45% 성장 가이던스의 동시 달성 여부",
-          "5거래일 반응을 QQQ 대비로 기록"
+      "FY27 Q1 CapEx $50B 초과 투자와 Azure 약 45% 성장 가이던스의 동시 달성 여부"
         ],
         "sources": [
           {
@@ -518,10 +529,26 @@
             "label": "Yahoo Finance MSFT 일별 시세",
             "url": "https://query2.finance.yahoo.com/v8/finance/chart/MSFT?period1=1785283200&period2=1785542400&interval=1d&events=history"
           },
-          {
-            "label": "Yahoo Finance QQQ 일별 시세",
-            "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785283200&period2=1785542400&interval=1d&events=history"
-          }
+        {
+          "label": "Yahoo Finance QQQ 일별 시세",
+          "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785283200&period2=1785542400&interval=1d&events=history"
+        },
+        {
+          "label": "Nasdaq MSFT 발표 전 기준 시세",
+          "url": "https://api.nasdaq.com/api/quote/MSFT/historical?assetclass=stocks&fromdate=2026-07-29&todate=2026-08-06&limit=20"
+        },
+        {
+          "label": "Nasdaq MSFT 2026-08-05 종가",
+          "url": "https://api.nasdaq.com/api/quote/MSFT/info?assetclass=stocks"
+        },
+        {
+          "label": "Nasdaq QQQ 발표 전 기준 시세",
+          "url": "https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-07-29&todate=2026-08-06&limit=20"
+        },
+        {
+          "label": "Nasdaq QQQ 2026-08-05 종가",
+          "url": "https://api.nasdaq.com/api/quote/QQQ/info?assetclass=etf"
+        }
         ]
       }
     },
@@ -540,9 +567,9 @@
       "schedule_source_as_of": "2026-07-23 08:03 KST",
       "result_status": "complete",
       "results": {
-        "document_stage": "regular_close_recorded",
-        "updated_at": "2026-07-31 09:04 KST",
-        "verdict": "공식 전체 콜과 후속 콜에서 광고 수요·추천 효과와 Business Agent의 2026년 하반기 과금 계획은 강화됐다. 그러나 2027년 CapEx 수치는 제시되지 않았고 Q2 FCF가 $0.784B로 축소된 가운데 첫 정규장 주가는 7.95% 하락해 투자 회수 검증 부담이 남았다.",
+      "document_stage": "five_day_reviewed",
+      "updated_at": "2026-08-06 07:39 KST",
+      "verdict": "공식 전체 콜과 후속 콜에서 광고 수요·추천 효과와 Business Agent의 2026년 하반기 과금 계획은 강화됐다. 첫날 하락은 5거래일 기준 +0.54%까지 회복했지만 QQQ를 7.86%p 밑돌았고, 2027년 CapEx 수치 부재와 Q2 FCF $0.784B 때문에 투자 회수 검증 부담은 남았다.",
         "metrics": [
           {
             "id": "revenue",
@@ -710,7 +737,7 @@
           }
         ],
         "market_reaction": {
-          "summary": "발표 초기 시간외에는 6.2% 하락했고, 첫 정규장에서는 7.95% 내려 QQQ를 11.25%p 밑돌았다. 정확한 20:00 ET 시간외 종가는 확보하지 못했다.",
+      "summary": "발표 초기 시간외에는 6.2% 하락했고, 첫 정규장에서는 7.95% 내렸다. 발표 전 종가 대비 5거래일 수익률은 +0.54%, QQQ는 +8.40%로 상대수익은 -7.86%p였다. 정확한 20:00 ET 시간외 종가는 확보하지 못했다.",
           "checkpoints": [
             {
               "window": "release_initial",
@@ -721,16 +748,28 @@
               "note": "Axios 보도 시점의 시간외 반응; 같은 시각 QQQ 수익률은 미확보",
               "source_url": "https://www.axios.com/newsletters/axios-closer-ddc12d61-6e9d-403f-be3c-6e138d44ec88"
             },
-            {
-              "window": "next_regular_close",
+        {
+          "window": "next_regular_close",
               "change_pct": -7.95,
               "benchmark_change_pct": 3.3,
               "qqq_relative_pct": -11.25,
               "observed_at": "2026-07-30 16:00 ET",
               "note": "첫 정규장 종가 $539.03; 7월 29일 종가 $585.61 대비. QQQ는 $661.73에서 $683.55로 상승",
-              "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/META?period1=1785283200&period2=1785542400&interval=1d&events=history",
-              "benchmark_source_url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785283200&period2=1785542400&interval=1d&events=history"
-            }
+          "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/META?period1=1785283200&period2=1785542400&interval=1d&events=history",
+          "benchmark_source_url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785283200&period2=1785542400&interval=1d&events=history"
+        },
+        {
+          "window": "five_day",
+          "change_pct": 0.54,
+          "benchmark_change_pct": 8.4,
+          "qqq_relative_pct": -7.86,
+          "observed_at": "2026-08-05 16:00 ET",
+          "note": "발표 전 7월 29일 정규장 종가 대비 다섯 번째 완료 정규장 종가",
+          "source_url": "https://api.nasdaq.com/api/quote/META/info?assetclass=stocks",
+          "baseline_source_url": "https://api.nasdaq.com/api/quote/META/historical?assetclass=stocks&fromdate=2026-07-29&todate=2026-08-06&limit=20",
+          "benchmark_source_url": "https://api.nasdaq.com/api/quote/QQQ/info?assetclass=etf",
+          "benchmark_baseline_source_url": "https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-07-29&todate=2026-08-06&limit=20"
+        }
           ]
         },
         "thesis_update": {
@@ -742,8 +781,7 @@
         "next_checks": [
           "2027 CapEx 규모와 감가상각·FCF 회복 경로 확인",
           "Muse Spark API·Business Agents·Meta Compute의 실제 매출·계약·마진 KPI 확인",
-          "추천 알고리즘 개선의 다음 분기 세션·전환 효과 지속 여부",
-          "5거래일 반응을 QQQ 대비로 기록"
+      "추천 알고리즘 개선의 다음 분기 세션·전환 효과 지속 여부"
         ],
         "sources": [
           {
@@ -790,10 +828,26 @@
             "label": "Yahoo Finance META 일별 시세",
             "url": "https://query2.finance.yahoo.com/v8/finance/chart/META?period1=1785283200&period2=1785542400&interval=1d&events=history"
           },
-          {
-            "label": "Yahoo Finance QQQ 일별 시세",
-            "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785283200&period2=1785542400&interval=1d&events=history"
-          }
+        {
+          "label": "Yahoo Finance QQQ 일별 시세",
+          "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785283200&period2=1785542400&interval=1d&events=history"
+        },
+        {
+          "label": "Nasdaq META 발표 전 기준 시세",
+          "url": "https://api.nasdaq.com/api/quote/META/historical?assetclass=stocks&fromdate=2026-07-29&todate=2026-08-06&limit=20"
+        },
+        {
+          "label": "Nasdaq META 2026-08-05 종가",
+          "url": "https://api.nasdaq.com/api/quote/META/info?assetclass=stocks"
+        },
+        {
+          "label": "Nasdaq QQQ 발표 전 기준 시세",
+          "url": "https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-07-29&todate=2026-08-06&limit=20"
+        },
+        {
+          "label": "Nasdaq QQQ 2026-08-05 종가",
+          "url": "https://api.nasdaq.com/api/quote/QQQ/info?assetclass=etf"
+        }
         ]
       }
     },
@@ -1275,8 +1329,8 @@
       "result_status": "released",
       "results": {
         "document_stage": "release_captured",
-        "updated_at": "2026-08-05 07:50 KST",
-        "verdict": "공식 8-K·10-Q와 실적 발표에서 매출 성장 가속, Connectivity 수익성 확대, AI 조정 EBITDA 흑자 전환이 확인됐다. 다만 GAAP 순손실과 AI CapEx 급증이 남아 있고 공식 콜 문답록과 종료된 시장 반응은 아직 확인 전이다.",
+      "updated_at": "2026-08-06 07:39 KST",
+      "verdict": "공식 8-K·10-Q와 실적 발표에서 매출 성장 가속, Connectivity 수익성 확대, AI 조정 EBITDA 흑자 전환이 확인됐다. 다만 GAAP 순손실과 AI CapEx 급증이 남은 가운데 첫 정규장 주가는 13.61% 하락해 QQQ를 12.71%p 밑돌았고, 공식 콜 답변은 아직 검토하지 못했다.",
         "metrics": [
           {
             "id": "revenue",
@@ -1388,8 +1442,21 @@
           }
         ],
         "market_reaction": {
-          "summary": "2026-08-05 07:50 KST 현재 미국 시간외 세션이 끝나지 않았고 동일 시각 기준 release_initial 또는 release_30m 원천을 확보하지 못해 체크포인트를 기록하지 않았다.",
-          "checkpoints": []
+      "summary": "재현 가능한 발표 초기·시간외 종료 수치는 확보하지 못했다. 첫 정규장에서는 SPCX가 13.61% 하락했고 QQQ는 0.90% 내려 상대수익은 -12.71%p였다.",
+      "checkpoints": [
+        {
+          "window": "next_regular_close",
+          "change_pct": -13.61,
+          "benchmark_change_pct": -0.9,
+          "qqq_relative_pct": -12.71,
+          "observed_at": "2026-08-05 16:00 ET",
+          "note": "첫 정규장 종가 $108.27; 8월 4일 종가 $125.33 대비. QQQ는 $723.85에서 $717.30으로 하락",
+          "source_url": "https://api.nasdaq.com/api/quote/SPCX/info?assetclass=stocks",
+          "baseline_source_url": "https://api.nasdaq.com/api/quote/SPCX/historical?assetclass=stocks&fromdate=2026-08-04&todate=2026-08-06&limit=10",
+          "benchmark_source_url": "https://api.nasdaq.com/api/quote/QQQ/info?assetclass=etf",
+          "benchmark_baseline_source_url": "https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-08-04&todate=2026-08-06&limit=10"
+        }
+      ]
         },
         "thesis_update": {
           "overall": "자동화 판단: 성장과 비GAAP 영업 레버리지는 강화됐지만 GAAP 적자와 AI 투자 회수는 미검증",
@@ -1401,8 +1468,8 @@
           "공식 콜 문답록에서 2026년 매출·CapEx·현금흐름 전망과 AI 계약매출 전환 일정 확인",
           "Starlink 가입자 성장과 $66 ARPU, Enterprise & Government 성장의 지속성 확인",
           "$14.1B AI contracted sales의 인식 일정과 AI GAAP 영업손실·CapEx 회수 경로 확인",
-          "Starship V3 시험·발사 비용과 Space 조정 EBITDA 손실 축소 지속성 확인",
-          "시간외 종료와 다음 정규장 반응을 QQQ 대비로 기록"
+      "Starship V3 시험·발사 비용과 Space 조정 EBITDA 손실 축소 지속성 확인",
+      "5거래일 반응을 QQQ 대비로 기록"
         ],
         "sources": [
           {
@@ -1417,10 +1484,30 @@
             "label": "SpaceX Q2 2026 SEC 10-Q",
             "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/0001628280-26-052535-index.html"
           },
-          {
-            "label": "SpaceX 공식 실적 콜·리플레이 페이지",
-            "url": "https://ir.spacex.com/"
-          }
+        {
+          "label": "SpaceX 공식 실적 콜·리플레이 페이지",
+          "url": "https://ir.spacex.com/events/event-details/2026/SpaceX-Q2-2026-Earnings/default.aspx"
+        },
+        {
+          "label": "SpaceX Q2 2026 공식 실적 발표 PDF",
+          "url": "https://s21.q4cdn.com/184289198/files/doc_financials/2026/q2/SpaceX-Reports-Second-Quarter-2026-Results.pdf"
+        },
+        {
+          "label": "Nasdaq SPCX 발표 전 기준 시세",
+          "url": "https://api.nasdaq.com/api/quote/SPCX/historical?assetclass=stocks&fromdate=2026-08-04&todate=2026-08-06&limit=10"
+        },
+        {
+          "label": "Nasdaq SPCX 2026-08-05 종가",
+          "url": "https://api.nasdaq.com/api/quote/SPCX/info?assetclass=stocks"
+        },
+        {
+          "label": "Nasdaq QQQ 발표 전 기준 시세",
+          "url": "https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-08-04&todate=2026-08-06&limit=10"
+        },
+        {
+          "label": "Nasdaq QQQ 2026-08-05 종가",
+          "url": "https://api.nasdaq.com/api/quote/QQQ/info?assetclass=etf"
+        }
         ]
       }
     },

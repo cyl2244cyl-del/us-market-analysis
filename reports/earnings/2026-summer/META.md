@@ -1,13 +1,13 @@
 # META 2026 Q2 실적
 
-- 상태: **실적·콜·첫 정규장 반응 반영**
+- 상태: **실적·콜·5거래일 반응 반영**
 - 발표: 2026-07-30 05:30 KST
 - 일정 상태: 확정
-- 문서 기준 시각: 2026-07-31 09:04 KST
+- 문서 기준 시각: 2026-08-06 07:39 KST
 
 ## 30초 결론
 
-공식 전체 콜과 후속 콜에서 광고 수요·추천 효과와 Business Agent의 하반기 과금 계획은 강화됐습니다. 그러나 2027년 CapEx 수치는 제시되지 않았고 첫 정규장 주가는 7.95% 하락해 QQQ를 11.25%p 밑돌아, 투자 회수 검증 부담이 남았습니다.
+공식 전체 콜과 후속 콜에서 광고 수요·추천 효과와 Business Agent의 하반기 과금 계획은 강화됐습니다. 첫날 하락은 5거래일 기준 +0.54%까지 회복했지만 QQQ를 7.86%p 밑돌았고, 2027년 CapEx 수치 부재와 현금흐름 부담 때문에 투자 회수 검증은 남았습니다.
 
 ## 1. 발표 전 중요했던 질문
 
@@ -95,7 +95,7 @@ DAP가 전분기 대비 다시 증가하고 Reels·Facebook 체류시간 개선�
 
 ## 4. 실제 실적 점수판
 
-- 문서 단계: **regular_close_recorded**
+- 문서 단계: **five_day_reviewed**
 - 근거 구분: 수치와 가이던스는 SEC 8-K·10-Q의 회사 실적 발표, 공식 슬라이드·준비 발언·전체 콜·후속 콜 문답록입니다. 시장 기대 비교는 사용하지 않았습니다.
 
 | 지표 | 공식 결과 | 이전 분기 대비 |
@@ -149,18 +149,17 @@ DAP가 전분기 대비 다시 증가하고 Reels·Facebook 체류시간 개선�
 - **발표 초기:** Axios가 2026-07-29 17:23 ET에 Meta 주가가 시간외 6.2% 하락했다고 보도했습니다.
 - **시간외 종료:** 정확한 20:00 ET 종가와 같은 시각 QQQ 수익률을 신뢰할 수 있는 시계열로 확보하지 못해 기록하지 않았습니다.
 - **첫 정규장 종가:** 2026-07-30 META는 $585.61에서 $539.03으로 7.95% 하락했습니다. 같은 구간 QQQ는 $661.73에서 $683.55로 3.30% 올라 META의 QQQ 대비 수익률은 **-11.25%p**였습니다.
-- 5거래일 체크포인트는 관측 구간 종료 뒤 기록합니다.
+- **5거래일:** 2026-08-05 META는 발표 전 7월 29일 종가 $585.61 대비 $588.77로 0.54% 상승했습니다. 같은 구간 QQQ는 $661.73에서 $717.30으로 8.40% 올라 META의 QQQ 대비 수익률은 **-7.86%p**였습니다.
 
 ## 7. 발표 후 판정
 
-**자동화 판단: 광고·추천 사업과 직접 과금 계획은 강화됐지만 투자 회수 논리는 약화됐습니다.** 광고 수요, DAP·추천 알고리즘 효과와 Business Agent 과금 계획은 강화됐습니다. 반면 CapEx 급증, FCF 급감, 2027년 투자 규모 미공개, Reality Labs 손실 확대와 첫 정규장 약세는 약화 요인입니다.
+**자동화 판단: 광고·추천 사업과 직접 과금 계획은 강화됐지만 투자 회수 논리는 약화됐습니다.** 광고 수요, DAP·추천 알고리즘 효과와 Business Agent 과금 계획은 강화됐고 주가는 5거래일 기준 발표 전 수준을 회복했습니다. 반면 CapEx 급증, FCF 급감, 2027년 투자 규모 미공개, Reality Labs 손실 확대와 QQQ 대비 부진은 약화 요인입니다.
 
 ## 8. 다음에 확인할 것
 
 - 2027년 CapEx 규모와 감가상각·FCF 회복 경로
 - Muse Spark API·Business Agents·Meta Compute의 실제 매출·계약·마진 KPI
 - 추천 알고리즘 개선의 다음 분기 세션·전환 효과 지속 여부
-- 5거래일 반응의 QQQ 대비 수익률
 
 ## 근거 자료
 
@@ -176,5 +175,9 @@ DAP가 전분기 대비 다시 증가하고 Reels·Facebook 체류시간 개선�
 - [Axios 발표 초기 시장 반응](https://www.axios.com/newsletters/axios-closer-ddc12d61-6e9d-403f-be3c-6e138d44ec88)
 - [Yahoo Finance META 일별 시세](https://query2.finance.yahoo.com/v8/finance/chart/META?period1=1785283200&period2=1785542400&interval=1d&events=history)
 - [Yahoo Finance QQQ 일별 시세](https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785283200&period2=1785542400&interval=1d&events=history)
+- [Nasdaq META 발표 전 기준 시세](https://api.nasdaq.com/api/quote/META/historical?assetclass=stocks&fromdate=2026-07-29&todate=2026-08-06&limit=20)
+- [Nasdaq META 2026-08-05 종가](https://api.nasdaq.com/api/quote/META/info?assetclass=stocks)
+- [Nasdaq QQQ 발표 전 기준 시세](https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-07-29&todate=2026-08-06&limit=20)
+- [Nasdaq QQQ 2026-08-05 종가](https://api.nasdaq.com/api/quote/QQQ/info?assetclass=etf)
 
 <!-- AUTO:POST_RELEASE:END -->
