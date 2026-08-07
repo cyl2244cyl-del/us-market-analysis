@@ -1,13 +1,13 @@
 # SPCX 2026 Q2 실적
 
-- 상태: **공시·첫 정규장 반응 반영·콜 검토 대기**
+- 상태: **콜 검토·첫 정규장 반응 완료**
 - 발표: 2026-08-05 05:30 KST
 - 일정 상태: 확정
-- 문서 기준 시각: 2026-08-06 07:39 KST
+- 문서 기준 시각: 2026-08-07 09:00 KST
 
 ## 30초 결론
 
-공식 8-K·10-Q와 실적 발표에서 매출 성장 가속, Connectivity 수익성 확대, AI 조정 EBITDA 흑자 전환이 확인됐습니다. 다만 GAAP 순손실과 AI CapEx 급증이 남은 가운데 첫 정규장 주가는 13.61% 하락해 QQQ를 12.71%p 밑돌았고, 공식 콜 답변은 아직 검토하지 못했습니다.
+공식 8-K·10-Q·콜에서 매출 성장 가속, Connectivity 수익성 확대, AI 조정 EBITDA 흑자 전환과 신규 Cloud Services 계약이 확인됐습니다. 경영진은 AI 신규 설비의 회수기간이 1년 미만이고 남은 2026년 분기별 CapEx가 Q2와 비슷할 것으로 봤지만, GAAP 순손실과 높은 투자 강도, 첫 정규장 QQQ 대비 -12.71%p는 검증 부담으로 남습니다.
 
 ## 1. 발표 전 중요했던 질문
 
@@ -37,9 +37,9 @@
 ### 회사 고유 KPI (`issuer_specific_kpis`)
 
 - **확인할 답변:** 회사가 공식적으로 관리하는 사업별 운영·수익성 KPI와 투자 회수의 연결 고리.
-- **경영진 답변:** 공식 발표에서 Space는 고객·내부 발사와 궤도 투입 질량, Connectivity는 Starlink 가입자·ARPU·기업·정부 매출, AI는 nameplate compute·계약매출·세그먼트 수익성을 제시했습니다. 공식 콜 문답록은 아직 게시 전입니다.
+- **경영진 답변:** 공식 콜에서 Connectivity는 가입자·ARPU 외에 Enterprise & Government 매출 성장률(+108% YoY), 항공 침투율(10% 미만), 고객 유지에 관한 회사 주장을 제시했습니다. AI는 신규 Cloud Services 매출 $6.7B가 10월부터 6개월간 인식되고 신규 compute 투자 회수기간이 1년 미만이라고 설명했으며, 2026년 말 2GW 초과 nameplate compute와 12월 $100B+ ARR을 목표로 제시했습니다. Space는 Starship V3의 다음 비행을 8월 말로 잠정 제시하고 열차폐 기술 문제가 해결됐다는 경영진 판단을 밝혔습니다.
 - **이전 분기 대비 변화:** Connectivity 가입자 10.3M→12.0M, ARPU $66→$66, AI nameplate compute 1.0GW→1.4GW, AI 조정 EBITDA -$609M→$1.146B, Space 발사 40회→38회입니다.
-- **판단:** 공식 KPI 정의와 분기 비교 기반은 확보했습니다. 다만 AI 계약매출의 실제 현금 전환, Space 투자 회수, 경영진 Q&A의 지속 가능성 설명은 보류합니다.
+- **판단:** 공식 KPI와 경영진의 전환·회수 경로는 구체화됐습니다. 다만 $6.7B 계약의 실제 매출·현금 전환, 1년 미만 회수 주장, 2026년 하반기 CapEx와 Starship 일정은 후속 공시로 검증해야 합니다.
 
 ## 6. 시장 반응
 
@@ -49,17 +49,17 @@
 
 ## 7. 발표 후 판정
 
-- **전체 판단:** 성장과 비GAAP 영업 레버리지는 강화됐지만 GAAP 적자와 AI 투자 회수는 아직 미검증이며, 첫 정규장의 큰 폭 상대 약세는 시장의 검증 부담을 보여줬습니다.
+- **전체 판단:** 성장과 비GAAP 영업 레버리지는 강화됐고 공식 콜에서 AI 계약·CapEx·회수 경로가 구체화됐지만, GAAP 적자와 경영진 전망의 실행 가능성은 아직 미검증이며 첫 정규장의 큰 폭 상대 약세는 시장의 검증 부담을 보여줬습니다.
 - **강화된 근거:** Connectivity 가입자·영업이익, AI 매출·조정 EBITDA, 약 $100.0B의 현금·현금성자산·시장성증권과 $47.5B 수주잔고.
-- **약화된 근거:** AI CapEx 급증, AI·Space의 GAAP 또는 조정 영업손실, 정량 가이던스와 공식 Q&A 부재.
+- **약화된 근거:** AI CapEx 급증, AI·Space의 GAAP 또는 조정 영업손실, 매출·이익 범위 부재와 경영진 장기 전망의 높은 실행 의존도.
 - **다음 반증 조건:** Connectivity ARPU·이익이 둔화하거나 AI 계약매출이 실제 매출·현금흐름으로 전환되지 않는 가운데 CapEx가 계속 급증하는 경우입니다.
 
 ## 8. 다음에 확인할 것
 
-- 공식 콜 문답록 또는 접근 가능한 공식 콜 요약에서 2026년 매출·CapEx·현금흐름 전망과 AI 계약매출 전환 일정을 확인합니다.
+- 신규 Cloud Services 매출 $6.7B의 10월 이후 인식과 현금 전환, 1년 미만 회수 주장을 확인합니다.
 - Starlink 가입자 성장과 $66 ARPU, Enterprise & Government 성장의 지속성을 확인합니다.
 - $14.1B AI contracted sales의 인식 일정과 AI GAAP 영업손실·CapEx 회수 경로를 확인합니다.
-- Starship V3 시험·발사 비용과 Space 조정 EBITDA 손실 축소 지속성을 확인합니다.
+- Starship V3 8월 말 잠정 비행과 열차폐 재사용성, Space 조정 EBITDA 손실 축소 지속성을 확인합니다.
 - 5거래일 반응을 QQQ 대비로 기록합니다.
 
 ## 근거 자료
@@ -69,6 +69,7 @@
 - [SpaceX Q2 2026 SEC 10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/0001628280-26-052535-index.html)
 - [SpaceX Q2 2026 공식 실적 발표 PDF](https://s21.q4cdn.com/184289198/files/doc_financials/2026/q2/SpaceX-Reports-Second-Quarter-2026-Results.pdf)
 - [SpaceX 공식 실적 콜·리플레이 페이지](https://ir.spacex.com/events/event-details/2026/SpaceX-Q2-2026-Earnings/default.aspx)
+- [SpaceX Q2 2026 공식 실적 콜 문답록](https://s21.q4cdn.com/184289198/files/doc_financials/2026/q2/SpaceX-Q2-2026-Earnings_Transcript-FINAL.pdf)
 - [Nasdaq SPCX 발표 전 기준 시세](https://api.nasdaq.com/api/quote/SPCX/historical?assetclass=stocks&fromdate=2026-08-04&todate=2026-08-06&limit=10)
 - [Nasdaq SPCX 2026-08-05 종가](https://api.nasdaq.com/api/quote/SPCX/info?assetclass=stocks)
 - [Nasdaq QQQ 발표 전 기준 시세](https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-08-04&todate=2026-08-06&limit=10)

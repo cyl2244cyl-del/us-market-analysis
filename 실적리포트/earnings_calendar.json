@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-06",
+  "as_of": "2026-08-07",
   "season": "2026 여름 실적 시즌",
   "season_note": "대부분 2026년 2분기 실적이며, Apple·Microsoft·NVIDIA·Broadcom·Micron은 회사 회계연도 분기 표기가 다릅니다.",
   "tickers": [
@@ -866,9 +866,9 @@
       "schedule_source_as_of": "2026-07-28 07:32 KST",
       "result_status": "complete",
       "results": {
-        "document_stage": "regular_close_recorded",
-        "updated_at": "2026-08-01 08:57 KST",
-        "verdict": "공식 10-Q 기준 Services 총마진은 75.6%로 전년과 같았고 Greater China 회복은 주로 iPhone이 이끌었다. 총마진 50.1%에는 약 2%p의 관세 환급 효과가 포함됐으며 첫 정규장 주가는 7.35% 하락해, 수요 지속성과 AI 수익화 판단은 보류한다.",
+        "document_stage": "five_day_reviewed",
+        "updated_at": "2026-08-07 09:00 KST",
+        "verdict": "공식 10-Q 기준 Services 총마진은 75.6%로 전년과 같았고 Greater China 회복은 주로 iPhone이 이끌었다. 총마진 50.1%에는 약 2%p의 관세 환급 효과가 포함됐으며 발표 전 대비 5거래일 수익률은 -6.30%, QQQ 대비 -10.85%p여서 수요 지속성과 AI 수익화 판단은 보류한다.",
         "metrics": [
           {
             "id": "revenue",
@@ -990,7 +990,7 @@
           }
         ],
         "market_reaction": {
-          "summary": "2026-07-30 시간외 종료 기준 AAPL은 6.33% 하락했고, 7월 31일 첫 정규장에서는 7.35% 하락해 QQQ 대비 -8.00%p였다. 이 반응의 원인은 공식 자료만으로 단정하지 않는다.",
+          "summary": "2026-07-30 시간외 종료 기준 AAPL은 6.33% 하락했고, 첫 정규장에서는 7.35% 하락했다. 발표 전 대비 5거래일 수익률은 -6.30%, QQQ는 +4.55%로 상대수익은 -10.85%p였다. 이 반응의 원인은 공식 자료만으로 단정하지 않는다.",
           "checkpoints": [
             {
               "window": "after_hours_close",
@@ -1011,21 +1011,30 @@
               "note": "AAPL $333.43→$308.91; QQQ $683.55→$687.99, 7월 30일 정규장 종가 대비",
               "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history",
               "benchmark_source_url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history"
+            },
+            {
+              "window": "five_day",
+              "change_pct": -6.30,
+              "benchmark_change_pct": 4.55,
+              "qqq_relative_pct": -10.85,
+              "observed_at": "2026-08-06 16:00 ET",
+              "note": "발표 전 7월 30일 정규장 종가 $333.43 대비 다섯 번째 완료 정규장 종가 $312.41; QQQ는 $683.55에서 $714.65로 상승",
+              "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?period1=1785373200&period2=1786150800&interval=1d&includePrePost=false&events=history",
+              "benchmark_source_url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1786150800&interval=1d&includePrePost=false&events=history"
             }
           ]
         },
         "thesis_update": {
-          "overall": "자동화 판단: 본업 실적은 강화됐지만 첫 정규장 약세와 AI 수익화 판단은 부담",
+          "overall": "자동화 판단: 본업 실적은 강화됐지만 5거래일 상대 약세와 AI 수익화 판단은 부담",
           "strengthened": "iPhone·Services·전체 매출의 6월 분기 기록, Services의 높은 총마진율과 Greater China 매출 회복",
-          "weakened": "총마진의 관세 환급 의존, Services 총마진율의 전분기 대비 하락, AI 수익화 KPI 부재와 첫 정규장 약세",
+          "weakened": "총마진의 관세 환급 의존, Services 총마진율의 전분기 대비 하락, AI 수익화 KPI 부재와 5거래일 QQQ 대비 -10.85%p",
           "next_falsifier": "iPhone·Services 성장과 중국 회복이 다음 분기에 둔화하고 관세 환급 제외 마진과 AI 기여 근거가 약한 경우"
         },
         "next_checks": [
           "공식 콜 재생 또는 회사 제공 문답 근거에서 FY2026 Q4 매출·마진 전망 확인",
           "iPhone 업그레이드 수요와 제품 믹스, Greater China 점유율 근거 확인",
           "Services 광고·클라우드 성장 지속성과 75.6% 총마진율 확인",
-          "Siri AI의 출시 일정·사용량·기기 수요·매출 기여 KPI 확인",
-          "5거래일 반응을 QQQ 대비로 기록"
+          "Siri AI의 출시 일정·사용량·기기 수요·매출 기여 KPI 확인"
         ],
         "sources": [
           {
@@ -1066,11 +1075,11 @@
           },
           {
             "label": "Yahoo Finance AAPL 일별 시세",
-            "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history"
+            "url": "https://query2.finance.yahoo.com/v8/finance/chart/AAPL?period1=1785373200&period2=1786150800&interval=1d&includePrePost=false&events=history"
           },
           {
             "label": "Yahoo Finance QQQ 일별 시세",
-            "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history"
+            "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1786150800&interval=1d&includePrePost=false&events=history"
           }
         ]
       }
@@ -1090,9 +1099,9 @@
       "schedule_source_as_of": "2026-07-23 08:03 KST",
       "result_status": "complete",
       "results": {
-        "document_stage": "regular_close_recorded",
-        "updated_at": "2026-08-01 08:57 KST",
-        "verdict": "AWS 성장률은 37%로 가속했고 10-Q에서 OpenAI·Anthropic 장기 약정이 확인됐으며 첫 정규장 주가는 15.32% 상승했다. 다만 북미 영업이익률 7.9%에는 주로 북미 부문에 반영된 약 $640M 관세 환급이 포함됐고 TTM FCF는 -$7.6B여서 투자 회수 검증은 남아 있다.",
+        "document_stage": "five_day_reviewed",
+        "updated_at": "2026-08-07 09:00 KST",
+        "verdict": "AWS 성장률은 37%로 가속했고 10-Q에서 OpenAI·Anthropic 장기 약정이 확인됐으며 발표 전 대비 5거래일 수익률은 +15.61%, QQQ 대비 +11.06%p였다. 다만 북미 영업이익률 7.9%에는 주로 북미 부문에 반영된 약 $640M 관세 환급이 포함됐고 TTM FCF는 -$7.6B여서 투자 회수 검증은 남아 있다.",
         "metrics": [
           {
             "id": "revenue",
@@ -1228,7 +1237,7 @@
           }
         ],
         "market_reaction": {
-          "summary": "2026-07-30 시간외 종료 기준 AMZN은 9.53% 상승했고, 7월 31일 첫 정규장에서는 15.32% 상승해 QQQ 대비 +14.67%p였다. 이 반응의 원인은 공식 자료만으로 단정하지 않는다.",
+          "summary": "2026-07-30 시간외 종료 기준 AMZN은 9.53% 상승했고, 첫 정규장에서는 15.32% 상승했다. 발표 전 대비 5거래일 수익률은 +15.61%, QQQ는 +4.55%로 상대수익은 +11.06%p였다. 이 반응의 원인은 공식 자료만으로 단정하지 않는다.",
           "checkpoints": [
             {
               "window": "after_hours_close",
@@ -1249,12 +1258,22 @@
               "note": "AMZN $235.50→$271.58; QQQ $683.55→$687.99, 7월 30일 정규장 종가 대비",
               "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/AMZN?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history",
               "benchmark_source_url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history"
+            },
+            {
+              "window": "five_day",
+              "change_pct": 15.61,
+              "benchmark_change_pct": 4.55,
+              "qqq_relative_pct": 11.06,
+              "observed_at": "2026-08-06 16:00 ET",
+              "note": "발표 전 7월 30일 정규장 종가 $235.50 대비 다섯 번째 완료 정규장 종가 $272.26; QQQ는 $683.55에서 $714.65로 상승",
+              "source_url": "https://query2.finance.yahoo.com/v8/finance/chart/AMZN?period1=1785373200&period2=1786150800&interval=1d&includePrePost=false&events=history",
+              "benchmark_source_url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1786150800&interval=1d&includePrePost=false&events=history"
             }
           ]
         },
         "thesis_update": {
           "overall": "자동화 판단: AWS·광고와 주가 반응은 강화, AI 투자 회수와 북미 기초 마진은 계속 검증 필요",
-          "strengthened": "AWS 성장 가속과 마진, OpenAI·Anthropic 장기 약정, 광고 성장 가속, 배송 속도와 첫 정규장 강세",
+          "strengthened": "AWS 성장 가속과 마진, OpenAI·Anthropic 장기 약정, 광고 성장 가속, 배송 속도와 5거래일 QQQ 대비 +11.06%p",
           "weakened": "TTM FCF 적자와 AI 설비투자 부담, 북미 마진의 관세 환급 효과, 물류 단위 비용 미공개",
           "next_falsifier": "AWS 성장과 마진이 둔화하는데 AI 설비투자와 FCF 적자가 계속 확대되는 경우"
         },
@@ -1262,8 +1281,7 @@
           "공식 콜 재생 또는 회사 제공 문답 근거에서 AWS 수요·공급과 Q3 가이던스 설명 확인",
           "AI·칩 사업 $25B+ run rate의 매출 구성과 마진 확인",
           "북미 단위당 물류 비용·재고 회전·배송 속도 지속성 확인",
-          "TTM FCF와 AI 설비투자의 회복 경로 확인",
-          "5거래일 반응을 QQQ 대비로 기록"
+          "TTM FCF와 AI 설비투자의 회복 경로 확인"
         ],
         "sources": [
           {
@@ -1304,11 +1322,11 @@
           },
           {
             "label": "Yahoo Finance AMZN 일별 시세",
-            "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMZN?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history"
+            "url": "https://query2.finance.yahoo.com/v8/finance/chart/AMZN?period1=1785373200&period2=1786150800&interval=1d&includePrePost=false&events=history"
           },
           {
             "label": "Yahoo Finance QQQ 일별 시세",
-            "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history"
+            "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1786150800&interval=1d&includePrePost=false&events=history"
           }
         ]
       }
@@ -1328,9 +1346,9 @@
       "schedule_source_as_of": "2026-07-23 08:03 KST",
       "result_status": "released",
       "results": {
-        "document_stage": "release_captured",
-      "updated_at": "2026-08-06 07:39 KST",
-      "verdict": "공식 8-K·10-Q와 실적 발표에서 매출 성장 가속, Connectivity 수익성 확대, AI 조정 EBITDA 흑자 전환이 확인됐다. 다만 GAAP 순손실과 AI CapEx 급증이 남은 가운데 첫 정규장 주가는 13.61% 하락해 QQQ를 12.71%p 밑돌았고, 공식 콜 답변은 아직 검토하지 못했다.",
+        "document_stage": "call_reviewed",
+      "updated_at": "2026-08-07 09:00 KST",
+      "verdict": "공식 8-K·10-Q·콜에서 매출 성장 가속, Connectivity 수익성 확대, AI 조정 EBITDA 흑자 전환과 신규 Cloud Services 계약이 확인됐다. 경영진은 AI 신규 설비의 회수기간이 1년 미만이고 남은 2026년 분기별 CapEx가 Q2와 비슷할 것으로 봤지만, GAAP 순손실과 높은 투자 강도, 첫 정규장 QQQ 대비 -12.71%p는 검증 부담으로 남는다.",
         "metrics": [
           {
             "id": "revenue",
@@ -1429,16 +1447,28 @@
           {
             "label": "정량 재무 가이던스",
             "previous": null,
-            "current": "공식 실적 발표에 매출·이익·CapEx 정량 가이던스 미제시",
-            "assessment": "공식 콜 문답록 게시 후 재확인 필요"
+            "current": "공식 실적 발표에 매출·이익 정량 가이던스 미제시",
+            "assessment": "매출·이익 범위는 미제시"
+          },
+          {
+            "label": "2026년 하반기 CapEx",
+            "previous": "2026 Q2 $18.369B",
+            "current": "경영진은 다음 두 분기 CapEx가 Q2와 비슷한 수준일 것으로 예상",
+            "assessment": "회사 콜 전망; 정확한 범위는 미제시"
+          },
+          {
+            "label": "AI compute·Cloud Services",
+            "previous": "2026 Q2 nameplate compute 1.4GW",
+            "current": "2026년 말 2GW 초과; 10월부터 6개월간 인식되는 신규 Cloud Services 매출 $6.7B 계약; 2026년 12월 $100B+ ARR 목표",
+            "assessment": "경영진 전망·계약 설명; 실제 인식과 현금 전환은 미검증"
           }
         ],
         "call_answers": [
           {
             "id": "issuer_specific_kpis",
-            "answer": "공식 발표에서 회사 고유 KPI가 Space의 고객·내부 발사와 질량, Connectivity의 Starlink 가입자·ARPU·기업·정부 매출, AI의 nameplate compute·계약매출·세그먼트 수익성으로 구체화됐다. 공식 콜 문답록은 아직 게시 전이다.",
+            "answer": "공식 콜에서 Connectivity는 가입자·ARPU 외에 Enterprise & Government 매출 성장률(+108% YoY), 항공 침투율(10% 미만), 고객 유지에 관한 회사 주장을 제시했다. AI는 신규 Cloud Services 매출 $6.7B가 10월부터 6개월간 인식되고 신규 compute 투자 회수기간이 1년 미만이라고 설명했으며, 2026년 말 2GW 초과 nameplate compute와 12월 $100B+ ARR을 목표로 제시했다. Space는 Starship V3의 다음 비행을 8월 말로 잠정 제시하고 열차폐 기술 문제가 해결됐다는 경영진 판단을 밝혔다.",
             "change": "Connectivity 가입자 10.3M→12.0M, ARPU $66→$66, AI nameplate compute 1.0GW→1.4GW, AI 조정 EBITDA -$609M→$1.146B, Space 발사 40회→38회 QoQ.",
-            "assessment": "공식 KPI 정의와 분기 비교 기반은 확보; 경영진 Q&A와 지속 가능성 평가는 보류"
+            "assessment": "공식 KPI와 경영진의 전환·회수 경로는 구체화됐다. 다만 $6.7B 계약의 실제 매출·현금 전환, 1년 미만 회수 주장, 2026년 하반기 CapEx와 Starship 일정은 후속 공시로 검증해야 함"
           }
         ],
         "market_reaction": {
@@ -1461,14 +1491,14 @@
         "thesis_update": {
           "overall": "자동화 판단: 성장과 비GAAP 영업 레버리지는 강화됐지만 GAAP 적자와 AI 투자 회수는 미검증",
           "strengthened": "Connectivity 가입자·영업이익, AI 매출·조정 EBITDA, 현금·수주 기반",
-          "weakened": "AI CapEx 급증, AI·Space의 GAAP 또는 조정 영업손실, 정량 가이던스와 공식 Q&A 부재",
+          "weakened": "AI CapEx 급증, AI·Space의 GAAP 또는 조정 영업손실, 매출·이익 범위 부재와 경영진 장기 전망의 높은 실행 의존도",
           "next_falsifier": "Connectivity ARPU·이익이 둔화하거나 AI 계약매출이 실제 매출·현금흐름으로 전환되지 않는 가운데 CapEx가 계속 급증하는 경우"
         },
         "next_checks": [
-          "공식 콜 문답록에서 2026년 매출·CapEx·현금흐름 전망과 AI 계약매출 전환 일정 확인",
+          "신규 Cloud Services 매출 $6.7B의 10월 이후 인식과 현금 전환, 1년 미만 회수 주장 확인",
           "Starlink 가입자 성장과 $66 ARPU, Enterprise & Government 성장의 지속성 확인",
           "$14.1B AI contracted sales의 인식 일정과 AI GAAP 영업손실·CapEx 회수 경로 확인",
-      "Starship V3 시험·발사 비용과 Space 조정 EBITDA 손실 축소 지속성 확인",
+      "Starship V3 8월 말 잠정 비행과 열차폐 재사용성, Space 조정 EBITDA 손실 축소 지속성 확인",
       "5거래일 반응을 QQQ 대비로 기록"
         ],
         "sources": [
@@ -1491,6 +1521,10 @@
         {
           "label": "SpaceX Q2 2026 공식 실적 발표 PDF",
           "url": "https://s21.q4cdn.com/184289198/files/doc_financials/2026/q2/SpaceX-Reports-Second-Quarter-2026-Results.pdf"
+        },
+        {
+          "label": "SpaceX Q2 2026 공식 실적 콜 문답록",
+          "url": "https://s21.q4cdn.com/184289198/files/doc_financials/2026/q2/SpaceX-Q2-2026-Earnings_Transcript-FINAL.pdf"
         },
         {
           "label": "Nasdaq SPCX 발표 전 기준 시세",

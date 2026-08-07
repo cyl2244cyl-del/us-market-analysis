@@ -1,13 +1,13 @@
 # AMZN 2026 Q2 실적
 
-- 상태: **다음 정규장 반응 완료**
+- 상태: **5거래일 반응 검토 완료**
 - 발표: 2026-07-31 06:00 KST
 - 일정 상태: 확정
-- 문서 기준 시각: 2026-08-01 08:57 KST
+- 문서 기준 시각: 2026-08-07 09:00 KST
 
 ## 30초 결론
 
-AWS 성장률은 37%로 가속했고 10-Q에서 OpenAI·Anthropic 장기 약정이 확인됐으며 첫 정규장 주가는 15.32% 상승했습니다. 다만 북미 영업이익률 7.9%에는 주로 북미 부문에 반영된 약 $640M 관세 환급이 포함됐고 TTM FCF는 -$7.6B여서 투자 회수 검증은 남아 있습니다.
+AWS 성장률은 37%로 가속했고 10-Q에서 OpenAI·Anthropic 장기 약정이 확인됐으며 발표 전 대비 5거래일 수익률은 +15.61%, QQQ 대비 +11.06%p였습니다. 다만 북미 영업이익률 7.9%에는 주로 북미 부문에 반영된 약 $640M 관세 환급이 포함됐고 TTM FCF는 -$7.6B여서 투자 회수 검증은 남아 있습니다.
 
 ## 1. 발표 전 중요했던 질문
 
@@ -54,7 +54,7 @@ AWS 성장률은 37%로 가속했고 10-Q에서 OpenAI·Anthropic 장기 약정�
 
 ## 4. 실제 실적 점수판
 
-- 문서 단계: **regular_close_recorded**
+- 문서 단계: **five_day_reviewed**
 - 근거 구분: 수치와 설명은 Amazon 공식 실적 발표·슬라이드·SEC 8-K·10-Q입니다. 시장 기대 비교는 사용하지 않았고, 공식 콜 문답록은 확인되지 않았습니다.
 
 | 지표 | 공식 결과 | 이전 분기 대비 |
@@ -101,11 +101,12 @@ AWS 성장률은 37%로 가속했고 10-Q에서 OpenAI·Anthropic 장기 약정�
 - **시간외 종료:** 2026-07-30 20:00 ET 마지막 관측 기준 AMZN은 정규장 종가 $235.50에서 $257.95로 9.53% 상승했습니다.
 - 같은 구간 QQQ는 $683.55에서 $688.25로 0.69% 상승해 AMZN의 QQQ 대비 수익률은 **+8.85%p**였습니다.
 - **첫 정규장 종가:** 2026-07-31 AMZN은 $271.58로 발표 전 정규장 종가 대비 **15.32% 상승**했습니다. QQQ는 0.65% 상승해 상대 수익률은 **+14.67%p**였습니다.
-- 원인은 공식 자료만으로 단정하지 않습니다. 5거래일 반응은 해당 구간 종료 뒤 기록합니다.
+- **5거래일 종가:** 2026-08-06 AMZN은 $272.26으로 발표 전 종가 대비 **15.61% 상승**했습니다. 같은 기간 QQQ는 4.55% 상승해 상대 수익률은 **+11.06%p**였습니다.
+- 원인은 공식 자료만으로 단정하지 않습니다.
 
 ## 7. 발표 후 판정
 
-**자동화 판단: AWS·광고와 주가 반응은 강화됐고 AI 투자 회수와 북미 기초 마진은 계속 검증해야 합니다.** AWS 성장 가속과 마진, OpenAI·Anthropic 장기 약정, 광고 성장 가속, 배송 속도와 첫 정규장 강세는 강화 요인입니다. TTM FCF 적자와 AI 설비투자 부담, 북미 마진의 관세 환급 효과와 물류 단위 비용 미공개는 약화 요인입니다.
+**자동화 판단: AWS·광고와 5거래일 상대 강세는 강화됐고 AI 투자 회수와 북미 기초 마진은 계속 검증해야 합니다.** AWS 성장 가속과 마진, OpenAI·Anthropic 장기 약정, 광고 성장 가속, 배송 속도와 5거래일 QQQ 대비 +11.06%p는 강화 요인입니다. TTM FCF 적자와 AI 설비투자 부담, 북미 마진의 관세 환급 효과와 물류 단위 비용 미공개는 약화 요인입니다.
 
 ## 8. 다음에 확인할 것
 
@@ -113,7 +114,6 @@ AWS 성장률은 37%로 가속했고 10-Q에서 OpenAI·Anthropic 장기 약정�
 - AI·칩 사업 $25B+ run rate의 매출 구성과 마진
 - 북미 단위당 물류 비용·재고 회전·배송 속도 지속성
 - TTM FCF와 AI 설비투자의 회복 경로
-- 5거래일 반응의 QQQ 대비 수익률
 
 ## 근거 자료
 
@@ -126,7 +126,7 @@ AWS 성장률은 37%로 가속했고 10-Q에서 OpenAI·Anthropic 장기 약정�
 - [Amazon Q1 2026 공식 실적 발표](https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/)
 - [Yahoo Finance AMZN 시간외 시세](https://query2.finance.yahoo.com/v8/finance/chart/AMZN?period1=1785373200&period2=1785459600&interval=1m&includePrePost=true&events=history)
 - [Yahoo Finance QQQ 시간외 시세](https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785459600&interval=1m&includePrePost=true&events=history)
-- [Yahoo Finance AMZN 일별 시세](https://query2.finance.yahoo.com/v8/finance/chart/AMZN?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history)
-- [Yahoo Finance QQQ 일별 시세](https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1785546000&interval=1d&includePrePost=false&events=history)
+- [Yahoo Finance AMZN 일별 시세](https://query2.finance.yahoo.com/v8/finance/chart/AMZN?period1=1785373200&period2=1786150800&interval=1d&includePrePost=false&events=history)
+- [Yahoo Finance QQQ 일별 시세](https://query2.finance.yahoo.com/v8/finance/chart/QQQ?period1=1785373200&period2=1786150800&interval=1d&includePrePost=false&events=history)
 
 <!-- AUTO:POST_RELEASE:END -->
