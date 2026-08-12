@@ -1,13 +1,13 @@
 # SPCX 2026 Q2 실적
 
-- 상태: **콜 검토·첫 정규장 반응 완료**
+- 상태: **5거래일 반응 검토 완료**
 - 발표: 2026-08-05 05:30 KST
 - 일정 상태: 확정
-- 문서 기준 시각: 2026-08-07 09:00 KST
+- 문서 기준 시각: 2026-08-12 09:16 KST
 
 ## 30초 결론
 
-공식 8-K·10-Q·콜에서 매출 성장 가속, Connectivity 수익성 확대, AI 조정 EBITDA 흑자 전환과 신규 Cloud Services 계약이 확인됐습니다. 경영진은 AI 신규 설비의 회수기간이 1년 미만이고 남은 2026년 분기별 CapEx가 Q2와 비슷할 것으로 봤지만, GAAP 순손실과 높은 투자 강도, 첫 정규장 QQQ 대비 -12.71%p는 검증 부담으로 남습니다.
+공식 8-K·10-Q·콜에서 매출 성장 가속, Connectivity 수익성 확대, AI 조정 EBITDA 흑자 전환과 신규 Cloud Services 계약이 확인됐습니다. 첫 정규장 QQQ 대비 -12.71%p 충격 뒤 발표 전 종가 대비 5거래일 상대수익은 +7.10%p로 회복했지만, GAAP 순손실과 높은 투자 강도, 경영진 전망의 실행 가능성은 계속 검증해야 합니다.
 
 ## 1. 발표 전 중요했던 질문
 
@@ -45,11 +45,11 @@
 
 - **발표 초기·시간외 종료:** 동일 시각의 SPCX와 QQQ를 재현할 수 있는 원천을 확보하지 못해 수치를 기록하지 않았습니다.
 - **첫 정규장 종가:** 2026-08-05 SPCX는 8월 4일 종가 $125.33에서 $108.27로 13.61% 하락했습니다. 같은 구간 QQQ는 $723.85에서 $717.30으로 0.90% 내려 SPCX의 QQQ 대비 수익률은 **-12.71%p**였습니다.
-- 5거래일 체크포인트는 관측 구간 종료 뒤 기록합니다.
+- **5거래일 종가:** 2026-08-11 SPCX는 발표 전 8월 4일 종가 $125.33에서 $133.29로 6.35% 상승했습니다. 같은 구간 QQQ는 $723.85에서 $718.45로 0.75% 내려 SPCX의 QQQ 대비 수익률은 **+7.10%p**였습니다.
 
 ## 7. 발표 후 판정
 
-- **전체 판단:** 성장과 비GAAP 영업 레버리지는 강화됐고 공식 콜에서 AI 계약·CapEx·회수 경로가 구체화됐지만, GAAP 적자와 경영진 전망의 실행 가능성은 아직 미검증이며 첫 정규장의 큰 폭 상대 약세는 시장의 검증 부담을 보여줬습니다.
+- **전체 판단:** 성장과 비GAAP 영업 레버리지는 강화됐고 공식 콜에서 AI 계약·CapEx·회수 경로가 구체화됐습니다. 첫 정규장 상대 약세는 5거래일 기준 상대 강세로 되돌려졌지만, GAAP 적자와 경영진 전망의 실행 가능성은 아직 미검증입니다.
 - **강화된 근거:** Connectivity 가입자·영업이익, AI 매출·조정 EBITDA, 약 $100.0B의 현금·현금성자산·시장성증권과 $47.5B 수주잔고.
 - **약화된 근거:** AI CapEx 급증, AI·Space의 GAAP 또는 조정 영업손실, 매출·이익 범위 부재와 경영진 장기 전망의 높은 실행 의존도.
 - **다음 반증 조건:** Connectivity ARPU·이익이 둔화하거나 AI 계약매출이 실제 매출·현금흐름으로 전환되지 않는 가운데 CapEx가 계속 급증하는 경우입니다.
@@ -60,7 +60,6 @@
 - Starlink 가입자 성장과 $66 ARPU, Enterprise & Government 성장의 지속성을 확인합니다.
 - $14.1B AI contracted sales의 인식 일정과 AI GAAP 영업손실·CapEx 회수 경로를 확인합니다.
 - Starship V3 8월 말 잠정 비행과 열차폐 재사용성, Space 조정 EBITDA 손실 축소 지속성을 확인합니다.
-- 5거래일 반응을 QQQ 대비로 기록합니다.
 
 ## 근거 자료
 
@@ -71,8 +70,10 @@
 - [SpaceX 공식 실적 콜·리플레이 페이지](https://ir.spacex.com/events/event-details/2026/SpaceX-Q2-2026-Earnings/default.aspx)
 - [SpaceX Q2 2026 공식 실적 콜 문답록](https://s21.q4cdn.com/184289198/files/doc_financials/2026/q2/SpaceX-Q2-2026-Earnings_Transcript-FINAL.pdf)
 - [Nasdaq SPCX 발표 전 기준 시세](https://api.nasdaq.com/api/quote/SPCX/historical?assetclass=stocks&fromdate=2026-08-04&todate=2026-08-06&limit=10)
-- [Nasdaq SPCX 2026-08-05 종가](https://api.nasdaq.com/api/quote/SPCX/info?assetclass=stocks)
+- [Nasdaq SPCX 정규장 종가 정보](https://api.nasdaq.com/api/quote/SPCX/info?assetclass=stocks)
 - [Nasdaq QQQ 발표 전 기준 시세](https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-08-04&todate=2026-08-06&limit=10)
-- [Nasdaq QQQ 2026-08-05 종가](https://api.nasdaq.com/api/quote/QQQ/info?assetclass=etf)
+- [Nasdaq QQQ 정규장 종가 정보](https://api.nasdaq.com/api/quote/QQQ/info?assetclass=etf)
+- [Nasdaq SPCX 2026-08-04~2026-08-11 기준·정규장 시세](https://api.nasdaq.com/api/quote/SPCX/historical?assetclass=stocks&fromdate=2026-08-04&todate=2026-08-12&limit=20)
+- [Nasdaq QQQ 2026-08-04~2026-08-11 기준·정규장 시세](https://api.nasdaq.com/api/quote/QQQ/historical?assetclass=etf&fromdate=2026-08-04&todate=2026-08-12&limit=20)
 
 <!-- AUTO:POST_RELEASE:END -->
