@@ -1,0 +1,7 @@
+{
+  "tickers": ["MSFT", "AMZN", "GOOGL", "ORCL", "CRWV", "NVDA", "AVGO", "MU", "SNDK", "MRVL", "AMD", "ARM", "META", "PLTR", "SPCX"],
+  "relative_benchmark": "QQQ",
+  "timezone": "America/New_York",
+  "news_window": "previous trading session close exclusive to target trading session close inclusive",
+  "technical_indicators": ["SMA20", "distance_to_SMA20_pct", "RSI14_Wilder", "volume_vs_previous_20_sessions"]
+}

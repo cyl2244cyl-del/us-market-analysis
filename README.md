@@ -4,6 +4,7 @@
 
 ## 먼저 보기
 
+- [기술주 일지 · 시장 현황 / 사건 기록](tech-journal/README.md)
 - [2026 여름 실적 시즌](reports/earnings/2026-summer/README.md)
 - [일일 시장 리포트](reports/daily/README.md)
 - [날짜별 HTML 리포트](일일리포트/나스닥_통합_리포트.html)

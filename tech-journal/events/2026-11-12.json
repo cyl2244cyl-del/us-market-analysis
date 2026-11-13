@@ -1,0 +1,90 @@
+{
+  "trading_date": "2026-11-12",
+  "window_start_exclusive": "2026-11-11T16:00:00-05:00",
+  "window_end_inclusive": "2026-11-12T16:00:00-05:00",
+  "timezone": "America/New_York",
+  "events": [
+    {
+      "case_id": "nvidia-leadership",
+      "id": "nvidia-leadership-2026-11-12",
+      "category": "경영진 교체",
+      "title": "젠슨 황 퇴임, 크레스 임시 CEO 체제로 전환",
+      "period": "11/11 장 마감 후 ~ 11/12 정규장",
+      "primary_tickers": ["NVDA"],
+      "related_tickers": [],
+      "status": "정식 후임 미정",
+      "paragraphs": [
+        {"source_id": "nvda-reuters-board", "text": "11월 11일 장 마감 후, 이사회가 젠슨 황의 거취를 결정하기 위해 회의를 열었다고 전했습니다. WSJ가 먼저 해임 준비를 보도한 뒤 이어진 취재로, 12일 거래에 반영되는 소식입니다."},
+        {"source_id": "nvda-sec", "text": "이사회는 11월 11일 황의 CEO·President·이사직 사임을 즉시 효력으로 수리했습니다. 크레스를 임시 CEO로, 하비 존스를 이사회 의장으로 선임했다고 공시했습니다."},
+        {"source_id": "nvda-release", "text": "12일 공식 발표에서 크레스는 CFO를 계속 겸직하며, 정식 후임은 내부·외부 후보를 모두 검토한다고 밝혔습니다. 11월 17일 실적 발표와 설명회도 예정대로 진행합니다."},
+        {"source_id": "nvda-trump", "text": "트럼프 대통령은 팀 쿡을 후임으로 추천했습니다. 당시 엔비디아의 공식 발표는 크레스의 임시 선임과 정식 CEO 탐색 개시였습니다."},
+        {"source_id": "nvda-kress", "text": "크레스가 엔비디아의 투자 위험 집중을 줄이려 했다는 프로필을 보도했습니다."}
+      ],
+      "sources": [
+        {"id": "nvda-reuters-board", "publisher": "Reuters · WSJ 보도 포함", "title": "이사회, 황의 거취 논의", "url": "https://www.aol.com/articles/nvidia-preparing-oust-ceo-jensen-223405000.html", "published_at": "2026-11-11T17:34:00-05:00", "updated_at": "2026-11-12T04:38:00-05:00", "time_label": "11/11 장 마감 후 · 11/12 새벽 갱신", "order": 1},
+        {"id": "nvda-sec", "publisher": "SEC · NVIDIA 8-K", "title": "황 사임 수리 및 크레스·존스 선임", "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm", "published_date": "2026-11-12", "time_label": "11/12 공시 · 사임 수리일 11/11", "order": 2, "session_evidence": "12일 공식 CEO 교체 발표와 함께 확인된 8-K"},
+        {"id": "nvda-release", "publisher": "NVIDIA", "title": "CEO 교체 공식 발표·실적 일정 유지", "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvidiaannouncesceotransiti.htm", "published_date": "2026-11-12", "time_label": "11/12 공식 발표", "order": 3, "session_evidence": "11:03 EST Reuters 보도에서 회사 발표와 임시 CEO 선임이 이미 확인됨"},
+        {"id": "nvda-trump", "publisher": "Reuters", "title": "트럼프, 팀 쿡을 후임으로 추천", "url": "https://www.investing.com/news/stock-market-news/trump-says-ex-apple-ceo-cook-should-replace-huang-at-nvidia-5022650", "published_at": "2026-11-12T11:03:00-05:00", "time_label": "11/12 11:03 EST", "order": 4},
+        {"id": "nvda-kress", "publisher": "The Information", "title": "크레스의 투자 위험 관리 역할", "url": "https://www.theinformation.com/articles/interim-nvidia-ceo-colette-kress-tried-tame-nvidias-riskiest-bets?offer=ab-25", "published_at": "2026-11-12T11:12:00-05:00", "time_label": "11/12 08:12 PST · 11:12 EST", "order": 5}
+      ]
+    },
+    {
+      "case_id": "nebius-capacity",
+      "id": "nebius-capacity-2026-11-12",
+      "category": "AI 인프라 · 실적",
+      "title": "네비우스, 외부 시설 지연과 투자 확대 계획 공개",
+      "period": "11/12 장 시작 전 ~ 오전",
+      "primary_tickers": [],
+      "related_tickers": ["CRWV", "NVDA", "MSFT", "META"],
+      "external_tickers": ["NBIS"],
+      "status": "증설 일정 변경",
+      "paragraphs": [
+        {"source_id": "nbis-release", "text": "3분기 매출은 9억 8,080만 달러로 전년 동기보다 571% 증가했습니다. 계속사업 순손실은 3,750만 달러, 조정 EBITDA는 4억 6,580만 달러였습니다."},
+        {"source_id": "nbis-reuters", "text": "일부 외부 데이터센터 용량 공급이 2027년 상반기로 밀렸다고 전했습니다. 회사는 해당 계약이 유지되며, 자체 개발 시설은 예정대로이거나 일정보다 빠르다고 설명했습니다."},
+        {"source_id": "nbis-reuters", "text": "2026년 매출 전망 범위는 30억~34억 달러에서 30억~32억 달러로 좁혔습니다. 올해 투자 지출 전망은 200억~250억 달러에서 약 270억 달러로 높였습니다."},
+        {"source_id": "nbis-reuters", "text": "2027년 투자 지출은 400억~450억 달러를 예상하며, 75~85%를 고객 선수금과 자산 기반 금융으로 충당할 계획이라고 밝혔습니다. 관련 계약의 고객사로 마이크로소프트와 메타를 언급했습니다."}
+      ],
+      "sources": [
+        {"id": "nbis-release", "publisher": "Nebius · SEC", "title": "2026년 3분기 실적 발표", "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm", "published_date": "2026-11-12", "time_label": "11/12 장 시작 전 · 설명회 08:00 EST", "order": 1, "session_evidence": "회사 08:00 EST 설명회와 07:23 EST Reuters 최초 실적 기사"},
+        {"id": "nbis-reuters", "publisher": "Reuters", "title": "증설 지연·매출 및 투자 전망 변경", "url": "https://www.schwab.wallst.com/schwab/Prospect/research/stocks/news.asp?doc=3200-nL3N46T13Q-3&symbol=MSFT", "published_at": "2026-11-12T11:28:00-05:00", "time_label": "11/12 11:28 EST · UPDATE 3", "order": 2}
+      ]
+    },
+    {
+      "case_id": "microsoft-365-outage",
+      "id": "microsoft-365-outage-2026-11-12",
+      "category": "서비스 장애",
+      "title": "Microsoft 365·Outlook 장애, AI 연결 기능에도 영향",
+      "period": "11/12 오후 정규장",
+      "primary_tickers": ["MSFT"],
+      "related_tickers": [],
+      "status": "복구 작업 진행",
+      "paragraphs": [
+        {"source_id": "msft-reuters", "text": "Microsoft 365·Outlook·Teams에 접속 문제가 발생했다고 전했습니다. 장애는 OpenAI와 Anthropic의 마이크로소프트 서비스 연결 기능에도 영향을 미쳤습니다."},
+        {"source_id": "msft-reuters", "text": "마이크로소프트는 배포를 중단하고, 영향받은 인프라에서 트래픽을 우회시키며 서버를 재시작하고 있다고 밝혔습니다. 오후 보도 시점에는 복구 작업이 진행 중이었습니다."}
+      ],
+      "sources": [
+        {"id": "msft-reuters", "publisher": "Reuters", "title": "Microsoft 365·Outlook·Teams 접속 장애", "url": "https://www.aol.com/articles/microsoft-365-outlook-down-thousands-183248000.html", "published_at": "2026-11-12T14:26:00-05:00", "time_label": "11/12 14:26 EST 갱신", "order": 1}
+      ]
+    },
+    {
+      "case_id": "spacex-tesla-merger",
+      "id": "spacex-tesla-merger-2026-11-12",
+      "category": "인수·합병 협상",
+      "title": "스페이스X·테슬라 합병 협상 진전 보도",
+      "period": "11/12 15:22 EST · 정규장",
+      "primary_tickers": ["SPCX"],
+      "related_tickers": [],
+      "external_tickers": ["TSLA"],
+      "status": "협상 진행",
+      "paragraphs": [
+        {"source_id": "spcx-bloomberg", "text": "양사의 합병 협상이 진전됐으며, 이르면 12월 발표가 가능하다고 관계자들을 인용해 보도했습니다. 발표가 2027년 초로 늦춰지는 방안도 논의됐다고 전했습니다."},
+        {"source_id": "spcx-bloomberg", "text": "이사회와 자문단은 합병 조건과 통합 회사의 지배구조 등을 협의 중이라고 전했습니다."},
+        {"source_id": "spcx-reuters", "text": "블룸버그 보도를 인용해 협상 진전을 전했습니다. 보도 당시 양사는 논평 요청에 즉시 응답하지 않았습니다."}
+      ],
+      "sources": [
+        {"id": "spcx-bloomberg", "publisher": "Bloomberg", "title": "스페이스X·테슬라 합병 협상 진전", "url": "https://nz.finance.yahoo.com/news/spacex-tesla-talks-record-merger-202235758.html", "published_at": "2026-11-12T15:22:00-05:00", "time_label": "11/12 15:22 EST", "order": 1},
+        {"id": "spcx-reuters", "publisher": "Reuters · Bloomberg 인용", "title": "합병 협상 보도 재확인", "url": "https://ca.investing.com/news/stock-market-news/spacex-tesla-merger-talks-progress-bloomberg-news-reports-4954156", "published_at": "2026-11-12T15:22:00-05:00", "used_version_at": "2026-11-12T15:44:00-05:00", "time_label": "11/12 15:22 EST · 15:44 판본", "order": 2}
+      ]
+    }
+  ]
+}

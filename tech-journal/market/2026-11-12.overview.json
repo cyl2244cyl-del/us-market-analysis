@@ -1,0 +1,21 @@
+{
+  "trading_date": "2026-11-12",
+  "source": {
+    "publisher": "AP",
+    "title": "How major US stock indexes fared Thursday 11/12/2026",
+    "url": "https://apnews.com/article/3f3668a937a11535103e3a5c8d82c9fc",
+    "mirror_url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-211731317.html",
+    "published_at": "2026-11-12T16:17:31-05:00",
+    "data_as_of": "2026-11-12T16:00:00-05:00",
+    "inclusion_reason": "정규장 종가 통계. 이후 기업 사건 보도를 포함하지 않음."
+  },
+  "indices": [
+    {"name": "NASDAQ", "label": "나스닥 종합", "close": 25366.09, "point_change": -100.10},
+    {"name": "S&P 500", "label": "S&P 500", "close": 7592.40, "point_change": -26.98},
+    {"name": "DOW", "label": "다우 산업", "close": 52297.09, "point_change": -189.40},
+    {"name": "RUSSELL 2000", "label": "러셀 2000", "close": 2799.06, "point_change": -47.20}
+  ],
+  "summary": [
+    {"source_label": "AP", "source_url": "https://apnews.com/article/3f3668a937a11535103e3a5c8d82c9fc", "text": "미국 증시는 엔비디아 경영진 교체와 유가 변동을 소화하며 하락 마감했습니다. 주요 지수 낙폭은 0.4% 안팎이었고, 소형주 지수인 러셀 2000은 1.7% 내렸습니다."}
+  ]
+}
