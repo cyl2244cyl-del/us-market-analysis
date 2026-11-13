@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Build frozen, offline daily views from reviewed inputs; performs no network writes."""
+"""Build dated Markdown market and event records from reviewed inputs."""
 from __future__ import annotations
 
 import argparse
 import json
+import re
 from datetime import datetime
+from html import escape
 from pathlib import Path
 from statistics import fmean
 
@@ -35,6 +37,90 @@ def rsi14(closes):
     if loss == 0:
         return 100.0 if gain else 50.0
     return 100 - 100 / (1 + gain / loss)
+
+
+def signed(value, unit="%"):
+    return ("+" if value > 0 else "−" if value < 0 else "") + f"{abs(value):.2f}" + unit
+
+
+def slug(title):
+    return re.sub(r"[^\w\- ]", "", title.lower()).replace(" ", "-")
+
+
+def source_link(publisher, url):
+    return f"[\\[{publisher}\\]]({url})"
+
+
+def write_heatmap(day, stocks):
+    cells = []
+    for i, stock in enumerate(stocks):
+        x, y = 12 + (i % 5) * 198, 12 + (i // 5) * 108
+        weight = min(abs(stock["change_pct"]), 7) / 7
+        target = (162, 203, 187) if stock["change_pct"] >= 0 else (235, 180, 184)
+        color = "#" + "".join(f"{round(246 + (c - 246) * weight):02x}" for c in target)
+        label = escape(stock["ticker"] + " " + signed(stock["change_pct"]))
+        cells.append(
+            f'<g><title>{label}</title><rect x="{x}" y="{y}" width="186" height="96" rx="8" fill="{color}"/>'
+            f'<text x="{x+15}" y="{y+29}" font-size="17" font-weight="700">{escape(stock["ticker"])}</text>'
+            f'<text x="{x+15}" y="{y+70}" font-size="26" font-weight="600">{escape(signed(stock["change_pct"]))}</text></g>'
+        )
+    image = (
+        '<svg xmlns="http://www.w3.org/2000/svg" width="1002" height="336" viewBox="0 0 1002 336" role="img" aria-labelledby="title desc">'
+        f'<title id="title">{day} stock returns</title><desc id="desc">15 equal-size cells; green gains, red losses. Color scale capped at 7 percent.</desc>'
+        '<rect width="1002" height="336" fill="white"/><g fill="#23392c" font-family="Arial, sans-serif">'
+        + "".join(cells) + '</g></svg>\n'
+    )
+    (ROOT / "market" / f"{day}.heatmap.svg").write_text(image, encoding="utf-8")
+
+
+def write_markdown(day, market, event_doc, archive_dates, case_history):
+    event_labels = {"nvidia-leadership": "CEO 교체", "nebius-capacity": "네비우스", "microsoft-365-outage": "365 장애", "spacex-tesla-merger": "합병 협상"}
+    lines = [f"# {day} 시장 현황", "", f"미국 정규장 마감 기준 · [사건 기록](../events/{day}.md)", "", "## 지수", "", "| 지수 | 종가 | 등락률 |", "| --- | ---: | ---: |"]
+    lines.extend(f"| {x['label']} | {x['close']:,.2f} | {signed(x['change_pct'])} |" for x in market["indices"])
+    lines += [""]
+    lines.extend(source_link(x["source_label"], x["source_url"]) + " " + x["text"] + "\n" for x in market["overview"])
+    lines += ["| ETF | 종가($) | 등락률 |", "| --- | ---: | ---: |"]
+    lines.extend(f"| [{x['ticker']}]({x['source_url']}) | {x['close']:,.2f} | {signed(x['change_pct'])} |" for x in market["benchmark_quotes"])
+    lines += ["", "## 히트맵", "", f"![{day} 관심 종목 15개 등락률]({day}.heatmap.svg)", "", "## 종목별 현황", "", "| 종목 | 종가($) | 등락률 | QQQ 대비 | 20일선($) · 이격률 | RSI 14 | 거래량 배수 | 사건 |", "| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |"]
+    for stock in market["stocks"]:
+        links = ", ".join(
+            f"[{event_labels.get(e['case_id'], e['title'])}](../events/{day}.md#{slug(e['title'])})" + (" 연계" if e["relation"] == "연계" else "")
+            for e in stock["events"]
+        ) or "—"
+        lines.append(
+            f"| [{stock['ticker']}]({stock['source_url']}) | {stock['close']:,.2f} | {signed(stock['change_pct'])} | "
+            f"{signed(stock['relative_to_qqq_pp'], '%p')} | {stock['sma20']:,.2f} · {signed(stock['distance_to_sma20_pct'])} | "
+            f"{stock['rsi14']:.1f} | {stock['volume_ratio']:.2f}× | {links} |"
+        )
+    lines += ["", "가격·거래량: 각 종목 링크의 Stock Analysis 이력. 거래량 배수는 직전 20거래일 평균 대비.", "", "QQQ 대비는 당일 등락률 차이(%p). 20일선은 당일 포함 20거래일 평균. RSI 14는 확보한 49거래일의 종가로 계산한 Wilder 방식."]
+    (ROOT / "market" / f"{day}.md").write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+
+    start, end = (datetime.fromisoformat(event_doc[k]) for k in ("window_start_exclusive", "window_end_inclusive"))
+    period = f"{start.month}/{start.day} 장 마감 후 ~ {end.month}/{end.day} 정규장 마감"
+    lines = [f"# {day} 사건 기록", "", f"{period} · 미국 동부시간 · [시장 현황](../market/{day}.md)", ""]
+    for i, event in enumerate(event_doc["events"]):
+        if i:
+            lines += ["---", ""]
+        direct = event.get("external_tickers", []) + event["primary_tickers"]
+        metadata = [event["period"]] + direct
+        if event["related_tickers"]:
+            metadata.append("연계: " + ", ".join(event["related_tickers"]))
+        lines += [f"## {event['title']}", "", " · ".join(metadata), ""]
+        sources = {s["id"]: s for s in event["sources"]}
+        for paragraph in event["paragraphs"]:
+            source = sources[paragraph["source_id"]]
+            lines += [source_link(source["publisher"], source["url"]) + " " + paragraph["text"], ""]
+        previous = [h for h in case_history[event["case_id"]] if h["trading_date"] != day]
+        if previous:
+            lines += ["연계 기록: " + " · ".join(f"[{h['trading_date']}]({h['trading_date']}.md#{slug(h['title'])})" for h in previous), ""]
+    (ROOT / "events" / f"{day}.md").write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+
+    index = ["# 기술주 일지", "", "| 날짜 | 시장 현황 | 사건 기록 |", "| --- | --- | --- |"]
+    index.extend(f"| {d} | [시장 현황](market/{d}.md) | [사건 기록](events/{d}.md) |" for d in reversed(archive_dates))
+    (ROOT / "README.md").write_text("\n".join(index) + "\n", encoding="utf-8")
+    for folder, title in (("market", "시장 현황"), ("events", "사건 기록")):
+        index = [f"# {title}", ""] + [f"- [{d}]({d}.md)" for d in reversed(archive_dates)]
+        (ROOT / folder / "README.md").write_text("\n".join(index) + "\n", encoding="utf-8")
 
 
 def build(day):
@@ -145,20 +231,8 @@ def build(day):
                 "trading_date": archive_day, "event_id": event["id"],
                 "title": event["title"], "sources": event["sources"]
             })
-    payload = {"market": market, "days": archive_dates, "event_document": event_doc, "case_history": case_history}
-    template = (ROOT / "template.html").read_text(encoding="utf-8")
-    serialized = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
-    for relative_path, initial_tab in [("index.html", "market"), (f"market/{day}.html", "market"), (f"events/{day}.html", "events")]:
-        label = f"{int(day[5:7])}월 {int(day[8:10])}일"
-        start_label = f"{int(start.strftime('%m'))}/{int(start.strftime('%d'))} 장 마감 후"
-        end_label = f"{int(end.strftime('%m'))}/{int(end.strftime('%d'))} 정규장 마감"
-        html = (template.replace("__PAYLOAD__", serialized)
-                .replace("__INITIAL_TAB__", initial_tab)
-                .replace("__TRADING_DATE__", day)
-                .replace("__DAY_LABEL__", label)
-                .replace("__WINDOW_LABEL__", start_label + " ~ " + end_label)
-                .replace("__ARCHIVE_BASE__", "." if relative_path == "index.html" else ".."))
-        (ROOT / relative_path).write_text(html, encoding="utf-8")
+    write_heatmap(day, stocks)
+    write_markdown(day, market, event_doc, archive_dates, case_history)
     return market, event_doc
 
 
@@ -167,4 +241,4 @@ if __name__ == "__main__":
     parser.add_argument("date", help="US trading date: YYYY-MM-DD")
     args = parser.parse_args()
     market, events = build(args.date)
-    print(f"Built {args.date}: {len(market['stocks'])} stocks, {len(events['events'])} connected event blocks, 3 offline HTML views.")
+    print(f"Built {args.date}: {len(market['stocks'])} stocks, {len(events['events'])} event blocks, Markdown reports.")
